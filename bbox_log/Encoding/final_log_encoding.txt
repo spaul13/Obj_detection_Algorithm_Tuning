@@ -1,0 +1,61 @@
+==================== falsely detection completely not considered ==============================
+************** QP = 37 (BW = 20) *****************************
+
+average bounding box accuracy = 0.972870
+
+ std deviation = 0.034758
+
+ total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 9, final overpredicted = 0
+
+
+************** QP = 28 (BW = 40) *****************************
+
+average bounding box accuracy = 0.981600
+
+ std deviation = 0.028737
+
+ total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 9, final overpredicted = 0
+
+************** QP = 24 (BW = 60) *****************************
+
+average bounding box accuracy = 0.982343
+
+ std deviation = 0.030243
+
+ total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 8, final overpredicted = 0
+
+
+************** QP = 22 (BW = 80) *****************************
+
+average bounding box accuracy = 0.982253
+
+ std deviation = 0.031807
+
+ total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 8, final overpredicted = 0
+
+
+==================== falsely detection counted as zero IOU ==============================
+
+************** QP = 37 (BW = 20) *****************************
+
+average bounding box accuracy = 0.925541
+
+ std deviation = 0.212584
+
+************** QP = 28 (BW = 40) *****************************
+
+average bounding box accuracy = 0.933846
+
+ std deviation = 0.213594
+
+************** QP = 24 (BW = 60) *****************************
+
+average bounding box accuracy = 0.939863
+
+ std deviation = 0.202526
+
+************** QP = 22 (BW = 80) *****************************
+
+ average bounding box accuracy = 0.939777
+
+ std deviation = 0.202737

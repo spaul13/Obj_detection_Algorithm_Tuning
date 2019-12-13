@@ -1,0 +1,140 @@
+******************** Version 4: After considering the mismatch in prediction labels (proper) + false prediction =0 **************************************
+
+ ============= IOU (352) ============
+
+
+ average bounding box accuracy = 0.945395
+
+ std deviation = 0.109645
+
+total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 2, final overpredicted = 0 (frameid = 2, 34)
+
+ ============= IOU (480) ============
+
+
+ average bounding box accuracy = 0.963198
+
+ std deviation = 0.080701
+
+total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 1, final overpredicted = 0 (frameid = 2)
+
+ ============= IOU (608) ============
+
+
+ average bounding box accuracy = 0.972259
+
+ std deviation = 0.076340
+
+total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 1, final overpredicted = 0 (frameid = 35)
+
+ ============= IOU (704) ============
+
+
+ average bounding box accuracy = 0.980442
+
+ std deviation = 0.026134
+
+total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 0, final overpredicted = 0
+
+
+
+******************** Version 3: After considering the mismatch in prediction labels (proper)**************************************
+
+ ============= IOU (352) ============
+
+
+ average bounding box accuracy = 0.955727
+
+ std deviation = 0.047171
+
+total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 2, final overpredicted = 0 (frameid = 2, 34)
+
+ ============= IOU (480) ============
+
+
+ average bounding box accuracy = 0.968433
+
+ std deviation = 0.038092
+
+total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 1, final overpredicted = 0 (frameid = 2)
+
+ ============= IOU (608) ============
+
+
+ average bounding box accuracy = 0.977543
+
+ std deviation = 0.025808
+
+total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 1, final overpredicted = 0 (frameid = 35)
+
+ ============= IOU (704) ============
+
+
+ average bounding box accuracy = 0.980442
+
+ std deviation = 0.026134
+
+total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 0, final overpredicted = 0
+
+
+
+******************** Version 2: Consider all +ve coordinates (still no mismatch) ****************************
+============= IOU (352) ============
+
+
+ average bounding box accuracy = 0.954799
+
+ std deviation = 0.048390
+
+ ============= IOU (480) ============
+
+
+ average bounding box accuracy = 0.968430
+
+ std deviation = 0.037988
+
+ ============= IOU (608) ============
+
+
+ average bounding box accuracy = 0.976766
+
+ std deviation = 0.027827
+
+ ============= IOU (704) ============
+
+
+ average bounding box accuracy = 0.980442
+
+ std deviation = 0.026134
+
+******************* Version 1: Before considering the mismatch in prediction labels (also didn't consider 0.0 coordinates) **************************************
+
+============= IOU (352) ============
+
+
+ average bounding box accuracy = 0.954874
+
+ std deviation = 0.047641
+
+
+ ============= IOU (480) ============
+
+
+ average bounding box accuracy = 0.969519
+
+ std deviation = 0.035344
+
+ ============= IOU (608) ============
+
+
+ average bounding box accuracy = 0.976809
+
+ std deviation = 0.028121
+
+ ============= IOU (704) ============
+
+
+ average bounding box accuracy = 0.980356
+
+ std deviation = 0.026407
+

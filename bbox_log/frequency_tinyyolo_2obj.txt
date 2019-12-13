@@ -1,0 +1,110 @@
+ 2. current bad count = 134, and correct detection = 442
+
+ 3. current bad count = 150, and correct detection = 439
+
+ 4. current bad count = 164, and correct detection = 416
+
+ 6. current bad count = 183, and correct detection = 403
+
+ 8. current bad count = 192, and correct detection = 410
+[0.62503744 0.5847116  0.54270201 0.47892929 0.46298072]
+
+ ================
+ statistics for downsample 2
+ =================
+
+
+ TP: 308, FN: 134, FP: 31
+
+
+ Recall: 0.696833, Precision: 0.908555, F1 : 0.788732
+
+
+ mAP1: 0.626016, mAP2: 0.651163
+
+
+ mean = 0.625037
+
+ std deviation 0.442451
+
+ total prediction in orginal = 492, total prediction in actual = 473, total avaerage mismatch prediction  = 50.000000
+
+ ================
+ statistics for downsample 3
+ =================
+
+
+ TP: 289, FN: 150, FP: 40
+
+
+ Recall: 0.658314, Precision: 0.878419, F1 : 0.752604
+
+
+ mAP1: 0.587398, mAP2: 0.603340
+
+
+ mean = 0.584712
+
+ std deviation 0.440428
+
+ total prediction in orginal = 492, total prediction in actual = 479, total avaerage mismatch prediction  = 53.000000
+
+ ================
+ statistics for downsample 4
+ =================
+
+
+ TP: 252, FN: 164, FP: 41
+
+
+ Recall: 0.605769, Precision: 0.860068, F1 : 0.710860
+
+
+ mAP1: 0.512195, mAP2: 0.551422
+
+
+ mean = 0.542702
+
+ std deviation 0.433655
+
+ total prediction in orginal = 492, total prediction in actual = 457, total avaerage mismatch prediction  = 76.000000
+
+ ================
+ statistics for downsample 6
+ =================
+
+
+ TP: 220, FN: 183, FP: 70
+
+
+ Recall: 0.545906, Precision: 0.758621, F1 : 0.634921
+
+
+ mAP1: 0.447154, mAP2: 0.465116
+
+
+ mean = 0.478929
+
+ std deviation 0.429387
+
+ total prediction in orginal = 492, total prediction in actual = 473, total avaerage mismatch prediction  = 89.000000
+
+ ================
+ statistics for downsample 8
+ =================
+
+
+ TP: 218, FN: 192, FP: 71
+
+
+ Recall: 0.531707, Precision: 0.754325, F1 : 0.623748
+
+
+ mAP1: 0.443089, mAP2: 0.453222
+
+
+ mean = 0.462981
+
+ std deviation 0.417404
+
+ total prediction in orginal = 492, total prediction in actual = 481, total avaerage mismatch prediction  = 82.000000

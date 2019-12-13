@@ -1,0 +1,54 @@
+ ================
+ statistics for downsample 2
+ =================
+
+
+ mean = 0.921824
+
+ std deviation 0.148857
+
+ total prediction in orginal = 303, total prediction in actual = 309, total avaerage mismatch prediction  = 0.064838
+
+ ================
+ statistics for downsample 3
+ =================
+
+
+ mean = 0.897018
+
+ std deviation 0.192404
+
+ total prediction in orginal = 303, total prediction in actual = 305, total avaerage mismatch prediction  = 0.104738
+
+ ================
+ statistics for downsample 4
+ =================
+
+
+ mean = 0.879105
+
+ std deviation 0.207956
+
+ total prediction in orginal = 303, total prediction in actual = 313, total avaerage mismatch prediction  = 0.154613
+
+ ================
+ statistics for downsample 6
+ =================
+
+
+ mean = 0.856708
+
+ std deviation 0.229202
+
+ total prediction in orginal = 303, total prediction in actual = 293, total avaerage mismatch prediction  = 0.134663
+
+ ================
+ statistics for downsample 8
+ =================
+
+
+ mean = 0.830140
+
+ std deviation 0.250034
+
+ total prediction in orginal = 303, total prediction in actual = 297, total avaerage mismatch prediction  = 0.167082

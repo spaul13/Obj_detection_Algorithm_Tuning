@@ -1,0 +1,66 @@
+3840. current bad count = 28, and correct detection = 1088
+
+ 1920. current bad count = 40, and correct detection = 1059
+
+ 1440. current bad count = 47, and correct detection = 1044
+[0.88561585 0.83052601 0.81924008 0.         0.        ]
+
+ ================
+ statistics for downsample 3840
+ =================
+
+
+ TP: 1060, FN: 28, FP: 44
+
+
+ Recall: 0.974265, Precision: 0.960145, F1 : 0.967153
+
+
+ mAP1: 0.942222, mAP2: 0.936396
+
+
+ mean = 0.885616
+
+ std deviation 0.190751
+
+ total prediction in orginal = 1125, total prediction in actual = 1132, total mismatch prediction  = 37.000000
+
+ ================
+ statistics for downsample 1920
+ =================
+
+
+ TP: 1019, FN: 40, FP: 70
+
+
+ Recall: 0.962229, Precision: 0.935721, F1 : 0.948790
+
+
+ mAP1: 0.905778, mAP2: 0.902569
+
+
+ mean = 0.830526
+
+ std deviation 0.217030
+
+ total prediction in orginal = 1125, total prediction in actual = 1129, total mismatch prediction  = 66.000000
+
+ ================
+ statistics for downsample 1440
+ =================
+
+
+ TP: 997, FN: 47, FP: 74
+
+
+ Recall: 0.954981, Precision: 0.930906, F1 : 0.942790
+
+
+ mAP1: 0.886222, mAP2: 0.891771
+
+
+ mean = 0.819240
+
+ std deviation 0.212868
+
+ total prediction in orginal = 1125, total prediction in actual = 1118, total mismatch prediction  = 81.000000

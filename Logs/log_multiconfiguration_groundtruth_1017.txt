@@ -1,0 +1,356 @@
+2
+2,H:\decoded_jockey\raw_frames
+
+ ========== 
+ JPEG (full size = 3840) (in KB) 
+ ============ 
+
+0
+
+ =================== 
+ configurations possible under 1 Mbps BW 
+ ======================== 
+
+
+ total configurations are 17
+['reso_320_encode_32', 'reso_768_jpeg_encode_40', 'reso_160_encode_16', 'reso_640_jpeg_encode_40', 'reso_160_jpeg_encode_24', 'reso_160_jpeg_encode_16', 'reso_768_encode_40', 'reso_480_jpeg_encode_40', 'reso_160_jpeg_encode_20', 'reso_160_jpeg', 'reso_640_encode_40', 'reso_480_encode_36', 'reso_320_jpeg_encode_32', 'reso_480_jpeg_encode_36', 'reso_640_encode_36', 'reso_160_encode_20', 'reso_320_encode_28']
+
+ ================ 
+ 0 . statistics for current config reso_320_encode_32 
+ ================= 
+
+
+ TP: 201, FN: 20, FP: 5 
+
+
+ Recall: 0.909502, Precision: 0.975728, F1 : 0.941452 
+
+
+ mAP1: 0.834025, mAP2: 0.889381 
+
+
+ mean = 0.788550
+
+ std deviation 0.193484
+
+ total prediction in orginal = 241, total prediction in actual = 226, total mismatch prediction  = 20.000000 
+
+ ================ 
+ 1 . statistics for current config reso_768_jpeg_encode_40 
+ ================= 
+
+
+ TP: 232, FN: 12, FP: 5 
+
+
+ Recall: 0.950820, Precision: 0.978903, F1 : 0.964657 
+
+
+ mAP1: 0.962656, mAP2: 0.931727 
+
+
+ mean = 0.816854
+
+ std deviation 0.183997
+
+ total prediction in orginal = 241, total prediction in actual = 249, total mismatch prediction  = -3.000000 
+
+ ================ 
+ 2 . statistics for current config reso_160_encode_16 
+ ================= 
+
+
+ TP: 161, FN: 38, FP: 2 
+
+
+ Recall: 0.809045, Precision: 0.987730, F1 : 0.889503 
+
+
+ mAP1: 0.668050, mAP2: 0.800995 
+
+
+ mean = 0.674720
+
+ std deviation 0.249002
+
+ total prediction in orginal = 241, total prediction in actual = 201, total mismatch prediction  = 42.000000 
+
+ ================ 
+ 3 . statistics for current config reso_640_jpeg_encode_40 
+ ================= 
+
+
+ TP: 220, FN: 11, FP: 4 
+
+
+ Recall: 0.952381, Precision: 0.982143, F1 : 0.967033 
+
+
+ mAP1: 0.912863, mAP2: 0.936170 
+
+
+ mean = 0.830089
+
+ std deviation 0.159666
+
+ total prediction in orginal = 241, total prediction in actual = 235, total mismatch prediction  = 10.000000 
+
+ ================ 
+ 4 . statistics for current config reso_160_jpeg_encode_24 
+ ================= 
+
+
+ TP: 138, FN: 48, FP: 2 
+
+
+ Recall: 0.741935, Precision: 0.985714, F1 : 0.846626 
+
+
+ mAP1: 0.572614, mAP2: 0.734043 
+
+
+ mean = 0.569788
+
+ std deviation 0.279375
+
+ total prediction in orginal = 241, total prediction in actual = 188, total mismatch prediction  = 55.000000 
+
+ ================ 
+ 5 . statistics for current config reso_160_jpeg_encode_16 
+ ================= 
+
+
+ TP: 139, FN: 48, FP: 4 
+
+
+ Recall: 0.743316, Precision: 0.972028, F1 : 0.842424 
+
+
+ mAP1: 0.576763, mAP2: 0.727749 
+
+
+ mean = 0.568666
+
+ std deviation 0.283270
+
+ total prediction in orginal = 241, total prediction in actual = 191, total mismatch prediction  = 54.000000 
+
+ ================ 
+ 6 . statistics for current config reso_768_encode_40 
+ ================= 
+
+
+ TP: 229, FN: 9, FP: 9 
+
+
+ Recall: 0.962185, Precision: 0.962185, F1 : 0.962185 
+
+
+ mAP1: 0.950207, mAP2: 0.927126 
+
+
+ mean = 0.844110
+
+ std deviation 0.162437
+
+ total prediction in orginal = 241, total prediction in actual = 247, total mismatch prediction  = 3.000000 
+
+ ================ 
+ 7 . statistics for current config reso_480_jpeg_encode_40 
+ ================= 
+
+
+ TP: 176, FN: 32, FP: 3 
+
+
+ Recall: 0.846154, Precision: 0.983240, F1 : 0.909561 
+
+
+ mAP1: 0.730290, mAP2: 0.834123 
+
+
+ mean = 0.693236
+
+ std deviation 0.205773
+
+ total prediction in orginal = 241, total prediction in actual = 211, total mismatch prediction  = 33.000000 
+
+ ================ 
+ 8 . statistics for current config reso_160_jpeg_encode_20 
+ ================= 
+
+
+ TP: 140, FN: 47, FP: 3 
+
+
+ Recall: 0.748663, Precision: 0.979021, F1 : 0.848485 
+
+
+ mAP1: 0.580913, mAP2: 0.736842 
+
+
+ mean = 0.572712
+
+ std deviation 0.281504
+
+ total prediction in orginal = 241, total prediction in actual = 190, total mismatch prediction  = 54.000000 
+
+ ================ 
+ 9 . statistics for current config reso_160_jpeg 
+ ================= 
+
+
+ TP: 139, FN: 48, FP: 4 
+
+
+ Recall: 0.743316, Precision: 0.972028, F1 : 0.842424 
+
+
+ mAP1: 0.576763, mAP2: 0.727749 
+
+
+ mean = 0.571331
+
+ std deviation 0.284489
+
+ total prediction in orginal = 241, total prediction in actual = 191, total mismatch prediction  = 54.000000 
+
+ ================ 
+ 10 . statistics for current config reso_640_encode_40 
+ ================= 
+
+
+ TP: 224, FN: 11, FP: 7 
+
+
+ Recall: 0.953191, Precision: 0.969697, F1 : 0.961373 
+
+
+ mAP1: 0.929461, mAP2: 0.925620 
+
+
+ mean = 0.836754
+
+ std deviation 0.168543
+
+ total prediction in orginal = 241, total prediction in actual = 242, total mismatch prediction  = 6.000000 
+
+ ================ 
+ 11 . statistics for current config reso_480_encode_36 
+ ================= 
+
+
+ TP: 214, FN: 14, FP: 6 
+
+
+ Recall: 0.938596, Precision: 0.972727, F1 : 0.955357 
+
+
+ mAP1: 0.887967, mAP2: 0.914530 
+
+
+ mean = 0.821035
+
+ std deviation 0.182358
+
+ total prediction in orginal = 241, total prediction in actual = 234, total mismatch prediction  = 13.000000 
+
+ ================ 
+ 12 . statistics for current config reso_320_jpeg_encode_32 
+ ================= 
+
+
+ TP: 183, FN: 28, FP: 3 
+
+
+ Recall: 0.867299, Precision: 0.983871, F1 : 0.921914 
+
+
+ mAP1: 0.759336, mAP2: 0.855140 
+
+
+ mean = 0.739932
+
+ std deviation 0.211582
+
+ total prediction in orginal = 241, total prediction in actual = 214, total mismatch prediction  = 30.000000 
+
+ ================ 
+ 13 . statistics for current config reso_480_jpeg_encode_36 
+ ================= 
+
+
+ TP: 202, FN: 20, FP: 4 
+
+
+ Recall: 0.909910, Precision: 0.980583, F1 : 0.943925 
+
+
+ mAP1: 0.838174, mAP2: 0.893805 
+
+
+ mean = 0.774688
+
+ std deviation 0.195551
+
+ total prediction in orginal = 241, total prediction in actual = 226, total mismatch prediction  = 19.000000 
+
+ ================ 
+ 14 . statistics for current config reso_640_encode_36 
+ ================= 
+
+
+ TP: 229, FN: 7, FP: 6 
+
+
+ Recall: 0.970339, Precision: 0.974468, F1 : 0.972399 
+
+
+ mAP1: 0.950207, mAP2: 0.946281 
+
+
+ mean = 0.875184
+
+ std deviation 0.138832
+
+ total prediction in orginal = 241, total prediction in actual = 242, total mismatch prediction  = 5.000000 
+
+ ================ 
+ 15 . statistics for current config reso_160_encode_20 
+ ================= 
+
+
+ TP: 157, FN: 38, FP: 5 
+
+
+ Recall: 0.805128, Precision: 0.969136, F1 : 0.879552 
+
+
+ mAP1: 0.651452, mAP2: 0.785000 
+
+
+ mean = 0.655835
+
+ std deviation 0.252856
+
+ total prediction in orginal = 241, total prediction in actual = 200, total mismatch prediction  = 46.000000 
+
+ ================ 
+ 16 . statistics for current config reso_320_encode_28 
+ ================= 
+
+
+ TP: 212, FN: 13, FP: 3 
+
+
+ Recall: 0.942222, Precision: 0.986047, F1 : 0.963636 
+
+
+ mAP1: 0.879668, mAP2: 0.929825 
+
+
+ mean = 0.839977
+
+ std deviation 0.166789
+
+ total prediction in orginal = 241, total prediction in actual = 228, total mismatch prediction  = 16.000000 

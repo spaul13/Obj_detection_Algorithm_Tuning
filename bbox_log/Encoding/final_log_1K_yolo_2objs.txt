@@ -1,0 +1,182 @@
+***************** with threshold = 0.5 ****************************
+
+ 22. current bad count = 22, and correct detection = 1046
+
+ 25. current bad count = 29, and correct detection = 1046
+
+ 28. current bad count = 29, and correct detection = 1048
+
+ 36. current bad count = 50, and correct detection = 1022
+[0.88926053 0.88035086 0.86847911 0.81177432 0.        ]
+
+ ================
+ statistics for downsample 22
+ =================
+
+
+ TP: 1024, FN: 22, FP: 26
+
+
+ Recall: 0.978967, Precision: 0.975238, F1 : 0.977099
+
+
+ mAP1: 0.910222, mAP2: 0.955224
+
+
+ mean = 0.889261
+
+ std deviation 0.181688
+
+ total prediction in orginal = 1125, total prediction in actual = 1072, total mismatch prediction  = 79.000000
+
+ ================
+ statistics for downsample 25
+ =================
+
+
+ TP: 1017, FN: 29, FP: 39
+
+
+ Recall: 0.972275, Precision: 0.963068, F1 : 0.967650
+
+
+ mAP1: 0.904000, mAP2: 0.937327
+
+
+ mean = 0.880351
+
+ std deviation 0.189093
+
+ total prediction in orginal = 1125, total prediction in actual = 1085, total mismatch prediction  = 79.000000
+
+ ================
+ statistics for downsample 28
+ =================
+
+
+ TP: 1019, FN: 29, FP: 46
+
+
+ Recall: 0.972328, Precision: 0.956808, F1 : 0.964505
+
+
+ mAP1: 0.905778, mAP2: 0.931444
+
+
+ mean = 0.868479
+
+ std deviation 0.194224
+
+ total prediction in orginal = 1125, total prediction in actual = 1094, total mismatch prediction  = 77.000000
+
+ ================
+ statistics for downsample 36
+ =================
+
+
+ TP: 972, FN: 50, FP: 80
+
+
+ Recall: 0.951076, Precision: 0.923954, F1 : 0.937319
+
+
+ mAP1: 0.864000, mAP2: 0.882033
+
+
+ mean = 0.811774
+
+ std deviation 0.228124
+
+ total prediction in orginal = 1125, total prediction in actual = 1102, total mismatch prediction  = 103.000000
+
+
+********************* with threshold = 0.4 *****************************
+
+ 22. current bad count = 15, and correct detection = 1046
+
+ 25. current bad count = 20, and correct detection = 1046
+
+ 28. current bad count = 19, and correct detection = 1048
+
+ 36. current bad count = 28, and correct detection = 1022
+[0.88926053 0.88035086 0.86847911 0.81177432 0.        ]
+
+ ================
+ statistics for downsample 22
+ =================
+
+
+ TP: 1031, FN: 15, FP: 26
+
+
+ Recall: 0.985660, Precision: 0.975402, F1 : 0.980504
+
+
+ mAP1: 0.916444, mAP2: 0.961754
+
+
+ mean = 0.889261
+
+ std deviation 0.181688
+
+ total prediction in orginal = 1125, total prediction in actual = 1072, total mismatch prediction  = 79.000000
+
+ ================
+ statistics for downsample 25
+ =================
+
+
+ TP: 1026, FN: 20, FP: 39
+
+
+ Recall: 0.980880, Precision: 0.963380, F1 : 0.972051
+
+
+ mAP1: 0.912000, mAP2: 0.945622
+
+
+ mean = 0.880351
+
+ std deviation 0.189093
+
+ total prediction in orginal = 1125, total prediction in actual = 1085, total mismatch prediction  = 79.000000
+
+ ================
+ statistics for downsample 28
+ =================
+
+
+ TP: 1029, FN: 19, FP: 46
+
+
+ Recall: 0.981870, Precision: 0.957209, F1 : 0.969383
+
+
+ mAP1: 0.914667, mAP2: 0.940585
+
+
+ mean = 0.868479
+
+ std deviation 0.194224
+
+ total prediction in orginal = 1125, total prediction in actual = 1094, total mismatch prediction  = 77.000000
+
+ ================
+ statistics for downsample 36
+ =================
+
+
+ TP: 994, FN: 28, FP: 80
+
+
+ Recall: 0.972603, Precision: 0.925512, F1 : 0.948473
+
+
+ mAP1: 0.883556, mAP2: 0.901996
+
+
+ mean = 0.811774
+
+ std deviation 0.228124
+
+ total prediction in orginal = 1125, total prediction in actual = 1102, total mismatch prediction  = 103.000000

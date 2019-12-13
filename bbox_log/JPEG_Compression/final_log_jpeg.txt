@@ -1,0 +1,50 @@
+****** Here final downscaled and upscaled image sent to CNN .png *****************
+========== JPEG Res = 3840 ================
+ average bounding box accuracy = 0.981629
+
+ std deviation = 0.024035
+
+ total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 0, final overpredicted = 0
+
+========== JPEG Res = 1920 ===================
+ average bounding box accuracy = 0.972900
+
+ std deviation = 0.037214
+
+ total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 0, final overpredicted = 0
+
+========== JPEG Res = 1440 ===================
+
+ average bounding box accuracy = 0.969372
+
+ std deviation = 0.079593
+
+ total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 1, final overpredicted = 0
+
+
+
+
+****** Here final downscaled and upscaled image sent to CNN .jpeg *****************
+
+========== JPEG Res = 3840 ================
+ average bounding box accuracy = 0.981907
+
+ std deviation = 0.023519
+
+ total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 0, final overpredicted = 0
+
+========== JPEG Res = 1920 ===================
+ average bounding box accuracy = 0.965038
+
+ std deviation = 0.080456
+
+ total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 1, final overpredicted = 0
+
+========== JPEG Res = 1440 ===================
+
+  average bounding box accuracy = 0.961138
+
+ std deviation = 0.107575
+
+ total prediction in orginal = 185, total prediction in final = 185 and final falsely predicted = 2, final overpredicted = 0
+

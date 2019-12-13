@@ -1,0 +1,48 @@
+========= freq = 2 ============= (this is calculated considering QP = 18 (which is visually lossless)
+0.9140767019165288
+0.19144266942256477
+
+Removing the IOU < 0.8 (Noise)
+0.9702533875334316
+0.04502555545542677
+
+Adding the condition of when the previous IOU is < 0.8 change the freq to 1 and else the freq = 2 then freq switches happen for 21 times but no change in result
+
+But if I randomly switch between 1 and 2 then (where 1 and 2 having equal bias) --> improved a lot (noise is still there)
+0.952471842838522
+0.1493720876546624 
+
+But if I put more bias on freq = 2 than 1 (7:3)
+0.9465198750918821
+0.15782922504755068
+
+
+=========== freq = 3 (60 Mbps) =================
+0.8700501879644413
+0.2349350676491392
+
+Removing the IOU < 0.8 (Noise)
+0.9563224343574933
+0.046416906822796096
+
+
+=========== freq = 4 (40 Mbps) ==================
+0.8498715506404935
+0.2348415675878283
+
+Removing the IOU < 0.8 (Noise)
+0.9370413370712579
+0.056861353206295324
+
+=========== freq = 8 (20 Mbps) ==================
+0.8080700430286387
+0.2266611462067943
+
+
+Removing the IOU < 0.8 (Noise)
+0.9148974219936697
+0.05841921771700092
+
+
+
+

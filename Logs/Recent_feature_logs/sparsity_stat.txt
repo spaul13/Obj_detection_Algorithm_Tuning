@@ -1,0 +1,1412 @@
+
+ only drone 
+
+
+ ======== Feature 2. <contrast, colorfulness, brightness> features used ========== 
+
+
+ ======= total unique configurations = 72
+
+ 1. current class = reso_1440_encode_36, sparsity = 6.592104, number of points under class = 38
+
+ 2. current class = reso_1440_encode_40, sparsity = 9.649809, number of points under class = 33
+
+ 3. current class = reso_1440_jpeg_encode_40, sparsity = 5.017492, number of points under class = 12
+
+ 4. current class = reso_160, sparsity = 1.761856, number of points under class = 3
+
+ for class =  reso_160_encode_16, only one point is there
+
+ 6. current class = reso_160_encode_20, sparsity = 0.565569, number of points under class = 4
+
+ 7. current class = reso_160_encode_28, sparsity = 0.000000, number of points under class = 2
+
+ for class =  reso_160_encode_32, only one point is there
+
+ for class =  reso_160_jpeg_encode_24, only one point is there
+
+ for class =  reso_160_jpeg_encode_28, only one point is there
+
+ for class =  reso_160_jpeg_encode_36, only one point is there
+
+ 12. current class = reso_2048_encode_40, sparsity = 3.685301, number of points under class = 41
+
+ 13. current class = reso_320_encode_12, sparsity = 12.531241, number of points under class = 14
+
+ 14. current class = reso_320_encode_16, sparsity = 5.161857, number of points under class = 8
+
+ 15. current class = reso_320_encode_20, sparsity = 13.081055, number of points under class = 10
+
+ 16. current class = reso_320_encode_24, sparsity = 8.219232, number of points under class = 7
+
+ 17. current class = reso_320_encode_28, sparsity = 5.739846, number of points under class = 7
+
+ 18. current class = reso_320_encode_32, sparsity = 9.447219, number of points under class = 4
+
+ 19. current class = reso_320_encode_36, sparsity = 2.537717, number of points under class = 6
+
+ 20. current class = reso_320_encode_40, sparsity = 3.914247, number of points under class = 4
+
+ 21. current class = reso_320_jpeg, sparsity = 0.000000, number of points under class = 2
+
+ 22. current class = reso_320_jpeg_encode_12, sparsity = 0.000000, number of points under class = 2
+
+ for class =  reso_320_jpeg_encode_16, only one point is there
+
+ 24. current class = reso_320_jpeg_encode_20, sparsity = 0.000000, number of points under class = 2
+
+ 25. current class = reso_320_jpeg_encode_24, sparsity = 5.601293, number of points under class = 7
+
+ 26. current class = reso_320_jpeg_encode_28, sparsity = 6.425863, number of points under class = 9
+
+ 27. current class = reso_320_jpeg_encode_32, sparsity = 1.143781, number of points under class = 10
+
+ 28. current class = reso_320_jpeg_encode_36, sparsity = 1.317825, number of points under class = 4
+
+ for class =  reso_320_jpeg_encode_40, only one point is there
+
+ 30. current class = reso_480_encode_16, sparsity = 0.482173, number of points under class = 3
+
+ 31. current class = reso_480_encode_20, sparsity = 10.500849, number of points under class = 15
+
+ 32. current class = reso_480_encode_24, sparsity = 7.821177, number of points under class = 24
+
+ 33. current class = reso_480_encode_28, sparsity = 2.040011, number of points under class = 13
+
+ 34. current class = reso_480_encode_32, sparsity = 9.438905, number of points under class = 16
+
+ 35. current class = reso_480_encode_36, sparsity = 7.092037, number of points under class = 13
+
+ 36. current class = reso_480_encode_40, sparsity = 7.236074, number of points under class = 4
+
+ 37. current class = reso_480_jpeg, sparsity = 5.735648, number of points under class = 8
+
+ for class =  reso_480_jpeg_encode_16, only one point is there
+
+ 39. current class = reso_480_jpeg_encode_20, sparsity = 11.941365, number of points under class = 8
+
+ 40. current class = reso_480_jpeg_encode_24, sparsity = 9.346791, number of points under class = 13
+
+ 41. current class = reso_480_jpeg_encode_28, sparsity = 15.145542, number of points under class = 9
+
+ 42. current class = reso_480_jpeg_encode_32, sparsity = 7.410024, number of points under class = 9
+
+ 43. current class = reso_480_jpeg_encode_36, sparsity = 6.444005, number of points under class = 10
+
+ 44. current class = reso_480_jpeg_encode_40, sparsity = 7.748011, number of points under class = 9
+
+ 45. current class = reso_640_encode_24, sparsity = 3.359550, number of points under class = 7
+
+ 46. current class = reso_640_encode_28, sparsity = 11.464998, number of points under class = 28
+
+ 47. current class = reso_640_encode_32, sparsity = 11.553437, number of points under class = 17
+
+ 48. current class = reso_640_encode_36, sparsity = 8.239841, number of points under class = 19
+
+ 49. current class = reso_640_encode_40, sparsity = 8.694031, number of points under class = 18
+
+ 50. current class = reso_640_jpeg, sparsity = 10.124187, number of points under class = 19
+
+ 51. current class = reso_640_jpeg_encode_20, sparsity = 1.803932, number of points under class = 6
+
+ 52. current class = reso_640_jpeg_encode_24, sparsity = 9.240893, number of points under class = 8
+
+ 53. current class = reso_640_jpeg_encode_28, sparsity = 9.897369, number of points under class = 8
+
+ 54. current class = reso_640_jpeg_encode_32, sparsity = 13.291097, number of points under class = 22
+
+ 55. current class = reso_640_jpeg_encode_36, sparsity = 5.069252, number of points under class = 11
+
+ 56. current class = reso_640_jpeg_encode_40, sparsity = 7.607065, number of points under class = 17
+
+ 57. current class = reso_768_encode_28, sparsity = 4.084797, number of points under class = 13
+
+ 58. current class = reso_768_encode_32, sparsity = 9.201359, number of points under class = 29
+
+ 59. current class = reso_768_encode_36, sparsity = 11.386674, number of points under class = 18
+
+ 60. current class = reso_768_encode_40, sparsity = 8.568645, number of points under class = 20
+
+ 61. current class = reso_768_jpeg, sparsity = 0.000000, number of points under class = 2
+
+ for class =  reso_768_jpeg_encode_24, only one point is there
+
+ 63. current class = reso_768_jpeg_encode_28, sparsity = 6.927408, number of points under class = 11
+
+ 64. current class = reso_768_jpeg_encode_32, sparsity = 8.075189, number of points under class = 20
+
+ 65. current class = reso_768_jpeg_encode_36, sparsity = 11.519415, number of points under class = 25
+
+ 66. current class = reso_768_jpeg_encode_40, sparsity = 8.015968, number of points under class = 16
+
+ 67. current class = reso_960_encode_32, sparsity = 4.340732, number of points under class = 17
+
+ 68. current class = reso_960_encode_36, sparsity = 8.911722, number of points under class = 27
+
+ 69. current class = reso_960_encode_40, sparsity = 9.485582, number of points under class = 19
+
+ 70. current class = reso_960_jpeg_encode_32, sparsity = 5.111246, number of points under class = 13
+
+ 71. current class = reso_960_jpeg_encode_36, sparsity = 14.487247, number of points under class = 21
+
+ 72. current class = reso_960_jpeg_encode_40, sparsity = 15.712509, number of points under class = 41
+[6.5921044618374465, 9.6498092788789, 5.0174922552443215, 1.7618559498536108, 0.5655685239604651, 9.086910104632347e-15, 3.685300954332595, 12.53124051116482, 5.161857140085709, 13.081054835922897, 8.219231950772782, 5.739846384661233, 9.447219402171052, 2.537716869563978, 3.9142471566777335, 0.0, 7.53644380168212e-15, 1.2560739669470201e-14, 5.6012930415159445, 6.425863207921471, 1.1437810589773798, 1.3178254042081579, 0.48217312514964883, 10.500848979862674, 7.821176975888419, 2.0400110078018874, 9.438905322557046, 7.0920371120777075, 7.236073775335123, 5.735647635885011, 11.941365015580292, 9.346791193316841, 15.145542397235078, 7.410024419463443, 6.444005276387167, 7.748010680423876, 3.3595498162543977, 11.46499772809128, 11.553436975968799, 8.239840720017272, 8.69403128789601, 10.124186671719434, 1.8039320581599683, 9.24089283073612, 9.89736942323076, 13.291096793687641, 5.069251826561635, 7.60706450525758, 4.084797427461892, 9.201359104891194, 11.386674490640788, 8.56864498221258, 0.0, 6.9274084920061645, 8.075188810013993, 11.519414912125333, 8.015968027973905, 4.340731818885982, 8.911721823314943, 9.485582395688601, 5.111246383594149, 14.487247090517714, 15.712509336028743]
+
+6.935715349803994,4.137212399630939
+
+ ======== Feature 2. <orb, sift, # of matched points> features used ========== 
+
+
+ ======= total unique configurations = 72
+
+ 1. current class = reso_1440_encode_36, sparsity = 10.039761, number of points under class = 38
+
+ 2. current class = reso_1440_encode_40, sparsity = 10.311428, number of points under class = 33
+
+ 3. current class = reso_1440_jpeg_encode_40, sparsity = 10.081018, number of points under class = 12
+
+ 4. current class = reso_160, sparsity = 8.777651, number of points under class = 3
+
+ for class =  reso_160_encode_16, only one point is there
+
+ 6. current class = reso_160_encode_20, sparsity = 2.149857, number of points under class = 4
+
+ 7. current class = reso_160_encode_28, sparsity = 0.000000, number of points under class = 2
+
+ for class =  reso_160_encode_32, only one point is there
+
+ for class =  reso_160_jpeg_encode_24, only one point is there
+
+ for class =  reso_160_jpeg_encode_28, only one point is there
+
+ for class =  reso_160_jpeg_encode_36, only one point is there
+
+ 12. current class = reso_2048_encode_40, sparsity = 7.007655, number of points under class = 41
+
+ 13. current class = reso_320_encode_12, sparsity = 5.889557, number of points under class = 14
+
+ 14. current class = reso_320_encode_16, sparsity = 11.519574, number of points under class = 8
+
+ 15. current class = reso_320_encode_20, sparsity = 5.996062, number of points under class = 10
+
+ 16. current class = reso_320_encode_24, sparsity = 9.555474, number of points under class = 7
+
+ 17. current class = reso_320_encode_28, sparsity = 5.450766, number of points under class = 7
+
+ 18. current class = reso_320_encode_32, sparsity = 3.582096, number of points under class = 4
+
+ 19. current class = reso_320_encode_36, sparsity = 9.786327, number of points under class = 6
+
+ 20. current class = reso_320_encode_40, sparsity = 9.815708, number of points under class = 4
+
+ 21. current class = reso_320_jpeg, sparsity = 0.000000, number of points under class = 2
+
+ 22. current class = reso_320_jpeg_encode_12, sparsity = 0.000000, number of points under class = 2
+
+ for class =  reso_320_jpeg_encode_16, only one point is there
+
+ 24. current class = reso_320_jpeg_encode_20, sparsity = 0.000000, number of points under class = 2
+
+ 25. current class = reso_320_jpeg_encode_24, sparsity = 8.400170, number of points under class = 7
+
+ 26. current class = reso_320_jpeg_encode_28, sparsity = 7.788780, number of points under class = 9
+
+ 27. current class = reso_320_jpeg_encode_32, sparsity = 3.294556, number of points under class = 10
+
+ 28. current class = reso_320_jpeg_encode_36, sparsity = 3.864253, number of points under class = 4
+
+ for class =  reso_320_jpeg_encode_40, only one point is there
+
+ 30. current class = reso_480_encode_16, sparsity = 2.559314, number of points under class = 3
+
+ 31. current class = reso_480_encode_20, sparsity = 6.028636, number of points under class = 15
+
+ 32. current class = reso_480_encode_24, sparsity = 8.607563, number of points under class = 24
+
+ 33. current class = reso_480_encode_28, sparsity = 7.724937, number of points under class = 13
+
+ 34. current class = reso_480_encode_32, sparsity = 8.135704, number of points under class = 16
+
+ 35. current class = reso_480_encode_36, sparsity = 6.195810, number of points under class = 13
+
+ 36. current class = reso_480_encode_40, sparsity = 10.317082, number of points under class = 4
+
+ 37. current class = reso_480_jpeg, sparsity = 7.650576, number of points under class = 8
+
+ for class =  reso_480_jpeg_encode_16, only one point is there
+
+ 39. current class = reso_480_jpeg_encode_20, sparsity = 7.746602, number of points under class = 8
+
+ 40. current class = reso_480_jpeg_encode_24, sparsity = 9.007431, number of points under class = 13
+
+ 41. current class = reso_480_jpeg_encode_28, sparsity = 11.800919, number of points under class = 9
+
+ 42. current class = reso_480_jpeg_encode_32, sparsity = 14.579949, number of points under class = 9
+
+ 43. current class = reso_480_jpeg_encode_36, sparsity = 10.196532, number of points under class = 10
+
+ 44. current class = reso_480_jpeg_encode_40, sparsity = 9.003644, number of points under class = 9
+
+ 45. current class = reso_640_encode_24, sparsity = 3.454860, number of points under class = 7
+
+ 46. current class = reso_640_encode_28, sparsity = 7.603403, number of points under class = 28
+
+ 47. current class = reso_640_encode_32, sparsity = 9.736484, number of points under class = 17
+
+ 48. current class = reso_640_encode_36, sparsity = 8.548348, number of points under class = 19
+
+ 49. current class = reso_640_encode_40, sparsity = 9.061396, number of points under class = 18
+
+ 50. current class = reso_640_jpeg, sparsity = 11.670450, number of points under class = 19
+
+ 51. current class = reso_640_jpeg_encode_20, sparsity = 3.963457, number of points under class = 6
+
+ 52. current class = reso_640_jpeg_encode_24, sparsity = 9.190904, number of points under class = 8
+
+ 53. current class = reso_640_jpeg_encode_28, sparsity = 14.155282, number of points under class = 8
+
+ 54. current class = reso_640_jpeg_encode_32, sparsity = 7.163358, number of points under class = 22
+
+ 55. current class = reso_640_jpeg_encode_36, sparsity = 8.453038, number of points under class = 11
+
+ 56. current class = reso_640_jpeg_encode_40, sparsity = 13.720920, number of points under class = 17
+
+ 57. current class = reso_768_encode_28, sparsity = 4.543650, number of points under class = 13
+
+ 58. current class = reso_768_encode_32, sparsity = 6.338182, number of points under class = 29
+
+ 59. current class = reso_768_encode_36, sparsity = 6.101866, number of points under class = 18
+
+ 60. current class = reso_768_encode_40, sparsity = 9.817815, number of points under class = 20
+
+ 61. current class = reso_768_jpeg, sparsity = 0.000000, number of points under class = 2
+
+ for class =  reso_768_jpeg_encode_24, only one point is there
+
+ 63. current class = reso_768_jpeg_encode_28, sparsity = 7.591716, number of points under class = 11
+
+ 64. current class = reso_768_jpeg_encode_32, sparsity = 7.670923, number of points under class = 20
+
+ 65. current class = reso_768_jpeg_encode_36, sparsity = 5.593186, number of points under class = 25
+
+ 66. current class = reso_768_jpeg_encode_40, sparsity = 9.298214, number of points under class = 16
+
+ 67. current class = reso_960_encode_32, sparsity = 9.279060, number of points under class = 17
+
+ 68. current class = reso_960_encode_36, sparsity = 8.587874, number of points under class = 27
+
+ 69. current class = reso_960_encode_40, sparsity = 6.142667, number of points under class = 19
+
+ 70. current class = reso_960_jpeg_encode_32, sparsity = 4.663304, number of points under class = 13
+
+ 71. current class = reso_960_jpeg_encode_36, sparsity = 9.066261, number of points under class = 21
+
+ 72. current class = reso_960_jpeg_encode_40, sparsity = 36.666546, number of points under class = 41
+[10.039761186389429, 10.311427934363957, 10.081018342634254, 8.777651233950365, 2.149857204704145, 0.0, 7.007654681793758, 5.889556535419075, 11.519573711376495, 5.9960617649738435, 9.555474058749288, 5.450765646471757, 3.5820963270401176, 9.786326696077362, 9.815708373031361, 9.42055475210265e-15, 0.0, 8.79251776862914e-15, 8.400169953978281, 7.788779575883672, 3.294556198395018, 3.8642526417661207, 2.5593138246098097, 6.028635910311469, 8.607563302286275, 7.724936649920272, 8.135703621307528, 6.195809993057479, 10.31708225432057, 7.650575656291905, 7.7466022172033675, 9.007431295671099, 11.800918839120229, 14.579948640774525, 10.196531995060134, 9.003643514363011, 3.4548601804836894, 7.603402579072187, 9.736484305794676, 8.548348227015376, 9.061395967803607, 11.670450445988708, 3.9634569514250737, 9.19090395192554, 14.155281577847934, 7.163357983470461, 8.453037749745125, 13.720919666497329, 4.543650363221763, 6.338182112189016, 6.101865638893032, 9.817815343762312, 1.5700924586837752e-16, 7.591716124807517, 7.67092334450078, 5.59318561694576, 9.298213969994956, 9.27905950385827, 8.587873513972546, 6.142667130648508, 4.663304343472752, 9.066261340360482, 36.66654608924091]
+
+7.792834187368799,5.026270614093509
+
+
+
+4 drone + 2 surveilance camera dataset
+
+
+ ======== Feature 2. <contrast, colorfulness, brightness> features used ========== 
+
+
+ ======= total unique configurations = 82
+
+ 1. current class = reso_1440_encode_36, sparsity = 6.592104, number of points under class = 38
+
+ 2. current class = reso_1440_encode_40, sparsity = 9.407202, number of points under class = 45
+
+ 3. current class = reso_1440_jpeg_encode_40, sparsity = 8.319271, number of points under class = 33
+
+ 4. current class = reso_160, sparsity = 2.006361, number of points under class = 6
+
+ for class =  reso_160_encode_12, only one point is there
+
+ 6. current class = reso_160_encode_16, sparsity = 5.519472, number of points under class = 3
+
+ 7. current class = reso_160_encode_20, sparsity = 0.565569, number of points under class = 4
+
+ 8. current class = reso_160_encode_24, sparsity = 0.000000, number of points under class = 2
+
+ 9. current class = reso_160_encode_28, sparsity = 2.735524, number of points under class = 8
+
+ 10. current class = reso_160_encode_32, sparsity = 3.901708, number of points under class = 21
+
+ 11. current class = reso_160_encode_36, sparsity = 0.769597, number of points under class = 9
+
+ 12. current class = reso_160_encode_40, sparsity = 0.354446, number of points under class = 17
+
+ 13. current class = reso_160_jpeg, sparsity = 3.595190, number of points under class = 4
+
+ for class =  reso_160_jpeg_encode_12, only one point is there
+
+ 15. current class = reso_160_jpeg_encode_16, sparsity = 1.031587, number of points under class = 4
+
+ 16. current class = reso_160_jpeg_encode_20, sparsity = 3.624248, number of points under class = 5
+
+ 17. current class = reso_160_jpeg_encode_24, sparsity = 8.794900, number of points under class = 6
+
+ 18. current class = reso_160_jpeg_encode_28, sparsity = 3.777101, number of points under class = 13
+
+ 19. current class = reso_160_jpeg_encode_32, sparsity = 2.162663, number of points under class = 21
+
+ 20. current class = reso_160_jpeg_encode_36, sparsity = 6.492191, number of points under class = 20
+
+ 21. current class = reso_160_jpeg_encode_40, sparsity = 2.884330, number of points under class = 24
+
+ 22. current class = reso_2048_encode_40, sparsity = 3.685301, number of points under class = 41
+
+ 23. current class = reso_320_encode_12, sparsity = 9.519589, number of points under class = 18
+
+ 24. current class = reso_320_encode_16, sparsity = 3.505779, number of points under class = 15
+
+ 25. current class = reso_320_encode_20, sparsity = 8.992559, number of points under class = 17
+
+ 26. current class = reso_320_encode_24, sparsity = 8.642003, number of points under class = 8
+
+ 27. current class = reso_320_encode_28, sparsity = 6.334839, number of points under class = 8
+
+ 28. current class = reso_320_encode_32, sparsity = 2.910339, number of points under class = 6
+
+ 29. current class = reso_320_encode_36, sparsity = 2.537717, number of points under class = 6
+
+ 30. current class = reso_320_encode_40, sparsity = 8.653070, number of points under class = 16
+
+ 31. current class = reso_320_jpeg, sparsity = 0.000000, number of points under class = 2
+
+ 32. current class = reso_320_jpeg_encode_12, sparsity = 0.000000, number of points under class = 2
+
+ for class =  reso_320_jpeg_encode_16, only one point is there
+
+ 34. current class = reso_320_jpeg_encode_20, sparsity = 8.245767, number of points under class = 5
+
+ 35. current class = reso_320_jpeg_encode_24, sparsity = 5.601293, number of points under class = 7
+
+ 36. current class = reso_320_jpeg_encode_28, sparsity = 6.425863, number of points under class = 9
+
+ 37. current class = reso_320_jpeg_encode_32, sparsity = 8.025359, number of points under class = 13
+
+ 38. current class = reso_320_jpeg_encode_36, sparsity = 10.046935, number of points under class = 8
+
+ 39. current class = reso_320_jpeg_encode_40, sparsity = 3.702117, number of points under class = 22
+
+ 40. current class = reso_480_encode_16, sparsity = 0.482173, number of points under class = 3
+
+ 41. current class = reso_480_encode_20, sparsity = 7.326815, number of points under class = 21
+
+ 42. current class = reso_480_encode_24, sparsity = 7.968586, number of points under class = 29
+
+ 43. current class = reso_480_encode_28, sparsity = 7.563087, number of points under class = 17
+
+ 44. current class = reso_480_encode_32, sparsity = 7.910500, number of points under class = 19
+
+ 45. current class = reso_480_encode_36, sparsity = 5.971926, number of points under class = 16
+
+ 46. current class = reso_480_encode_40, sparsity = 2.040212, number of points under class = 6
+
+ 47. current class = reso_480_jpeg, sparsity = 9.083390, number of points under class = 12
+
+ for class =  reso_480_jpeg_encode_16, only one point is there
+
+ 49. current class = reso_480_jpeg_encode_20, sparsity = 6.652910, number of points under class = 15
+
+ 50. current class = reso_480_jpeg_encode_24, sparsity = 7.698615, number of points under class = 17
+
+ 51. current class = reso_480_jpeg_encode_28, sparsity = 13.459385, number of points under class = 10
+
+ 52. current class = reso_480_jpeg_encode_32, sparsity = 7.724411, number of points under class = 13
+
+ 53. current class = reso_480_jpeg_encode_36, sparsity = 6.444005, number of points under class = 10
+
+ 54. current class = reso_480_jpeg_encode_40, sparsity = 7.748011, number of points under class = 9
+
+ 55. current class = reso_640_encode_24, sparsity = 9.613376, number of points under class = 21
+
+ 56. current class = reso_640_encode_28, sparsity = 8.248842, number of points under class = 60
+
+ 57. current class = reso_640_encode_32, sparsity = 6.685607, number of points under class = 32
+
+ 58. current class = reso_640_encode_36, sparsity = 7.737189, number of points under class = 24
+
+ 59. current class = reso_640_encode_40, sparsity = 8.391901, number of points under class = 19
+
+ 60. current class = reso_640_jpeg, sparsity = 10.765493, number of points under class = 37
+
+ 61. current class = reso_640_jpeg_encode_20, sparsity = 1.803932, number of points under class = 6
+
+ 62. current class = reso_640_jpeg_encode_24, sparsity = 8.682446, number of points under class = 11
+
+ 63. current class = reso_640_jpeg_encode_28, sparsity = 12.148792, number of points under class = 33
+
+ 64. current class = reso_640_jpeg_encode_32, sparsity = 9.365994, number of points under class = 33
+
+ 65. current class = reso_640_jpeg_encode_36, sparsity = 9.296384, number of points under class = 27
+
+ 66. current class = reso_640_jpeg_encode_40, sparsity = 7.475328, number of points under class = 20
+
+ 67. current class = reso_768_encode_28, sparsity = 4.496724, number of points under class = 21
+
+ 68. current class = reso_768_encode_32, sparsity = 9.215175, number of points under class = 74
+
+ 69. current class = reso_768_encode_36, sparsity = 7.141721, number of points under class = 31
+
+ 70. current class = reso_768_encode_40, sparsity = 7.265692, number of points under class = 25
+
+ 71. current class = reso_768_jpeg, sparsity = 0.000000, number of points under class = 2
+
+ for class =  reso_768_jpeg_encode_24, only one point is there
+
+ 73. current class = reso_768_jpeg_encode_28, sparsity = 6.086095, number of points under class = 34
+
+ 74. current class = reso_768_jpeg_encode_32, sparsity = 6.250465, number of points under class = 43
+
+ 75. current class = reso_768_jpeg_encode_36, sparsity = 7.291198, number of points under class = 50
+
+ 76. current class = reso_768_jpeg_encode_40, sparsity = 8.873780, number of points under class = 25
+
+ 77. current class = reso_960_encode_32, sparsity = 8.306680, number of points under class = 75
+
+ 78. current class = reso_960_encode_36, sparsity = 9.693633, number of points under class = 71
+
+ 79. current class = reso_960_encode_40, sparsity = 7.096296, number of points under class = 45
+
+ 80. current class = reso_960_jpeg_encode_32, sparsity = 8.105419, number of points under class = 24
+
+ 81. current class = reso_960_jpeg_encode_36, sparsity = 8.776461, number of points under class = 39
+
+ 82. current class = reso_960_jpeg_encode_40, sparsity = 12.976105, number of points under class = 64
+[6.5921044618374465, 9.407201913335998, 8.3192710475957, 2.006360839199123, 5.519472188803819, 0.5655685239604651, 3.1401849173675502e-15, 2.7355240324576355, 3.90170771987286, 0.7695965102452349, 0.35444639283842083, 3.595190189732347, 1.0315870960831997, 3.6242479748464085, 8.794899761840044, 3.777101450358906, 2.162663428621322, 6.492190851908987, 2.884330318884068, 3.685300954332595, 9.519588614494713, 3.505778828192562, 8.99255895916273, 8.64200309894374, 6.334838991828848, 2.9103385443662804, 2.537716869563978, 8.653069715979223, 0.0, 7.53644380168212e-15, 8.245767053942535, 5.6012930415159445, 6.425863207921471, 8.025359451244848, 10.0469345552129, 3.7021167300116025, 0.48217312514964883, 7.326815114092878, 7.968585513168981, 7.563086815275592, 7.910499728042684, 5.971925985927963, 2.040212225948096, 9.083389852396483, 6.652910129604821, 7.698615487889343, 13.459385265770852, 7.724411001161226, 6.444005276387167, 7.748010680423876, 9.613375791470034, 8.24884163320056, 6.685607205085228, 7.737189381772061, 8.39190050581304, 10.765493226054927, 1.8039320581599683, 8.682446182323755, 12.148792088244068, 9.3659936705373, 9.29638389889229, 7.475327783827061, 4.496724140605444, 9.215175132124354, 7.141721449117283, 7.265691740192454, 0.0, 6.086094883319465, 6.250464810786818, 7.291198301105391, 8.87378004243447, 8.306679966951798, 9.693633276162304, 7.0962961584160915, 8.1054191965232, 8.776460858009642, 12.976105460344952]
+
+6.223724004699345,3.2983009521565045
+
+ ======== Feature 2. <orb, sift, # of matched points> features used ========== 
+
+
+ ======= total unique configurations = 82
+
+ 1. current class = reso_1440_encode_36, sparsity = 10.039761, number of points under class = 38
+
+ 2. current class = reso_1440_encode_40, sparsity = 28.119668, number of points under class = 45
+
+ 3. current class = reso_1440_jpeg_encode_40, sparsity = 19.813304, number of points under class = 33
+
+ 4. current class = reso_160, sparsity = 7.563552, number of points under class = 6
+
+ for class =  reso_160_encode_12, only one point is there
+
+ 6. current class = reso_160_encode_16, sparsity = 5.621565, number of points under class = 3
+
+ 7. current class = reso_160_encode_20, sparsity = 2.149857, number of points under class = 4
+
+ 8. current class = reso_160_encode_24, sparsity = 0.000000, number of points under class = 2
+
+ 9. current class = reso_160_encode_28, sparsity = 29.371745, number of points under class = 8
+
+ 10. current class = reso_160_encode_32, sparsity = 21.950225, number of points under class = 21
+
+ 11. current class = reso_160_encode_36, sparsity = 10.174418, number of points under class = 9
+
+ 12. current class = reso_160_encode_40, sparsity = 8.550253, number of points under class = 17
+
+ 13. current class = reso_160_jpeg, sparsity = 5.036173, number of points under class = 4
+
+ for class =  reso_160_jpeg_encode_12, only one point is there
+
+ 15. current class = reso_160_jpeg_encode_16, sparsity = 16.753852, number of points under class = 4
+
+ 16. current class = reso_160_jpeg_encode_20, sparsity = 14.109070, number of points under class = 5
+
+ 17. current class = reso_160_jpeg_encode_24, sparsity = 10.640935, number of points under class = 6
+
+ 18. current class = reso_160_jpeg_encode_28, sparsity = 28.295377, number of points under class = 13
+
+ 19. current class = reso_160_jpeg_encode_32, sparsity = 15.723527, number of points under class = 21
+
+ 20. current class = reso_160_jpeg_encode_36, sparsity = 18.039457, number of points under class = 20
+
+ 21. current class = reso_160_jpeg_encode_40, sparsity = 15.180590, number of points under class = 24
+
+ 22. current class = reso_2048_encode_40, sparsity = 7.007655, number of points under class = 41
+
+ 23. current class = reso_320_encode_12, sparsity = 28.678026, number of points under class = 18
+
+ 24. current class = reso_320_encode_16, sparsity = 24.282182, number of points under class = 15
+
+ 25. current class = reso_320_encode_20, sparsity = 22.987939, number of points under class = 17
+
+ 26. current class = reso_320_encode_24, sparsity = 18.723394, number of points under class = 8
+
+ 27. current class = reso_320_encode_28, sparsity = 11.808418, number of points under class = 8
+
+ 28. current class = reso_320_encode_32, sparsity = 3.904997, number of points under class = 5
+
+ 29. current class = reso_320_encode_36, sparsity = 9.786327, number of points under class = 6
+
+ 30. current class = reso_320_encode_40, sparsity = 25.540956, number of points under class = 16
+
+ 31. current class = reso_320_jpeg, sparsity = 0.000000, number of points under class = 2
+
+ 32. current class = reso_320_jpeg_encode_12, sparsity = 0.000000, number of points under class = 2
+
+ for class =  reso_320_jpeg_encode_16, only one point is there
+
+ 34. current class = reso_320_jpeg_encode_20, sparsity = 33.774280, number of points under class = 5
+
+ 35. current class = reso_320_jpeg_encode_24, sparsity = 8.400170, number of points under class = 7
+
+ 36. current class = reso_320_jpeg_encode_28, sparsity = 7.788780, number of points under class = 9
+
+ 37. current class = reso_320_jpeg_encode_32, sparsity = 24.785062, number of points under class = 13
+
+ 38. current class = reso_320_jpeg_encode_36, sparsity = 6.969251, number of points under class = 8
+
+ 39. current class = reso_320_jpeg_encode_40, sparsity = 30.174656, number of points under class = 22
+
+ 40. current class = reso_480_encode_16, sparsity = 2.559314, number of points under class = 3
+
+ 41. current class = reso_480_encode_20, sparsity = 24.611404, number of points under class = 21
+
+ 42. current class = reso_480_encode_24, sparsity = 20.850848, number of points under class = 29
+
+ 43. current class = reso_480_encode_28, sparsity = 13.397315, number of points under class = 17
+
+ 44. current class = reso_480_encode_32, sparsity = 8.890230, number of points under class = 19
+
+ 45. current class = reso_480_encode_36, sparsity = 11.403710, number of points under class = 16
+
+ 46. current class = reso_480_encode_40, sparsity = 30.712340, number of points under class = 6
+
+ 47. current class = reso_480_jpeg, sparsity = 9.196507, number of points under class = 12
+
+ for class =  reso_480_jpeg_encode_16, only one point is there
+
+ 49. current class = reso_480_jpeg_encode_20, sparsity = 23.625011, number of points under class = 15
+
+ 50. current class = reso_480_jpeg_encode_24, sparsity = 28.563877, number of points under class = 17
+
+ 51. current class = reso_480_jpeg_encode_28, sparsity = 11.312912, number of points under class = 10
+
+ 52. current class = reso_480_jpeg_encode_32, sparsity = 34.538702, number of points under class = 13
+
+ 53. current class = reso_480_jpeg_encode_36, sparsity = 10.196532, number of points under class = 10
+
+ 54. current class = reso_480_jpeg_encode_40, sparsity = 9.003644, number of points under class = 9
+
+ 55. current class = reso_640_encode_24, sparsity = 9.736016, number of points under class = 21
+
+ 56. current class = reso_640_encode_28, sparsity = 23.702008, number of points under class = 60
+
+ 57. current class = reso_640_encode_32, sparsity = 21.367118, number of points under class = 32
+
+ 58. current class = reso_640_encode_36, sparsity = 27.329101, number of points under class = 24
+
+ 59. current class = reso_640_encode_40, sparsity = 9.046781, number of points under class = 19
+
+ 60. current class = reso_640_jpeg, sparsity = 20.209937, number of points under class = 37
+
+ 61. current class = reso_640_jpeg_encode_20, sparsity = 3.963457, number of points under class = 6
+
+ 62. current class = reso_640_jpeg_encode_24, sparsity = 29.555321, number of points under class = 11
+
+ 63. current class = reso_640_jpeg_encode_28, sparsity = 27.032475, number of points under class = 33
+
+ 64. current class = reso_640_jpeg_encode_32, sparsity = 27.271410, number of points under class = 33
+
+ 65. current class = reso_640_jpeg_encode_36, sparsity = 18.968802, number of points under class = 27
+
+ 66. current class = reso_640_jpeg_encode_40, sparsity = 30.210347, number of points under class = 20
+
+ 67. current class = reso_768_encode_28, sparsity = 22.982225, number of points under class = 21
+
+ 68. current class = reso_768_encode_32, sparsity = 18.620739, number of points under class = 74
+
+ 69. current class = reso_768_encode_36, sparsity = 9.934243, number of points under class = 31
+
+ 70. current class = reso_768_encode_40, sparsity = 12.708176, number of points under class = 25
+
+ 71. current class = reso_768_jpeg, sparsity = 0.000000, number of points under class = 2
+
+ for class =  reso_768_jpeg_encode_24, only one point is there
+
+ 73. current class = reso_768_jpeg_encode_28, sparsity = 20.778717, number of points under class = 34
+
+ 74. current class = reso_768_jpeg_encode_32, sparsity = 26.208514, number of points under class = 43
+
+ 75. current class = reso_768_jpeg_encode_36, sparsity = 20.961357, number of points under class = 50
+
+ 76. current class = reso_768_jpeg_encode_40, sparsity = 25.288207, number of points under class = 25
+
+ 77. current class = reso_960_encode_32, sparsity = 27.173351, number of points under class = 74
+
+ 78. current class = reso_960_encode_36, sparsity = 25.832091, number of points under class = 71
+
+ 79. current class = reso_960_encode_40, sparsity = 21.741050, number of points under class = 45
+
+ 80. current class = reso_960_jpeg_encode_32, sparsity = 13.994410, number of points under class = 24
+
+ 81. current class = reso_960_jpeg_encode_36, sparsity = 16.112255, number of points under class = 39
+
+ 82. current class = reso_960_jpeg_encode_40, sparsity = 33.770335, number of points under class = 64
+[10.039761186389429, 28.119668236470105, 19.813303902962467, 7.563551916976727, 5.621564909468975, 2.149857204704145, 5.0242958677880805e-15, 29.371744963814322, 21.950225202448518, 10.174417962414108, 8.550253209249565, 5.036172710570251, 16.753851533248614, 14.10907009264943, 10.640935012910921, 28.295376992508807, 15.723527175989611, 18.039456647917067, 15.18059002943058, 7.007654681793758, 28.678026316539814, 24.282181635780407, 22.98793860071599, 18.723394193220035, 11.808418153232276, 3.904997243525131, 9.786326696077362, 25.540955686188063, 9.42055475210265e-15, 0.0, 33.774280030006345, 8.400169953978281, 7.788779575883672, 24.78506222708324, 6.969250509363582, 30.1746562054667, 2.5593138246098097, 24.611403980023255, 20.85084750689447, 13.397315186580295, 8.890229664491727, 11.403709672577195, 30.712340210880885, 9.19650732175996, 23.625011350966158, 28.563877464501324, 11.312912092186652, 34.538701711554225, 10.196531995060134, 9.003643514363011, 9.736016241232202, 23.702007595650343, 21.367118296035272, 27.32910134963789, 9.046780679187183, 20.209936705301075, 3.9634569514250737, 29.555320789868137, 27.03247464949778, 27.27140975760771, 18.968802444372603, 30.210347066467534, 22.982224775525214, 18.620739430834174, 9.934242844868358, 12.708176464944506, 1.5700924586837752e-16, 20.778717254873957, 26.208514181026494, 20.961356903745713, 25.288206794947968, 27.173350825262627, 25.832091046036325, 21.741049902199713, 13.99440982696969, 16.11225537112771, 33.770335481503736]
+
+17.079301425007486,9.517750707129615
+
+
+============== only surveillance video ========================
+
+======== Feature 2. <contrast, colorfulness, brightness> features used ==========
+
+
+ ======= total unique configurations = 66
+
+ 1. current class = reso_1440_encode_40, sparsity = 0.235920, number of points under class = 12
+
+ 2. current class = reso_1440_jpeg_encode_40, sparsity = 0.713894, number of points under class = 21
+
+ 3. current class = reso_160, sparsity = 0.251555, number of points under class = 3
+
+ for class =  reso_160_encode_12, only one point is there
+
+ 5. current class = reso_160_encode_16, sparsity = 0.000000, number of points under class = 2
+
+ 6. current class = reso_160_encode_24, sparsity = 0.000000, number of points under class = 2
+
+ 7. current class = reso_160_encode_28, sparsity = 0.340146, number of points under class = 6
+
+ 8. current class = reso_160_encode_32, sparsity = 3.105283, number of points under class = 20
+
+ 9. current class = reso_160_encode_36, sparsity = 2.253142, number of points under class = 9
+
+ 10. current class = reso_160_encode_40, sparsity = 0.400118, number of points under class = 17
+
+ 11. current class = reso_160_jpeg, sparsity = 3.562733, number of points under class = 4
+
+ for class =  reso_160_jpeg_encode_12, only one point is there
+
+ 13. current class = reso_160_jpeg_encode_16, sparsity = 1.280882, number of points under class = 4
+
+ 14. current class = reso_160_jpeg_encode_20, sparsity = 3.626820, number of points under class = 5
+
+ 15. current class = reso_160_jpeg_encode_24, sparsity = 1.064070, number of points under class = 5
+
+ 16. current class = reso_160_jpeg_encode_28, sparsity = 3.765816, number of points under class = 12
+
+ 17. current class = reso_160_jpeg_encode_32, sparsity = 2.182385, number of points under class = 21
+
+ 18. current class = reso_160_jpeg_encode_36, sparsity = 2.763658, number of points under class = 19
+
+ 19. current class = reso_160_jpeg_encode_40, sparsity = 2.844111, number of points under class = 24
+
+ 20. current class = reso_320_encode_12, sparsity = 0.104131, number of points under class = 4
+
+ 21. current class = reso_320_encode_16, sparsity = 4.036312, number of points under class = 6
+
+ 22. current class = reso_320_encode_20, sparsity = 3.841930, number of points under class = 7
+
+ for class =  reso_320_encode_24, only one point is there
+
+ for class =  reso_320_encode_28, only one point is there
+
+ 25. current class = reso_320_encode_32, sparsity = 0.000000, number of points under class = 2
+
+ 26. current class = reso_320_encode_40, sparsity = 0.535947, number of points under class = 12
+
+ 27. current class = reso_320_jpeg_encode_20, sparsity = 2.610246, number of points under class = 3
+
+ 28. current class = reso_320_jpeg_encode_32, sparsity = 0.018856, number of points under class = 3
+
+ 29. current class = reso_320_jpeg_encode_36, sparsity = 0.831480, number of points under class = 4
+
+ 30. current class = reso_320_jpeg_encode_40, sparsity = 0.629540, number of points under class = 22
+
+ 31. current class = reso_480_encode_20, sparsity = 0.182822, number of points under class = 6
+
+ 32. current class = reso_480_encode_24, sparsity = 1.375468, number of points under class = 5
+
+ 33. current class = reso_480_encode_28, sparsity = 1.490035, number of points under class = 4
+
+ 34. current class = reso_480_encode_32, sparsity = 0.919794, number of points under class = 3
+
+ 35. current class = reso_480_encode_36, sparsity = 0.380314, number of points under class = 3
+
+ 36. current class = reso_480_encode_40, sparsity = 0.000000, number of points under class = 2
+
+ 37. current class = reso_480_jpeg, sparsity = 1.232515, number of points under class = 4
+
+ 38. current class = reso_480_jpeg_encode_20, sparsity = 3.656325, number of points under class = 7
+
+ 39. current class = reso_480_jpeg_encode_24, sparsity = 3.595486, number of points under class = 4
+
+ for class =  reso_480_jpeg_encode_28, only one point is there
+
+ 41. current class = reso_480_jpeg_encode_32, sparsity = 0.448944, number of points under class = 4
+
+ 42. current class = reso_640_encode_24, sparsity = 0.850824, number of points under class = 14
+
+ 43. current class = reso_640_encode_28, sparsity = 2.271275, number of points under class = 32
+
+ 44. current class = reso_640_encode_32, sparsity = 3.096023, number of points under class = 15
+
+ 45. current class = reso_640_encode_36, sparsity = 1.592953, number of points under class = 5
+
+ for class =  reso_640_encode_40, only one point is there
+
+ 47. current class = reso_640_jpeg, sparsity = 0.199820, number of points under class = 18
+
+ 48. current class = reso_640_jpeg_encode_24, sparsity = 0.164797, number of points under class = 3
+
+ 49. current class = reso_640_jpeg_encode_28, sparsity = 2.396239, number of points under class = 25
+
+ 50. current class = reso_640_jpeg_encode_32, sparsity = 0.725345, number of points under class = 11
+
+ 51. current class = reso_640_jpeg_encode_36, sparsity = 1.741123, number of points under class = 16
+
+ 52. current class = reso_640_jpeg_encode_40, sparsity = 2.743874, number of points under class = 3
+
+ 53. current class = reso_768_encode_28, sparsity = 0.072659, number of points under class = 8
+
+ 54. current class = reso_768_encode_32, sparsity = 1.965576, number of points under class = 45
+
+ 55. current class = reso_768_encode_36, sparsity = 1.537294, number of points under class = 11
+
+ 56. current class = reso_768_encode_40, sparsity = 0.287675, number of points under class = 4
+
+ 57. current class = reso_768_jpeg_encode_28, sparsity = 0.627747, number of points under class = 23
+
+ 58. current class = reso_768_jpeg_encode_32, sparsity = 2.365551, number of points under class = 23
+
+ 59. current class = reso_768_jpeg_encode_36, sparsity = 2.999448, number of points under class = 25
+
+ 60. current class = reso_768_jpeg_encode_40, sparsity = 2.008864, number of points under class = 9
+
+ 61. current class = reso_960_encode_32, sparsity = 0.488374, number of points under class = 58
+
+ 62. current class = reso_960_encode_36, sparsity = 1.415234, number of points under class = 44
+
+ 63. current class = reso_960_encode_40, sparsity = 1.420169, number of points under class = 25
+
+ 64. current class = reso_960_jpeg_encode_32, sparsity = 0.522159, number of points under class = 12
+
+ 65. current class = reso_960_jpeg_encode_36, sparsity = 0.624104, number of points under class = 18
+
+ 66. current class = reso_960_jpeg_encode_40, sparsity = 3.505852, number of points under class = 23
+[0.2359199842896823, 0.7138935510862243, 0.2515554639939427, 3.1401849173675502e-15, 2.5121479338940403e-15, 0.3401456152513925, 3.105283080445669, 2.2531419825660275, 0.4001182297104022, 3.562733289641966, 1.2808822718942732, 3.626819782791248, 1.064070000566361, 3.7658163353950296, 2.182384535659174, 2.7636583902909364, 2.844110758318992, 0.10413123196374773, 4.036312497814919, 3.8419298692101504, 3.1401849173675502e-15, 0.5359469866684198, 2.610245585754127, 0.018855800513417464, 0.8314799014044072, 0.6295404983093918, 0.18282226257680814, 1.3754676154574192, 1.4900347031793866, 0.9197944673033878, 0.38031373698328613, 1.88411095042053e-15, 1.232515317656999, 3.6563248743709633, 3.595486000087564, 0.4489439951946336, 0.8508243881849735, 2.271275448263931, 3.0960231923123884, 1.5929525380995475, 0.19981987420466704, 0.16479670375661729, 2.396238501104017, 0.7253448717393625, 1.7411233691829573, 2.74387405167729, 0.07265899330231404, 1.9655762534900094, 1.5372944247283762, 0.2876754792851073, 0.6277467448996285, 2.3655510444404073, 2.9994476218894066, 2.0088637309924144, 0.4883739855335763, 1.4152343612159128, 1.4201692188032702, 0.5221585599096518, 0.6241039450794462, 3.5058519135828283]
+1.4983942972004742,1.2626147713831974
+
+ ======== Feature 2. <orb, sift, # of matched points> features used ==========
+
+
+ ======= total unique configurations = 66
+
+ 1. current class = reso_1440_encode_40, sparsity = 37.230156, number of points under class = 12
+
+ 2. current class = reso_1440_jpeg_encode_40, sparsity = 9.449873, number of points under class = 21
+
+ 3. current class = reso_160, sparsity = 6.097725, number of points under class = 3
+
+ for class =  reso_160_encode_12, only one point is there
+
+ 5. current class = reso_160_encode_16, sparsity = 0.000000, number of points under class = 2
+
+ 6. current class = reso_160_encode_24, sparsity = 0.000000, number of points under class = 2
+
+ 7. current class = reso_160_encode_28, sparsity = 4.502147, number of points under class = 6
+
+ 8. current class = reso_160_encode_32, sparsity = 19.762958, number of points under class = 20
+
+ 9. current class = reso_160_encode_36, sparsity = 6.512929, number of points under class = 9
+
+ 10. current class = reso_160_encode_40, sparsity = 35.679765, number of points under class = 17
+
+ 11. current class = reso_160_jpeg, sparsity = 21.862013, number of points under class = 4
+
+ for class =  reso_160_jpeg_encode_12, only one point is there
+
+ 13. current class = reso_160_jpeg_encode_16, sparsity = 2.913800, number of points under class = 4
+
+ 14. current class = reso_160_jpeg_encode_20, sparsity = 23.951268, number of points under class = 5
+
+ 15. current class = reso_160_jpeg_encode_24, sparsity = 6.912631, number of points under class = 5
+
+ 16. current class = reso_160_jpeg_encode_28, sparsity = 27.952644, number of points under class = 12
+
+ 17. current class = reso_160_jpeg_encode_32, sparsity = 16.909892, number of points under class = 21
+
+ 18. current class = reso_160_jpeg_encode_36, sparsity = 17.149638, number of points under class = 19
+
+ 19. current class = reso_160_jpeg_encode_40, sparsity = 19.355809, number of points under class = 24
+
+ 20. current class = reso_320_encode_12, sparsity = 3.807856, number of points under class = 4
+
+ 21. current class = reso_320_encode_16, sparsity = 5.209436, number of points under class = 6
+
+ 22. current class = reso_320_encode_20, sparsity = 19.493297, number of points under class = 7
+
+ for class =  reso_320_encode_24, only one point is there
+
+ for class =  reso_320_encode_28, only one point is there
+
+ 25. current class = reso_320_encode_32, sparsity = 0.000000, number of points under class = 2
+
+ 26. current class = reso_320_encode_40, sparsity = 9.048494, number of points under class = 12
+
+ 27. current class = reso_320_jpeg_encode_20, sparsity = 21.170446, number of points under class = 3
+
+ 28. current class = reso_320_jpeg_encode_32, sparsity = 8.656837, number of points under class = 3
+
+ 29. current class = reso_320_jpeg_encode_36, sparsity = 3.384144, number of points under class = 4
+
+ 30. current class = reso_320_jpeg_encode_40, sparsity = 24.566001, number of points under class = 22
+
+ 31. current class = reso_480_encode_20, sparsity = 23.396342, number of points under class = 6
+
+ 32. current class = reso_480_encode_24, sparsity = 17.164859, number of points under class = 5
+
+ 33. current class = reso_480_encode_28, sparsity = 11.143337, number of points under class = 4
+
+ 34. current class = reso_480_encode_32, sparsity = 7.636811, number of points under class = 3
+
+ 35. current class = reso_480_encode_36, sparsity = 3.907248, number of points under class = 3
+
+ 36. current class = reso_480_encode_40, sparsity = 0.000000, number of points under class = 2
+
+ 37. current class = reso_480_jpeg, sparsity = 7.916525, number of points under class = 4
+
+ 38. current class = reso_480_jpeg_encode_20, sparsity = 21.081542, number of points under class = 7
+
+ 39. current class = reso_480_jpeg_encode_24, sparsity = 16.040301, number of points under class = 4
+
+ for class =  reso_480_jpeg_encode_28, only one point is there
+
+ 41. current class = reso_480_jpeg_encode_32, sparsity = 18.596665, number of points under class = 4
+
+ 42. current class = reso_640_encode_24, sparsity = 30.816124, number of points under class = 14
+
+ 43. current class = reso_640_encode_28, sparsity = 17.232172, number of points under class = 32
+
+ 44. current class = reso_640_encode_32, sparsity = 19.160601, number of points under class = 15
+
+ 45. current class = reso_640_encode_36, sparsity = 13.632981, number of points under class = 5
+
+ for class =  reso_640_encode_40, only one point is there
+
+ 47. current class = reso_640_jpeg, sparsity = 24.720113, number of points under class = 18
+
+ 48. current class = reso_640_jpeg_encode_24, sparsity = 1.935084, number of points under class = 3
+
+ 49. current class = reso_640_jpeg_encode_28, sparsity = 20.802856, number of points under class = 25
+
+ 50. current class = reso_640_jpeg_encode_32, sparsity = 17.723191, number of points under class = 11
+
+ 51. current class = reso_640_jpeg_encode_36, sparsity = 17.017366, number of points under class = 16
+
+ 52. current class = reso_640_jpeg_encode_40, sparsity = 18.978932, number of points under class = 3
+
+ 53. current class = reso_768_encode_28, sparsity = 5.954434, number of points under class = 8
+
+ 54. current class = reso_768_encode_32, sparsity = 8.514775, number of points under class = 45
+
+ 55. current class = reso_768_encode_36, sparsity = 11.022216, number of points under class = 11
+
+ 56. current class = reso_768_encode_40, sparsity = 6.099222, number of points under class = 4
+
+ 57. current class = reso_768_jpeg_encode_28, sparsity = 12.321416, number of points under class = 23
+
+ 58. current class = reso_768_jpeg_encode_32, sparsity = 18.890328, number of points under class = 23
+
+ 59. current class = reso_768_jpeg_encode_36, sparsity = 20.128624, number of points under class = 25
+
+ 60. current class = reso_768_jpeg_encode_40, sparsity = 18.385634, number of points under class = 9
+
+ 61. current class = reso_960_encode_32, sparsity = 23.614574, number of points under class = 58
+
+ 62. current class = reso_960_encode_36, sparsity = 17.914499, number of points under class = 44
+
+ 63. current class = reso_960_encode_40, sparsity = 11.065568, number of points under class = 25
+
+ 64. current class = reso_960_jpeg_encode_32, sparsity = 4.183729, number of points under class = 12
+
+ 65. current class = reso_960_jpeg_encode_36, sparsity = 31.250571, number of points under class = 18
+
+ 66. current class = reso_960_jpeg_encode_40, sparsity = 19.194976, number of points under class = 23
+[37.230155517342226, 9.449872702997945, 6.097724535190476, 0.0, 5.0242958677880805e-15, 4.502147043933067, 19.76295820610365, 6.512928664794345, 35.67976450968313, 21.862013496483375, 2.913800140730075, 23.95126756010474, 6.912631010415011, 27.9526439340145, 16.90989197774575, 17.14963809949773, 19.35580929888439, 3.8078555767874973, 5.209436039204424, 19.493297437554272, 1.0048591735576161e-14, 9.048494495689207, 21.170445898072444, 8.656836502850934, 3.384143923326417, 24.56600101505428, 23.396342232280432, 17.164858928514214, 11.14333664517365, 7.636810533417152, 3.9072476575726056, 5.0242958677880805e-15, 7.916525395128161, 21.081542329966545, 16.040301147595315, 18.596665342558758, 30.816123985643674, 17.23217206686785, 19.16060118080817, 13.632981232825701, 24.72011257762312, 1.9350836796128164, 20.802855989497075, 17.72319063385169, 17.017366335294533, 18.978931732766284, 5.954434338970535, 8.51477512305861, 11.022216073568595, 6.0992216123975, 12.321416236242671, 18.890328275094976, 20.128624064099633, 18.38563428380611, 23.614573544672574, 17.914499017849206, 11.06556824423526, 4.183728604707636, 31.25057079659997, 19.194975605321137]
+
+14.483722883901368,9.188085764467628
+
+========== all videos ================
+
+
+ ======== Feature 1. <edge, temporal, spatial> features used ==========
+
+
+ ======= total unique configurations = 82
+
+ 1. current class = reso_1440_encode_36, sparsity = 0.029599, number of points under class = 38
+
+ 2. current class = reso_1440_encode_40, sparsity = 0.041813, number of points under class = 45
+
+ 3. current class = reso_1440_jpeg_encode_40, sparsity = 0.031831, number of points under class = 33
+
+ 4. current class = reso_160, sparsity = 0.010435, number of points under class = 6
+
+ for class =  reso_160_encode_12, only one point is there
+
+ 6. current class = reso_160_encode_16, sparsity = 0.029026, number of points under class = 3
+
+ 7. current class = reso_160_encode_20, sparsity = 0.027432, number of points under class = 4
+
+ 8. current class = reso_160_encode_24, sparsity = 0.000000, number of points under class = 2
+
+ 9. current class = reso_160_encode_28, sparsity = 0.021763, number of points under class = 8
+
+ 10. current class = reso_160_encode_32, sparsity = 0.024658, number of points under class = 21
+
+ 11. current class = reso_160_encode_36, sparsity = 0.013778, number of points under class = 9
+
+ 12. current class = reso_160_encode_40, sparsity = 0.007961, number of points under class = 17
+
+ 13. current class = reso_160_jpeg, sparsity = 0.026975, number of points under class = 4
+
+ for class =  reso_160_jpeg_encode_12, only one point is there
+
+ 15. current class = reso_160_jpeg_encode_16, sparsity = 0.014523, number of points under class = 4
+
+ 16. current class = reso_160_jpeg_encode_20, sparsity = 0.018034, number of points under class = 5
+
+ 17. current class = reso_160_jpeg_encode_24, sparsity = 0.047846, number of points under class = 6
+
+ 18. current class = reso_160_jpeg_encode_28, sparsity = 0.033098, number of points under class = 13
+
+ 19. current class = reso_160_jpeg_encode_32, sparsity = 0.013629, number of points under class = 21
+
+ 20. current class = reso_160_jpeg_encode_36, sparsity = 0.050928, number of points under class = 20
+
+ 21. current class = reso_160_jpeg_encode_40, sparsity = 0.073790, number of points under class = 24
+
+ 22. current class = reso_2048_encode_40, sparsity = 0.021887, number of points under class = 41
+
+ 23. current class = reso_320_encode_12, sparsity = 0.031456, number of points under class = 18
+
+ 24. current class = reso_320_encode_16, sparsity = 0.060154, number of points under class = 15
+
+ 25. current class = reso_320_encode_20, sparsity = 0.044728, number of points under class = 17
+
+ 26. current class = reso_320_encode_24, sparsity = 0.025074, number of points under class = 8
+
+ 27. current class = reso_320_encode_28, sparsity = 0.037266, number of points under class = 8
+
+ 28. current class = reso_320_encode_32, sparsity = 0.013563, number of points under class = 6
+
+ 29. current class = reso_320_encode_36, sparsity = 0.010964, number of points under class = 6
+
+ 30. current class = reso_320_encode_40, sparsity = 0.056203, number of points under class = 16
+
+ 31. current class = reso_320_jpeg, sparsity = 0.000000, number of points under class = 2
+
+ 32. current class = reso_320_jpeg_encode_12, sparsity = 0.000000, number of points under class = 2
+
+ for class =  reso_320_jpeg_encode_16, only one point is there
+
+ 34. current class = reso_320_jpeg_encode_20, sparsity = 0.026791, number of points under class = 5
+
+ 35. current class = reso_320_jpeg_encode_24, sparsity = 0.028785, number of points under class = 7
+
+ 36. current class = reso_320_jpeg_encode_28, sparsity = 0.030582, number of points under class = 9
+
+ 37. current class = reso_320_jpeg_encode_32, sparsity = 0.045566, number of points under class = 13
+
+ 38. current class = reso_320_jpeg_encode_36, sparsity = 0.029989, number of points under class = 8
+
+ 39. current class = reso_320_jpeg_encode_40, sparsity = 0.018530, number of points under class = 23
+
+ 40. current class = reso_480_encode_16, sparsity = 0.004792, number of points under class = 3
+
+ 41. current class = reso_480_encode_20, sparsity = 0.042594, number of points under class = 21
+
+ 42. current class = reso_480_encode_24, sparsity = 0.041355, number of points under class = 29
+
+ 43. current class = reso_480_encode_28, sparsity = 0.025689, number of points under class = 17
+
+ 44. current class = reso_480_encode_32, sparsity = 0.048809, number of points under class = 19
+
+ 45. current class = reso_480_encode_36, sparsity = 0.036384, number of points under class = 16
+
+ 46. current class = reso_480_encode_40, sparsity = 0.026003, number of points under class = 6
+
+ 47. current class = reso_480_jpeg, sparsity = 0.030917, number of points under class = 11
+
+ for class =  reso_480_jpeg_encode_16, only one point is there
+
+ 49. current class = reso_480_jpeg_encode_20, sparsity = 0.028727, number of points under class = 15
+
+ 50. current class = reso_480_jpeg_encode_24, sparsity = 0.037515, number of points under class = 17
+
+ 51. current class = reso_480_jpeg_encode_28, sparsity = 0.046930, number of points under class = 10
+
+ 52. current class = reso_480_jpeg_encode_32, sparsity = 0.030567, number of points under class = 13
+
+ 53. current class = reso_480_jpeg_encode_36, sparsity = 0.045841, number of points under class = 10
+
+ 54. current class = reso_480_jpeg_encode_40, sparsity = 0.041313, number of points under class = 9
+
+ 55. current class = reso_640_encode_24, sparsity = 0.041041, number of points under class = 21
+
+ 56. current class = reso_640_encode_28, sparsity = 0.037536, number of points under class = 59
+
+ 57. current class = reso_640_encode_32, sparsity = 0.035234, number of points under class = 32
+
+ 58. current class = reso_640_encode_36, sparsity = 0.035578, number of points under class = 24
+
+ 59. current class = reso_640_encode_40, sparsity = 0.042471, number of points under class = 19
+
+ 60. current class = reso_640_jpeg, sparsity = 0.036042, number of points under class = 37
+
+ 61. current class = reso_640_jpeg_encode_20, sparsity = 0.018737, number of points under class = 6
+
+ 62. current class = reso_640_jpeg_encode_24, sparsity = 0.025935, number of points under class = 11
+
+ 63. current class = reso_640_jpeg_encode_28, sparsity = 0.053775, number of points under class = 33
+
+ 64. current class = reso_640_jpeg_encode_32, sparsity = 0.048050, number of points under class = 33
+
+ 65. current class = reso_640_jpeg_encode_36, sparsity = 0.039347, number of points under class = 27
+
+ 66. current class = reso_640_jpeg_encode_40, sparsity = 0.050004, number of points under class = 20
+
+ 67. current class = reso_768_encode_28, sparsity = 0.015957, number of points under class = 21
+
+ 68. current class = reso_768_encode_32, sparsity = 0.037912, number of points under class = 74
+
+ 69. current class = reso_768_encode_36, sparsity = 0.042780, number of points under class = 31
+
+ 70. current class = reso_768_encode_40, sparsity = 0.024206, number of points under class = 25
+
+ 71. current class = reso_768_jpeg, sparsity = 0.000000, number of points under class = 2
+
+ for class =  reso_768_jpeg_encode_24, only one point is there
+
+ 73. current class = reso_768_jpeg_encode_28, sparsity = 0.024483, number of points under class = 34
+
+ 74. current class = reso_768_jpeg_encode_32, sparsity = 0.032831, number of points under class = 43
+
+ 75. current class = reso_768_jpeg_encode_36, sparsity = 0.032393, number of points under class = 50
+
+ 76. current class = reso_768_jpeg_encode_40, sparsity = 0.037278, number of points under class = 25
+
+ 77. current class = reso_960_encode_32, sparsity = 0.050430, number of points under class = 75
+
+ 78. current class = reso_960_encode_36, sparsity = 0.036338, number of points under class = 71
+
+ 79. current class = reso_960_encode_40, sparsity = 0.027871, number of points under class = 45
+
+ 80. current class = reso_960_jpeg_encode_32, sparsity = 0.017534, number of points under class = 25
+
+ 81. current class = reso_960_jpeg_encode_36, sparsity = 0.031711, number of points under class = 38
+
+ 82. current class = reso_960_jpeg_encode_40, sparsity = 0.032921, number of points under class = 59
+[0.029599339280173904, 0.04181289337626558, 0.03183062389445634, 0.010435105874193924, 0.02902587069179638, 0.027432189576342678, 0.0, 0.021763363333646122, 0.024657701981188156, 0.013778219459698999, 0.00796135907763979, 0.02697469044566469, 0.014523374619074114, 0.01803418421420679, 0.04784595137614006, 0.03309819654452805, 0.013628545210098594, 0.050927698979896616, 0.07378999579208433, 0.02188651866165312, 0.03145580738204127, 0.06015436902063865, 0.04472787452442879, 0.025074311448949126, 0.03726584146631629, 0.013562827740721645, 0.010963689839069216, 0.05620310969545412, 6.133173666733497e-17, 6.869154506741516e-17, 0.026791289642458842, 0.02878535385462037, 0.03058202158326822, 0.045566070459498176, 0.029989387499815768, 0.018529713071248788, 0.004791869571801737, 0.04259388790427034, 0.041354508555501185, 0.025688782346935255, 0.04880938090730772, 0.03638427035996621, 0.026003368337399427, 0.030917107870734848, 0.02872687198747719, 0.037514595829751904, 0.04692976992815692, 0.03056748066452964, 0.04584065652838311, 0.04131252693262756, 0.04104107865923705, 0.03753647505410605, 0.03523367597330101, 0.03557788188148665, 0.042471074653257196, 0.036042487004006606, 0.018737395495145075, 0.025935381349950676, 0.053775489258231605, 0.04805019250272092, 0.03934718864542964, 0.05000413069685317, 0.015956555503271366, 0.03791209757463602, 0.04278011682767521, 0.02420613908457389, 2.2999401250250612e-18, 0.024483370990896248, 0.03283060236093697, 0.032393106577267815, 0.037277783231254774, 0.05042974775656614, 0.03633756343174034, 0.0278705945618404, 0.017534102832256874, 0.03171092272347915, 0.032921486457041356]
+0.031097262447133543,0.014697221426491191
+
+========== only drone video ==================
+
+
+ only drone 
+
+
+ ======== Feature 1. <edge, temporal, spatial> features used ========== 
+
+
+ ======= total unique configurations = 72
+
+ 1. current class = reso_1440_encode_36, sparsity = 0.029599, number of points under class = 38
+
+ 2. current class = reso_1440_encode_40, sparsity = 0.030670, number of points under class = 33
+
+ 3. current class = reso_1440_jpeg_encode_40, sparsity = 0.027138, number of points under class = 12
+
+ 4. current class = reso_160, sparsity = 0.015943, number of points under class = 3
+
+ for class =  reso_160_encode_16, only one point is there
+
+ 6. current class = reso_160_encode_20, sparsity = 0.027432, number of points under class = 4
+
+ 7. current class = reso_160_encode_28, sparsity = 0.000000, number of points under class = 2
+
+ for class =  reso_160_encode_32, only one point is there
+
+ for class =  reso_160_jpeg_encode_24, only one point is there
+
+ for class =  reso_160_jpeg_encode_28, only one point is there
+
+ for class =  reso_160_jpeg_encode_36, only one point is there
+
+ 12. current class = reso_2048_encode_40, sparsity = 0.021887, number of points under class = 41
+
+ 13. current class = reso_320_encode_12, sparsity = 0.025384, number of points under class = 14
+
+ 14. current class = reso_320_encode_16, sparsity = 0.026756, number of points under class = 8
+
+ 15. current class = reso_320_encode_20, sparsity = 0.038246, number of points under class = 10
+
+ 16. current class = reso_320_encode_24, sparsity = 0.020318, number of points under class = 7
+
+ 17. current class = reso_320_encode_28, sparsity = 0.033591, number of points under class = 7
+
+ 18. current class = reso_320_encode_32, sparsity = 0.030988, number of points under class = 4
+
+ 19. current class = reso_320_encode_36, sparsity = 0.010964, number of points under class = 6
+
+ 20. current class = reso_320_encode_40, sparsity = 0.021532, number of points under class = 4
+
+ 21. current class = reso_320_jpeg, sparsity = 0.000000, number of points under class = 2
+
+ 22. current class = reso_320_jpeg_encode_12, sparsity = 0.000000, number of points under class = 2
+
+ for class =  reso_320_jpeg_encode_16, only one point is there
+
+ 24. current class = reso_320_jpeg_encode_20, sparsity = 0.000000, number of points under class = 2
+
+ 25. current class = reso_320_jpeg_encode_24, sparsity = 0.028785, number of points under class = 7
+
+ 26. current class = reso_320_jpeg_encode_28, sparsity = 0.030582, number of points under class = 9
+
+ 27. current class = reso_320_jpeg_encode_32, sparsity = 0.015816, number of points under class = 10
+
+ 28. current class = reso_320_jpeg_encode_36, sparsity = 0.021298, number of points under class = 4
+
+ for class =  reso_320_jpeg_encode_40, only one point is there
+
+ 30. current class = reso_480_encode_16, sparsity = 0.004792, number of points under class = 3
+
+ 31. current class = reso_480_encode_20, sparsity = 0.024271, number of points under class = 15
+
+ 32. current class = reso_480_encode_24, sparsity = 0.041790, number of points under class = 24
+
+ 33. current class = reso_480_encode_28, sparsity = 0.025040, number of points under class = 13
+
+ 34. current class = reso_480_encode_32, sparsity = 0.050655, number of points under class = 16
+
+ 35. current class = reso_480_encode_36, sparsity = 0.042567, number of points under class = 13
+
+ 36. current class = reso_480_encode_40, sparsity = 0.024511, number of points under class = 4
+
+ 37. current class = reso_480_jpeg, sparsity = 0.026516, number of points under class = 7
+
+ for class =  reso_480_jpeg_encode_16, only one point is there
+
+ 39. current class = reso_480_jpeg_encode_20, sparsity = 0.041252, number of points under class = 8
+
+ 40. current class = reso_480_jpeg_encode_24, sparsity = 0.036421, number of points under class = 13
+
+ 41. current class = reso_480_jpeg_encode_28, sparsity = 0.042862, number of points under class = 9
+
+ 42. current class = reso_480_jpeg_encode_32, sparsity = 0.028770, number of points under class = 9
+
+ 43. current class = reso_480_jpeg_encode_36, sparsity = 0.045841, number of points under class = 10
+
+ 44. current class = reso_480_jpeg_encode_40, sparsity = 0.041313, number of points under class = 9
+
+ 45. current class = reso_640_encode_24, sparsity = 0.037648, number of points under class = 7
+
+ 46. current class = reso_640_encode_28, sparsity = 0.024160, number of points under class = 27
+
+ 47. current class = reso_640_encode_32, sparsity = 0.032134, number of points under class = 17
+
+ 48. current class = reso_640_encode_36, sparsity = 0.039760, number of points under class = 19
+
+ 49. current class = reso_640_encode_40, sparsity = 0.041789, number of points under class = 18
+
+ 50. current class = reso_640_jpeg, sparsity = 0.029644, number of points under class = 19
+
+ 51. current class = reso_640_jpeg_encode_20, sparsity = 0.018737, number of points under class = 6
+
+ 52. current class = reso_640_jpeg_encode_24, sparsity = 0.038262, number of points under class = 8
+
+ 53. current class = reso_640_jpeg_encode_28, sparsity = 0.022533, number of points under class = 8
+
+ 54. current class = reso_640_jpeg_encode_32, sparsity = 0.039722, number of points under class = 22
+
+ 55. current class = reso_640_jpeg_encode_36, sparsity = 0.051292, number of points under class = 11
+
+ 56. current class = reso_640_jpeg_encode_40, sparsity = 0.051145, number of points under class = 17
+
+ 57. current class = reso_768_encode_28, sparsity = 0.006881, number of points under class = 13
+
+ 58. current class = reso_768_encode_32, sparsity = 0.032748, number of points under class = 29
+
+ 59. current class = reso_768_encode_36, sparsity = 0.044831, number of points under class = 20
+
+ 60. current class = reso_768_encode_40, sparsity = 0.025797, number of points under class = 21
+
+ 61. current class = reso_768_jpeg, sparsity = 0.000000, number of points under class = 2
+
+ for class =  reso_768_jpeg_encode_24, only one point is there
+
+ 63. current class = reso_768_jpeg_encode_28, sparsity = 0.020043, number of points under class = 11
+
+ 64. current class = reso_768_jpeg_encode_32, sparsity = 0.024047, number of points under class = 20
+
+ 65. current class = reso_768_jpeg_encode_36, sparsity = 0.029128, number of points under class = 25
+
+ 66. current class = reso_768_jpeg_encode_40, sparsity = 0.032505, number of points under class = 16
+
+ 67. current class = reso_960_encode_32, sparsity = 0.024617, number of points under class = 17
+
+ 68. current class = reso_960_encode_36, sparsity = 0.033319, number of points under class = 27
+
+ 69. current class = reso_960_encode_40, sparsity = 0.022999, number of points under class = 20
+
+ 70. current class = reso_960_jpeg_encode_32, sparsity = 0.024173, number of points under class = 13
+
+ 71. current class = reso_960_jpeg_encode_36, sparsity = 0.028278, number of points under class = 20
+
+ 72. current class = reso_960_jpeg_encode_40, sparsity = 0.041605, number of points under class = 36
+[0.029599339280173904, 0.0306698144121145, 0.027137715968860703, 0.0159429251476393, 0.027432189576342678, 9.813077866773595e-18, 0.02188651866165312, 0.025384257869680113, 0.026756275821201617, 0.038246270198590095, 0.020318234517282537, 0.033591480520647594, 0.030987602320568748, 0.010963689839069216, 0.02153188870458953, 6.133173666733497e-17, 6.869154506741516e-17, 4.415885040048117e-17, 0.02878535385462037, 0.03058202158326822, 0.015816291424958627, 0.02129779294801408, 0.004791869571801737, 0.02427087354943091, 0.041789933629599964, 0.025039865422835438, 0.05065514386523666, 0.04256683735542533, 0.024510835092188422, 0.026515960963297548, 0.04125219205296356, 0.03642129644684852, 0.04286202922049805, 0.028770347776439206, 0.04584065652838311, 0.04131252693262756, 0.0376478722963029, 0.02416026067856041, 0.03213422673538964, 0.039759580671697346, 0.041788760011041405, 0.029644464615376544, 0.018737395495145075, 0.03826221317626098, 0.022532968135206194, 0.03972230093036694, 0.051291634651936556, 0.05114513037975737, 0.006881414311654699, 0.0327483365562185, 0.04483149286249938, 0.02579674118189858, 2.2999401250250612e-18, 0.020042819692767968, 0.024047280052280677, 0.029128270371067338, 0.032505044750813505, 0.02461733043214704, 0.0333187653509364, 0.022999445179297542, 0.024172798920267666, 0.028277802983766934, 0.041604730879568085]
+0.027798874799350427,0.012905014309441803
+
+====== only 2 surveillance video ==========
+
+
+ ======== Feature 1. <edge, temporal, spatial> features used ========== 
+
+
+ ======= total unique configurations = 66
+
+ 1. current class = reso_1440_encode_40, sparsity = 0.005268, number of points under class = 12
+
+ 2. current class = reso_1440_jpeg_encode_40, sparsity = 0.050365, number of points under class = 21
+
+ 3. current class = reso_160, sparsity = 0.002031, number of points under class = 3
+
+ for class =  reso_160_encode_12, only one point is there
+
+ 5. current class = reso_160_encode_16, sparsity = 0.000000, number of points under class = 2
+
+ 6. current class = reso_160_encode_24, sparsity = 0.000000, number of points under class = 2
+
+ 7. current class = reso_160_encode_28, sparsity = 0.018284, number of points under class = 6
+
+ 8. current class = reso_160_encode_32, sparsity = 0.021233, number of points under class = 20
+
+ 9. current class = reso_160_encode_36, sparsity = 0.015131, number of points under class = 9
+
+ 10. current class = reso_160_encode_40, sparsity = 0.008127, number of points under class = 17
+
+ 11. current class = reso_160_jpeg, sparsity = 0.025975, number of points under class = 4
+
+ for class =  reso_160_jpeg_encode_12, only one point is there
+
+ 13. current class = reso_160_jpeg_encode_16, sparsity = 0.014346, number of points under class = 4
+
+ 14. current class = reso_160_jpeg_encode_20, sparsity = 0.017790, number of points under class = 5
+
+ 15. current class = reso_160_jpeg_encode_24, sparsity = 0.009802, number of points under class = 5
+
+ 16. current class = reso_160_jpeg_encode_28, sparsity = 0.031334, number of points under class = 12
+
+ 17. current class = reso_160_jpeg_encode_32, sparsity = 0.013660, number of points under class = 21
+
+ 18. current class = reso_160_jpeg_encode_36, sparsity = 0.014927, number of points under class = 19
+
+ 19. current class = reso_160_jpeg_encode_40, sparsity = 0.073911, number of points under class = 24
+
+ 20. current class = reso_320_encode_12, sparsity = 0.002954, number of points under class = 4
+
+ 21. current class = reso_320_encode_16, sparsity = 0.088140, number of points under class = 6
+
+ 22. current class = reso_320_encode_20, sparsity = 0.017146, number of points under class = 7
+
+ for class =  reso_320_encode_24, only one point is there
+
+ for class =  reso_320_encode_28, only one point is there
+
+ 25. current class = reso_320_encode_32, sparsity = 0.000000, number of points under class = 2
+
+ 26. current class = reso_320_encode_40, sparsity = 0.069331, number of points under class = 12
+
+ 27. current class = reso_320_jpeg_encode_20, sparsity = 0.013906, number of points under class = 3
+
+ 28. current class = reso_320_jpeg_encode_32, sparsity = 0.000440, number of points under class = 3
+
+ 29. current class = reso_320_jpeg_encode_36, sparsity = 0.008401, number of points under class = 4
+
+ 30. current class = reso_320_jpeg_encode_40, sparsity = 0.016545, number of points under class = 22
+
+ 31. current class = reso_480_encode_20, sparsity = 0.006307, number of points under class = 6
+
+ 32. current class = reso_480_encode_24, sparsity = 0.020354, number of points under class = 5
+
+ 33. current class = reso_480_encode_28, sparsity = 0.001228, number of points under class = 4
+
+ 34. current class = reso_480_encode_32, sparsity = 0.011139, number of points under class = 3
+
+ 35. current class = reso_480_encode_36, sparsity = 0.006825, number of points under class = 3
+
+ 36. current class = reso_480_encode_40, sparsity = 0.000000, number of points under class = 2
+
+ 37. current class = reso_480_jpeg, sparsity = 0.000370, number of points under class = 4
+
+ 38. current class = reso_480_jpeg_encode_20, sparsity = 0.018356, number of points under class = 7
+
+ 39. current class = reso_480_jpeg_encode_24, sparsity = 0.010316, number of points under class = 4
+
+ for class =  reso_480_jpeg_encode_28, only one point is there
+
+ 41. current class = reso_480_jpeg_encode_32, sparsity = 0.017356, number of points under class = 4
+
+ 42. current class = reso_640_encode_24, sparsity = 0.005923, number of points under class = 14
+
+ 43. current class = reso_640_encode_28, sparsity = 0.044038, number of points under class = 32
+
+ 44. current class = reso_640_encode_32, sparsity = 0.033884, number of points under class = 15
+
+ 45. current class = reso_640_encode_36, sparsity = 0.014910, number of points under class = 5
+
+ for class =  reso_640_encode_40, only one point is there
+
+ 47. current class = reso_640_jpeg, sparsity = 0.009684, number of points under class = 18
+
+ 48. current class = reso_640_jpeg_encode_24, sparsity = 0.006937, number of points under class = 3
+
+ 49. current class = reso_640_jpeg_encode_28, sparsity = 0.048086, number of points under class = 25
+
+ 50. current class = reso_640_jpeg_encode_32, sparsity = 0.013625, number of points under class = 11
+
+ 51. current class = reso_640_jpeg_encode_36, sparsity = 0.015358, number of points under class = 16
+
+ 52. current class = reso_640_jpeg_encode_40, sparsity = 0.021160, number of points under class = 3
+
+ 53. current class = reso_768_encode_28, sparsity = 0.014366, number of points under class = 8
+
+ 54. current class = reso_768_encode_32, sparsity = 0.037983, number of points under class = 45
+
+ 55. current class = reso_768_encode_36, sparsity = 0.016771, number of points under class = 11
+
+ 56. current class = reso_768_encode_40, sparsity = 0.007176, number of points under class = 4
+
+ 57. current class = reso_768_jpeg_encode_28, sparsity = 0.041198, number of points under class = 23
+
+ 58. current class = reso_768_jpeg_encode_32, sparsity = 0.024044, number of points under class = 23
+
+ 59. current class = reso_768_jpeg_encode_36, sparsity = 0.023748, number of points under class = 25
+
+ 60. current class = reso_768_jpeg_encode_40, sparsity = 0.017602, number of points under class = 9
+
+ 61. current class = reso_960_encode_32, sparsity = 0.050562, number of points under class = 58
+
+ 62. current class = reso_960_encode_36, sparsity = 0.019651, number of points under class = 44
+
+ 63. current class = reso_960_encode_40, sparsity = 0.018161, number of points under class = 25
+
+ 64. current class = reso_960_jpeg_encode_32, sparsity = 0.038418, number of points under class = 12
+
+ 65. current class = reso_960_jpeg_encode_36, sparsity = 0.004859, number of points under class = 18
+
+ 66. current class = reso_960_jpeg_encode_40, sparsity = 0.018362, number of points under class = 23
+[0.00526776889290808, 0.05036508517509314, 0.0020310325299268683, 4.9065389333867974e-18, 0.0, 0.018283834183739387, 0.02123288230792903, 0.01513062074287963, 0.008127099985191896, 0.025974991727719953, 0.014345955122611134, 0.017789932669059618, 0.009801856251386604, 0.03133405859961747, 0.013660280074109108, 0.014926934105687236, 0.07391136552095541, 0.0029535200455970976, 0.08813956779418848, 0.017146280819713783, 9.813077866773595e-18, 0.069331370576685, 0.0139064691976826, 0.00044040222185735904, 0.008400715632759273, 0.016545151874921973, 0.006307254658935379, 0.020353964845024327, 0.0012283074326401204, 0.01113854199073509, 0.006825456485052771, 4.9065389333867974e-18, 0.00037025250898599073, 0.01835580103067687, 0.010316328667064455, 0.017356185248574053, 0.005922512697141458, 0.04403756525362145, 0.033883572418023505, 0.014909968531717973, 0.00968370252735081, 0.0069374947950500135, 0.04808550313148094, 0.013624759626241042, 0.015357981157428653, 0.021160002179136456, 0.01436579743040714, 0.037983262582395344, 0.016770757384606066, 0.007176352437664285, 0.041198300029492804, 0.02404384226932907, 0.02374785366156228, 0.017601562745699587, 0.05056177168841434, 0.019651336377836295, 0.01816095180686156, 0.03841781630628109, 0.004859235015846061, 0.01836213016862328]
+0.019630055019035347,0.018581421072294022
+

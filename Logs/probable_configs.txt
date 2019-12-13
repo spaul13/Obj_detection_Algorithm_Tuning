@@ -1,0 +1,363 @@
+ ===================
+ configurations possible under 1 Mbps BW
+ ========================
+
+downsize_160_jpeg
+
+ total count is 1
+
+ ===================
+ configurations possible under 2 Mbps BW
+ ========================
+
+downsize_320_jpeg
+downsize_1440_encode_40.0
+downsize_960_encode_36.0
+downsize_160_encode_8.0
+downsize_160_encode_12.0
+downsize_160_jpeg_encode_0.0
+downsize_160_jpeg_encode_4.0
+downsize_160_jpeg_encode_8.0
+
+ total count is 8
+
+ ===================
+ configurations possible under 5 Mbps BW
+ ========================
+
+downsize_160
+downsize_768_jpeg
+downsize_640_jpeg
+downsize_3200_encode_40.0
+downsize_2560_encode_36.0
+downsize_2560_encode_40.0
+downsize_2048_encode_36.0
+downsize_1440_encode_32.0
+downsize_960_encode_28.0
+downsize_320_encode_12.0
+downsize_3200_jpeg_encode_40.0
+downsize_2560_jpeg_encode_40.0
+downsize_2048_jpeg_encode_36.0
+downsize_480_jpeg_encode_12.0
+downsize_320_jpeg_encode_4.0
+downsize_320_jpeg_encode_8.0
+jpeg_encode_36.0
+jpeg_encode_40.0
+
+ total count is 18
+
+ ===================
+ configurations possible under 10 Mbps BW
+ ========================
+
+downsize_1440_jpeg
+encode_36.0
+downsize_3200_encode_32.0
+downsize_3200_encode_36.0
+downsize_2560_encode_32.0
+downsize_2048_encode_28.0
+downsize_1440_encode_24.0
+downsize_960_encode_20.0
+downsize_480_encode_8.0
+downsize_480_encode_12.0
+downsize_320_encode_0.0
+downsize_320_encode_4.0
+downsize_3200_jpeg_encode_36.0
+downsize_2560_jpeg_encode_32.0
+downsize_2048_jpeg_encode_28.0
+downsize_2048_jpeg_encode_32.0
+downsize_768_jpeg_encode_12.0
+downsize_640_jpeg_encode_8.0
+downsize_640_jpeg_encode_12.0
+downsize_480_jpeg_encode_0.0
+downsize_480_jpeg_encode_4.0
+jpeg_encode_28.0
+jpeg_encode_32.0
+
+ total count is 23
+
+ ===================
+ configurations possible under 15 Mbps BW
+ ========================
+
+downsize_320
+downsize_1440_jpeg
+encode_32.0
+downsize_3200_encode_28.0
+downsize_3200_encode_32.0
+downsize_2560_encode_28.0
+downsize_2048_encode_24.0
+downsize_1440_encode_20.0
+downsize_960_encode_16.0
+downsize_768_encode_12.0
+downsize_640_encode_12.0
+downsize_480_encode_0.0
+downsize_480_encode_4.0
+downsize_480_encode_8.0
+downsize_3200_jpeg_encode_32.0
+downsize_2560_jpeg_encode_24.0
+downsize_2560_jpeg_encode_28.0
+downsize_2048_jpeg_encode_20.0
+downsize_2048_jpeg_encode_24.0
+downsize_960_jpeg_encode_8.0
+downsize_960_jpeg_encode_12.0
+downsize_768_jpeg_encode_4.0
+downsize_768_jpeg_encode_8.0
+downsize_640_jpeg_encode_4.0
+downsize_480_jpeg_encode_0.0
+jpeg_encode_24.0
+
+ total count is 26
+
+ ===================
+ configurations possible under 20 Mbps BW
+ ========================
+
+downsize_320
+downsize_2048_jpeg
+encode_28.0
+downsize_3200_encode_28.0
+downsize_2560_encode_24.0
+downsize_2048_encode_24.0
+downsize_1440_encode_20.0
+downsize_960_encode_12.0
+downsize_960_encode_16.0
+downsize_768_encode_12.0
+downsize_640_encode_8.0
+downsize_480_encode_0.0
+downsize_480_encode_4.0
+downsize_3200_jpeg_encode_28.0
+downsize_2560_jpeg_encode_20.0
+downsize_2560_jpeg_encode_24.0
+downsize_2048_jpeg_encode_16.0
+downsize_2048_jpeg_encode_20.0
+downsize_1440_jpeg_encode_12.0
+downsize_960_jpeg_encode_8.0
+downsize_768_jpeg_encode_0.0
+downsize_768_jpeg_encode_4.0
+downsize_640_jpeg_encode_0.0
+jpeg_encode_20.0
+jpeg_encode_24.0
+
+ total count is 25
+
+ ===================
+ configurations possible under 30 Mbps BW
+ ========================
+
+downsize_480
+downsize_2560_jpeg
+downsize_3200_encode_24.0
+downsize_2560_encode_20.0
+downsize_2048_encode_20.0
+downsize_1440_encode_16.0
+downsize_960_encode_8.0
+downsize_960_encode_12.0
+downsize_768_encode_4.0
+downsize_768_encode_8.0
+downsize_640_encode_0.0
+downsize_640_encode_4.0
+downsize_3200_jpeg_encode_20.0
+downsize_3200_jpeg_encode_24.0
+downsize_2560_jpeg_encode_16.0
+downsize_2560_jpeg_encode_20.0
+downsize_2048_jpeg_encode_12.0
+downsize_2048_jpeg_encode_16.0
+downsize_1440_jpeg_encode_8.0
+downsize_1440_jpeg_encode_12.0
+downsize_960_jpeg_encode_0.0
+downsize_960_jpeg_encode_4.0
+downsize_768_jpeg_encode_0.0
+jpeg_encode_16.0
+
+ total count is 24
+
+ ===================
+ configurations possible under 40 Mbps BW
+ ========================
+
+downsize_480
+downsize_3200_jpeg
+jpeg_full (3840)
+encode_24.0
+downsize_3200_encode_20.0
+downsize_2560_encode_20.0
+downsize_2048_encode_16.0
+downsize_1440_encode_12.0
+downsize_960_encode_8.0
+downsize_768_encode_0.0
+downsize_768_encode_4.0
+downsize_3200_jpeg_encode_16.0
+downsize_3200_jpeg_encode_20.0
+downsize_2560_jpeg_encode_12.0
+downsize_2560_jpeg_encode_16.0
+downsize_2048_jpeg_encode_8.0
+downsize_2048_jpeg_encode_12.0
+downsize_1440_jpeg_encode_4.0
+downsize_1440_jpeg_encode_8.0
+downsize_960_jpeg_encode_0.0
+jpeg_encode_12.0
+
+ total count is 21
+
+ ===================
+ configurations possible under 60 Mbps BW
+ ========================
+
+downsize_640
+encode_20.0
+downsize_3200_encode_20.0
+downsize_2560_encode_16.0
+downsize_2048_encode_12.0
+downsize_2048_encode_16.0
+downsize_1440_encode_8.0
+downsize_1440_encode_12.0
+downsize_960_encode_0.0
+downsize_960_encode_4.0
+downsize_3200_jpeg_encode_12.0
+downsize_3200_jpeg_encode_16.0
+downsize_2560_jpeg_encode_8.0
+downsize_2560_jpeg_encode_12.0
+downsize_2048_jpeg_encode_4.0
+downsize_2048_jpeg_encode_8.0
+downsize_1440_jpeg_encode_0.0
+downsize_1440_jpeg_encode_4.0
+jpeg_encode_4.0
+jpeg_encode_8.0
+
+ total count is 20
+
+Total count = 166
+
+
+
+
+Overlapping configurations
+ 
+ ===================
+ configurations possible under 15 Mbps BW
+ ========================
+
+
+ total count is 29
+6
+['\\downsize_jpeg\\reso_1440_jpeg', '\\downsize_encode\\reso_3200_encode_32', '\\downsize_encode\\reso_768_encode_16', '\\downsize_encode\\reso_480_encode_8', '\\downsize_jpeg_encode\\reso_1440_jpeg_encode_20', '\\downsize_jpeg_encode\\reso_480_jpeg_encode_0']
+
+ ===================
+ configurations possible under 20 Mbps BW
+ ========================
+
+
+ total count is 26
+14
+['\\downsize\\reso_320', '\\downsize_encode\\reso_3200_encode_28', '\\downsize_encode\\reso_2048_encode_24', '\\downsize_encode\\reso_1440_encode_20', '\\downsize_encode\\reso_960_encode_16', '\\downsize_encode\\reso_768_encode_12', '\\downsize_encode\\reso_480_encode_0', '\\downsize_encode\\reso_480_encode_4', '\\downsize_jpeg_encode\\reso_2560_jpeg_encode_24', '\\downsize_jpeg_encode\\reso_2048_jpeg_encode_20', '\\downsize_jpeg_encode\\reso_1440_jpeg_encode_16', '\\downsize_jpeg_encode\\reso_960_jpeg_encode_8', '\\downsize_jpeg_encode\\reso_768_jpeg_encode_4', '\\jpeg_encode\\jpeg_encode_24']
+
+ ===================
+ configurations possible under 30 Mbps BW
+ ========================
+
+
+ total count is 24
+5
+['\\downsize_encode\\reso_960_encode_12', '\\downsize_jpeg_encode\\reso_2560_jpeg_encode_20', '\\downsize_jpeg_encode\\reso_2048_jpeg_encode_16', '\\downsize_jpeg_encode\\reso_1440_jpeg_encode_12', '\\downsize_jpeg_encode\\reso_768_jpeg_encode_0']
+
+ ===================
+ configurations possible under 40 Mbps BW
+ ========================
+
+
+ total count is 21
+9
+['\\downsize\\reso_480', '\\downsize_encode\\reso_2560_encode_20', '\\downsize_encode\\reso_960_encode_8', '\\downsize_encode\\reso_768_encode_4', '\\downsize_jpeg_encode\\reso_3200_jpeg_encode_20', '\\downsize_jpeg_encode\\reso_2560_jpeg_encode_16', '\\downsize_jpeg_encode\\reso_2048_jpeg_encode_12', '\\downsize_jpeg_encode\\reso_1440_jpeg_encode_8', '\\downsize_jpeg_encode\\reso_960_jpeg_encode_0']
+
+ ===================
+ configurations possible under 60 Mbps BW
+ ========================
+
+
+ total count is 20
+7
+['\\downsize_encode\\reso_3200_encode_20', '\\downsize_encode\\reso_2048_encode_16', '\\downsize_encode\\reso_1440_encode_12', '\\downsize_jpeg_encode\\reso_3200_jpeg_encode_16', '\\downsize_jpeg_encode\\reso_2560_jpeg_encode_12', '\\downsize_jpeg_encode\\reso_2048_jpeg_encode_8', '\\downsize_jpeg_encode\\reso_1440_jpeg_encode_4']
+
+ ===================
+ configurations possible under 80 Mbps BW
+ ========================
+
+
+ total count is 14
+9
+['\\downsize\\reso_640', '\\encode\\encode_20', '\\downsize_encode\\reso_2560_encode_16', '\\downsize_encode\\reso_2048_encode_12', '\\downsize_encode\\reso_1440_encode_8', '\\downsize_jpeg_encode\\reso_3200_jpeg_encode_12', '\\downsize_jpeg_encode\\reso_2560_jpeg_encode_8', '\\downsize_jpeg_encode\\reso_2048_jpeg_encode_4', '\\jpeg_encode\\jpeg_encode_4']
+
+
+===============================================
+Best Configurations can be achieved
+===============================================
+ ===================
+ configurations possible under 1 Mbps BW
+ ========================
+
+
+ the best configuration reso_768_jpeg_encode_40, and accuracy =0.816854
+
+ ===================
+ configurations possible under 2 Mbps BW
+ ========================
+
+
+ the best configuration reso_960_jpeg_encode_36, and accuracy =0.883724
+
+ ===================
+ configurations possible under 5 Mbps BW
+ ========================
+
+
+ the best configuration reso_960_jpeg_encode_28, and accuracy =0.916464
+
+ ===================
+ configurations possible under 10 Mbps BW
+ ========================
+
+
+ the best configuration reso_960_jpeg_encode_20, and accuracy =0.927846
+
+ ===================
+ configurations possible under 15 Mbps BW
+ ========================
+
+
+ the best configuration reso_960_jpeg_encode_8, and accuracy =0.938825
+
+ ===================
+ configurations possible under 20 Mbps BW
+ ========================
+
+
+ the best configuration reso_960_encode_12, and accuracy =0.952484
+
+ ===================
+ configurations possible under 30 Mbps BW
+ ========================
+
+
+ the best configuration reso_960_jpeg_encode_4, and accuracy =0.938825
+
+ ===================
+ configurations possible under 40 Mbps BW
+ ========================
+
+
+ the best configuration reso_768_encode_0, and accuracy =0.962315
+
+ ===================
+ configurations possible under 60 Mbps BW
+ ========================
+
+
+ the best configuration reso_960_encode_4, and accuracy =0.967986
+
+ ===================
+ configurations possible under 80 Mbps BW
+ ========================
+
+
+ the best configuration reso_768, and accuracy =0.960235

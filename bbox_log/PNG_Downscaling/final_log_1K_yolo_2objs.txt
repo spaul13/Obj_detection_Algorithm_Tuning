@@ -1,0 +1,90 @@
+ ********************************** with threshold = 0.5 ***************************************************** 
+
+ 384. current bad count = 69, and correct detection = 1023
+
+ 544. current bad count = 36, and correct detection = 1046
+
+ 672. current bad count = 30, and correct detection = 1059
+
+ 768. current bad count = 28, and correct detection = 1060
+[0.76441708 0.8435476  0.8628077  0.88642961 0.        ]
+
+ ================
+ statistics for downsample 384
+ =================
+
+
+ TP: 954, FN: 69, FP: 79
+
+
+ Recall: 0.932551, Precision: 0.923524, F1 : 0.928016
+
+
+ mAP1: 0.848000, mAP2: 0.865699
+
+
+ mean = 0.764417
+
+ std deviation 0.244254
+
+ total prediction in orginal = 1125, total prediction in actual = 1102, total mismatch prediction  = 102.000000
+
+ ================
+ statistics for downsample 544
+ =================
+
+
+ TP: 1010, FN: 36, FP: 46
+
+
+ Recall: 0.965583, Precision: 0.956439, F1 : 0.960990
+
+
+ mAP1: 0.897778, mAP2: 0.924908
+
+
+ mean = 0.843548
+
+ std deviation 0.208109
+
+ total prediction in orginal = 1125, total prediction in actual = 1092, total mismatch prediction  = 79.000000
+
+ ================
+ statistics for downsample 672
+ =================
+
+
+ TP: 1029, FN: 30, FP: 38
+
+
+ Recall: 0.971671, Precision: 0.964386, F1 : 0.968015
+
+
+ mAP1: 0.914667, mAP2: 0.938013
+
+
+ mean = 0.862808
+
+ std deviation 0.200202
+
+ total prediction in orginal = 1125, total prediction in actual = 1097, total mismatch prediction  = 66.000000
+
+ ================
+ statistics for downsample 768
+ =================
+
+
+ TP: 1032, FN: 28, FP: 37
+
+
+ Recall: 0.973585, Precision: 0.965388, F1 : 0.969469
+
+
+ mAP1: 0.917333, mAP2: 0.940747
+
+
+ mean = 0.886430
+
+ std deviation 0.186585
+
+ total prediction in orginal = 1125, total prediction in actual = 1097, total mismatch prediction  = 65.000000

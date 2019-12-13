@@ -1,0 +1,84 @@
+ 22. current bad count = 242, and correct detection = 476
+
+ 25. current bad count = 244, and correct detection = 472
+
+ 28. current bad count = 246, and correct detection = 466
+
+ 36. current bad count = 253, and correct detection = 460
+[0.36626445 0.36506993 0.35762819 0.3486592  0.        ]
+
+ ================
+ statistics for downsample 22
+ =================
+
+
+ TP: 234, FN: 242, FP: 17
+
+
+ Recall: 0.491597, Precision: 0.932271, F1 : 0.643741
+
+ mAP1: 0.332386, mAP2: 0.474645
+
+
+ mean = 0.366264
+
+ std deviation 0.337376
+
+ total prediction in orginal = 704, total prediction in actual = 493, total avaerage mismatch prediction  = 228.000000
+
+ ================
+ statistics for downsample 25
+ =================
+
+
+ TP: 228, FN: 244, FP: 20
+
+
+ Recall: 0.483051, Precision: 0.919355, F1 : 0.633333
+
+ mAP1: 0.323864, mAP2: 0.463415
+
+
+ mean = 0.365070
+
+ std deviation 0.337316
+
+ total prediction in orginal = 704, total prediction in actual = 492, total avaerage mismatch prediction  = 232.000000
+
+ ================
+ statistics for downsample 28
+ =================
+
+
+ TP: 220, FN: 246, FP: 17
+
+
+ Recall: 0.472103, Precision: 0.928270, F1 : 0.625889
+
+ mAP1: 0.312500, mAP2: 0.455487
+
+
+ mean = 0.357628
+
+ std deviation 0.337053
+
+ total prediction in orginal = 704, total prediction in actual = 483, total avaerage mismatch prediction  = 238.000000
+
+ ================
+ statistics for downsample 36
+ =================
+
+
+ TP: 207, FN: 253, FP: 20
+
+
+ Recall: 0.450000, Precision: 0.911894, F1 : 0.602620
+
+mAP1: 0.294034, mAP2: 0.431250
+
+
+ mean = 0.348659
+
+ std deviation 0.333213
+
+ total prediction in orginal = 704, total prediction in actual = 480, total avaerage mismatch prediction  = 244.000000

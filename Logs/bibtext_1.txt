@@ -1,0 +1,182 @@
+@inproceedings{lai:mobicom2017,
+ author = {Lai, Zeqi and Hu, Y. Charlie and Cui, Yong and Sun, Linhui and Dai, Ningwei},
+ title = {Furion: Engineering High-Quality Immersive Virtual Reality on Today's Mobile Devices},
+ booktitle = {Proc. of ACM MobiCom},
+ year = {2017},
+}
+
+@inproceedings{qian:mobicom2018,
+ author = {Feng Qian and Bo Han and Qingyang Xiao and Vijay Gopalakrishnan},
+ title = {Flare: Practical Viewport-Adaptive 360-Degree Video Streaming for Mobile Devices},
+ booktitle = {Proc. of ACM MobiCom},
+ year = {2018},
+}
+
+@inproceedings{he:mobisys2018,
+ author = {Jian He and Mubashir Adnan Qureshi and Lili Qiu and Jin Li and Feng Li and Lei Han},
+ title = {Rubiks: Practical 360-Degree Streaming for Smartphones},
+ booktitle = {Proc. of ACM MobiSys},
+ year = {2018},
+}
+
+@inproceedings{xie:conext2017,
+ author = {Xiufeng Xie and Xinyu Zhang},
+ title = {Panoramic Mobile Video Telephony over LTE Cellular Networks },
+ booktitle = {Proc. of ACM CoNEXT},
+ year = {2017},
+}
+
+@inproceedings{shi:mobisys2019,
+ author = {Shu Shi and Varun Gupta and Rittwik Jana},
+ title = {Freedom: Fast Recovery Enhanced VR Delivery Over Mobile Networks},
+ booktitle = {Proc. of ACM MobiSys},
+ year = {2019},
+}
+
+@inproceedings{guan:sigcomm2019,
+ author = {Yu Guan and Chengyuan Zheng and Xinggong Zhang and Zongming Guo and Junchen Jiang},
+ title = {Pano: Optimizing 360° Video Streaming with a Better Understanding of Quality Perception},
+ booktitle = {Proc. of ACM SIGCOMM},
+ year = {2019},
+}
+
+@inproceedings{xiao:infocom2018,
+ author = {Mengbai Xiao and Chao Zhou and Viswanathan Swaminathan and Yao Liu and Songqing Chen},
+ title = {BAS-360\degree\: Exploring Spatial and Temporal Adaptability in 360-degree Videos over HTTP/2},
+ booktitle = {Proc. of IEEE INFOCOM},
+ year = {2018},
+}
+
+@inproceedings{xie:mm2017,
+ author = {Lan Xie and Zhimin Xu and Yixuan Ban and Xinggong Zhang and Zongming Guo},
+ title = {360ProbDASH: Improving QoE of 360 Video Streaming Using Tile-based HTTP Adaptive Streaming},
+ booktitle = {Proc. of ACM Multimedia},
+ year = {2017},
+}
+
+@inproceedings{graf:mmsys2017,
+ author = {Mario Graf and Christian Timmerer and Christopher Mueller},
+ title = {Towards Bandwidth Efficient Adaptive Streaming of Omnidirectional Video over HTTP: Design, Implementation, and Evaluation},
+ booktitle = {Proc. of ACM MMSys},
+ year = {2017},
+}
+
+@inproceedings{petrangeli:mm2017,
+ author = {Stefano Petrangeli and Viswanathan Swaminathan and Mohammad Hosseini and Filip De Turck},
+ title = {An HTTP/2-Based Adaptive Streaming Framework for 360° Virtual Reality Videos},
+ booktitle = {Proc. of ACM Multimedia},
+ year = {2017},
+}
+
+@article{gaddam:tmult2016,
+ author = {Vamsidhar Reddy Gaddam and Michael Riegler and Ragnhild Eg and Carsten Griwodz and Pal Halvorsen},
+ title = {Tiling in Interactive Panoramic Video: Approaches and Evaluation},
+ journal = { IEEE Transactions on Multimedia},
+ volume = {18},
+ issue = {19},
+ pages = {1819 - 1831},
+ year = {2017},
+}
+
+@inproceedings{corbillon:mmsys2017,
+ author = {Xavier Corbillon and Francesca De Simone and Gwendal Simon},
+ title = {360-Degree Video Head Movement Dataset},
+ booktitle = {Proc. of ACM MMSys},
+ year = {2017},
+}
+
+@inproceedings{wu:mmsys2017,
+ author = {Chenglei Wu, Zhihao Tan, Zhi Wang, Shiqiang Yang},
+ title = {A Dataset for Exploring User Behaviors in VR Spherical Video Streaming},
+ booktitle = {Proc. of ACM MMSys},
+ year = {2017},
+}
+
+@inproceedings{liu:mobisys2018,
+ author = {Luyang Liu and Ruiguang Zhong and Wuyang Zhang and Yunxin Liu and Jiansong Zhang and Lintao Zhang and Marco Gruteser},
+ title = {Cutting the cord: Designing a high-quality untethered VR system with low latency remote rendering},
+ booktitle = {Proc. of ACM Mobisys},
+ year = {2018},
+ pages = {68-80},
+}
+
+@MISC{derf,
+ title = {Xiph.org Video Test Media [derf's collection]},
+ howpublished = {\href{https://media.xiph.org/video/derf/}{derf\_link}},
+ }
+
+@MISC{4gtrace_ghent,
+ title = {4G/LTE Bandwidth Logs},
+ howpublished = {\href{https://users.ugent.be/~jvdrhoof/dataset-4g/}{4G\_LTE\_Logs}},
+ }
+
+@MISC{hsdpatrace,
+ title = {DATASET: HSDPA-bandwidth logs for mobile HTTP streaming scenarios},
+ howpublished = {\href{http://home.ifi.uio.no/paalh/dataset/hsdpa-tcp-logs/}{hsdpa\_dataset}},
+ }
+
+
+
+@inproceedings{liu:icvrv2017,
+ author = {Xu Liu and Yongcheng Huang and Li Song and Rong Xie and Xiaokang Yang},
+ title = {The SJTU UHD 360-Degree Immersive Video Sequence Dataset},
+ booktitle = {Proc. of IEEE ICVRV},
+ year = {2017},
+}
+
+@inproceedings{leng:isca19,
+ author = {Yue Leng and Chi-Chun Chen and Qiuyue Sun and Jian Huang and Yuhao Zhu},
+ title = {Energy-Efficient Video Processing for Virtual Reality},
+ booktitle = {Proc. of ACM ISCA},
+ year = {2019},
+ pages = {91-103}
+}
+
+@inproceedings{yu2015framework,
+  title={A framework to evaluate omnidirectional video coding schemes},
+  author={Yu, Matt and Lakshman, Haricharan and Girod, Bernd},
+  booktitle={2015 IEEE International Symposium on Mixed and Augmented Reality},
+  pages={31--36},
+  year={2015}
+}
+
+@inproceedings{zhang2017subjective,
+  title={Subjective and objective quality assessment of panoramic videos in virtual reality environments},
+  author={Zhang, Bo and Zhao, Junzhe and Yang, Shu and Zhang, Yang and Wang, Jing and Fei, Zesong},
+  booktitle={ICMEW},
+  publisher={IEEE},
+  pages={163--168},
+  year={2017}
+}
+
+@inproceedings{vredge_17,
+  title={VR is on the edge: How to deliver 360 videos in mobile networks},
+  author={Simone Mangiante and Guenter Klas and Amit Navon, Zhuang GuanHua and Ju Ran and Marco Dias Silva},
+  booktitle={In Proceedings of the Workshop on Virtual Reality and Augmented Reality Network},
+  publisher = {ACM},
+  pages={30-35},
+  year={2017},
+  
+}
+
+@inproceedings{16Kvr_17,
+  title={16k cinematic VR streaming},
+  author={Patrice Rondao Alface and Maarten Aerts and Donny Tytgat and Sammy Lievens and Christoph Stevens and Nico Verzijp and Jean-Francois Mac},
+  booktitle={Proc. of ACM Multimedia},
+  publisher = {ACM},
+  pages={1105-1112},
+  year={2017},
+  
+}
+
+@MISC{latency_const1,
+ title = {What VR could, should and almost certainly will be in 2 years},
+ year = {2014},
+ howpublished = {\href{http://media.steampowered.com/apps/abrashblog/Abrash\%20Dev\%20Days\%202014.pdf}{Adarshblog\_VR\_future}},
+ }
+ 
+ @MISC{latency_const2,
+ title = {Qualcomm Report: Keeping the virtual world stable in VR},
+ year = {2016},
+ howpublished = {\href{https://www.qualcomm.com/news/onq/2016/06/29/keeping-virtual-world-stable-vr}{keeping-virtual-world-stable-vr-2016}},
+ }

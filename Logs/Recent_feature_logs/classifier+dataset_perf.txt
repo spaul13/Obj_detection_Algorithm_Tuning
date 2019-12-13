@@ -1,0 +1,2074 @@
+
+ ====== only 4 drone dataset ===========
+
+1 0 1 0
+
+ ======== Feature 2. <contrast, colorfulness, brightness> features used ==========
+
+
+ # of frames the classifier is trained = 568
+
+ ======== Classifier 1. Logistic used ==========
+
+C:\Users\paul90\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\linear_model\logistic.py:947: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.309304
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.130230
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.101766
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.054653
+
+ Video 2 ==> top_5 = 18, top_10 = 28, top_20 = 57
+
+ Video 3 ==> top_5 = 13, top_10 = 17, top_20 = 42
+
+ Video 4 ==> top_5 = 9, top_10 = 18, top_20 = 26
+
+ Video 5 ==> top_5 = 15, top_10 = 22, top_20 = 32
+
+ final mean accuracy difference = 0.162167
+
+ total number of frames tested = 290
+
+ number of outlier predicted configs = [0, 0, 0, 0]
+
+ ======== only 2 surveillance video dataset ===========
+
+1 0 0 1
+
+ ======== Feature 2. <contrast, colorfulness, brightness> features used ==========
+
+
+ # of frames the classifier is trained = 504
+
+ ======== Classifier 1. Logistic used ==========
+
+C:\Users\paul90\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\linear_model\logistic.py:947: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.252112
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.225618
+
+ Video 6 ==> top_5 = 59, top_10 = 82, top_20 = 100
+
+ Video 7 ==> top_5 = 47, top_10 = 83, top_20 = 124
+
+ final mean accuracy difference = 0.237633
+
+ total number of frames tested = 258
+
+ number of outlier predicted configs = [0, 0]
+
+ ====== 4 drone + 2 surveillance video dataset ==========
+
+1 0 1 1
+
+ ======== Feature 2. <contrast, colorfulness, brightness> features used ==========
+
+
+ # of frames the classifier is trained = 1072
+
+ ======== Classifier 1. Logistic used ==========
+
+C:\Users\paul90\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\linear_model\logistic.py:947: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.229152
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.117295
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.101766
+
+ ======= video dataset index = 5
+
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.297667
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.225618
+
+ Video 2 ==> top_5 = 13, top_10 = 22, top_20 = 53
+
+ Video 3 ==> top_5 = 20, top_10 = 35, top_20 = 55
+
+ Video 4 ==> top_5 = 9, top_10 = 18, top_20 = 26
+
+ Video 5 ==> top_5 = 0, top_10 = 0, top_20 = 0
+
+ Video 6 ==> top_5 = 51, top_10 = 67, top_20 = 99
+
+ Video 7 ==> top_5 = 47, top_10 = 83, top_20 = 124
+
+ final mean accuracy difference = 0.205972
+
+ total number of frames tested = 496
+
+ number of outlier predicted configs = [5, 0, 0, 47, 0, 0]
+
+ ====== only 4 drone dataset ===========
+
+1 1 1 0
+
+ ======== Feature 2. <contrast, colorfulness, brightness> features used ==========
+
+
+ # of frames the classifier is trained = 568
+
+ ======== Classifier 2. Decision Tree used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.247994
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.370429
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.654762
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.211910
+
+ Video 2 ==> top_5 = 33, top_10 = 43, top_20 = 57
+
+ Video 3 ==> top_5 = 2, top_10 = 5, top_20 = 9
+
+ Video 4 ==> top_5 = 9, top_10 = 10, top_20 = 12
+
+ Video 5 ==> top_5 = 0, top_10 = 1, top_20 = 5
+
+ final mean accuracy difference = 0.380289
+
+ total number of frames tested = 290
+
+ number of outlier predicted configs = [0, 0, 0, 0]
+
+ ======== only 2 surveillance video dataset ===========
+
+1 1 0 1
+
+ ======== Feature 2. <contrast, colorfulness, brightness> features used ==========
+
+
+ # of frames the classifier is trained = 504
+
+ ======== Classifier 2. Decision Tree used ==========
+
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.469433
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.319309
+
+ Video 6 ==> top_5 = 20, top_10 = 28, top_20 = 46
+
+ Video 7 ==> top_5 = 25, top_10 = 46, top_20 = 75
+
+ final mean accuracy difference = 0.387389
+
+ total number of frames tested = 258
+
+ number of outlier predicted configs = [0, 0]
+
+ ====== 4 drone + 2 surveillance video dataset ==========
+
+1 1 1 1
+
+ ======== Feature 2. <contrast, colorfulness, brightness> features used ==========
+
+
+ # of frames the classifier is trained = 1072
+
+ ======== Classifier 2. Decision Tree used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.297028
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.403892
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.076441
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.141373
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.466008
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.320375
+
+ Video 2 ==> top_5 = 24, top_10 = 35, top_20 = 50
+
+ Video 3 ==> top_5 = 0, top_10 = 3, top_20 = 7
+
+ Video 4 ==> top_5 = 8, top_10 = 9, top_20 = 16
+
+ Video 5 ==> top_5 = 4, top_10 = 7, top_20 = 11
+
+ Video 6 ==> top_5 = 21, top_10 = 30, top_20 = 44
+
+ Video 7 ==> top_5 = 26, top_10 = 45, top_20 = 71
+
+ final mean accuracy difference = 0.313942
+
+ total number of frames tested = 548
+
+ number of outlier predicted configs = [0, 0, 0, 0, 0, 0]
+
+ ====== only 4 drone dataset ===========
+
+1 2 1 0
+
+ ======== Feature 2. <contrast, colorfulness, brightness> features used ==========
+
+
+ # of frames the classifier is trained = 568
+
+ ======== Classifier 3. Bayesian used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.248671
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.124973
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.095336
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.049159
+
+ Video 2 ==> top_5 = 20, top_10 = 33, top_20 = 55
+
+ Video 3 ==> top_5 = 19, top_10 = 32, top_20 = 53
+
+ Video 4 ==> top_5 = 15, top_10 = 22, top_20 = 30
+
+ Video 5 ==> top_5 = 15, top_10 = 22, top_20 = 37
+
+ final mean accuracy difference = 0.140731
+
+ total number of frames tested = 290
+
+ number of outlier predicted configs = [0, 0, 0, 0]
+
+ ======== only 2 surveillance video dataset ===========
+
+1 2 0 1
+
+ ======== Feature 2. <contrast, colorfulness, brightness> features used ==========
+
+
+ # of frames the classifier is trained = 504
+
+ ======== Classifier 3. Bayesian used ==========
+
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.297700
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.266446
+
+ Video 6 ==> top_5 = 50, top_10 = 70, top_20 = 92
+
+ Video 7 ==> top_5 = 45, top_10 = 64, top_20 = 102
+
+ final mean accuracy difference = 0.280619
+
+ total number of frames tested = 258
+
+ number of outlier predicted configs = [0, 0]
+
+ ====== 4 drone + 2 surveillance video dataset ==========
+
+1 2 1 1
+
+ ======== Feature 2. <contrast, colorfulness, brightness> features used ==========
+
+
+ # of frames the classifier is trained = 1072
+
+ ======== Classifier 3. Bayesian used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.348233
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.094751
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.095033
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.044496
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.529107
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.369925
+
+ Video 2 ==> top_5 = 12, top_10 = 21, top_20 = 42
+
+ Video 3 ==> top_5 = 26, top_10 = 41, top_20 = 68
+
+ Video 4 ==> top_5 = 16, top_10 = 23, top_20 = 30
+
+ Video 5 ==> top_5 = 3, top_10 = 5, top_20 = 5
+
+ Video 6 ==> top_5 = 14, top_10 = 19, top_20 = 23
+
+ Video 7 ==> top_5 = 16, top_10 = 26, top_20 = 42
+
+ final mean accuracy difference = 0.312457
+
+ total number of frames tested = 507
+
+ number of outlier predicted configs = [0, 0, 0, 41, 0, 0]
+
+ ====== only 4 drone dataset ===========
+
+1 3 1 0
+
+ ======== Feature 2. <contrast, colorfulness, brightness> features used ==========
+
+
+ # of frames the classifier is trained = 568
+
+ ======== Classifier 4. SVM used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.576566
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.136751
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.044426
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.049159
+
+ Video 2 ==> top_5 = 10, top_10 = 16, top_20 = 31
+
+ Video 3 ==> top_5 = 15, top_10 = 19, top_20 = 43
+
+ Video 4 ==> top_5 = 26, top_10 = 30, top_20 = 40
+
+ Video 5 ==> top_5 = 15, top_10 = 22, top_20 = 37
+
+ final mean accuracy difference = 0.225511
+
+ total number of frames tested = 290
+
+ number of outlier predicted configs = [0, 0, 0, 0]
+
+ ======== only 2 surveillance video dataset ===========
+
+1 3 0 1
+
+ ======== Feature 2. <contrast, colorfulness, brightness> features used ==========
+
+
+ # of frames the classifier is trained = 504
+
+ ======== Classifier 4. SVM used ==========
+
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.341585
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.283371
+
+ Video 6 ==> top_5 = 36, top_10 = 56, top_20 = 89
+
+ Video 7 ==> top_5 = 36, top_10 = 61, top_20 = 91
+
+ final mean accuracy difference = 0.309770
+
+ total number of frames tested = 258
+
+ number of outlier predicted configs = [0, 0]
+
+ ====== 4 drone + 2 surveillance video dataset ==========
+
+1 3 1 1
+
+ ======== Feature 2. <contrast, colorfulness, brightness> features used ==========
+
+
+ # of frames the classifier is trained = 1072
+
+ ======== Classifier 4. SVM used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.237195
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.102056
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.057610
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.048685
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.284677
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.293319
+
+ Video 2 ==> top_5 = 29, top_10 = 38, top_20 = 59
+
+ Video 3 ==> top_5 = 17, top_10 = 35, top_20 = 60
+
+ Video 4 ==> top_5 = 11, top_10 = 17, top_20 = 27
+
+ Video 5 ==> top_5 = 16, top_10 = 23, top_20 = 37
+
+ Video 6 ==> top_5 = 54, top_10 = 75, top_20 = 95
+
+ Video 7 ==> top_5 = 35, top_10 = 56, top_20 = 79
+
+ final mean accuracy difference = 0.200309
+
+ total number of frames tested = 548
+
+ number of outlier predicted configs = [0, 0, 0, 0, 0, 0]
+
+ ====== only 4 drone dataset ===========
+
+1 4 1 0
+
+ ======== Feature 2. <contrast, colorfulness, brightness> features used ==========
+
+
+ # of frames the classifier is trained = 568
+
+ ======== Classifier 5. XGBoost used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.474709
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.255086
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.149965
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.077200
+
+ Video 2 ==> top_5 = 18, top_10 = 28, top_20 = 37
+
+ Video 3 ==> top_5 = 0, top_10 = 0, top_20 = 6
+
+ Video 4 ==> top_5 = 12, top_10 = 16, top_20 = 25
+
+ Video 5 ==> top_5 = 2, top_10 = 6, top_20 = 20
+
+ final mean accuracy difference = 0.260802
+
+ total number of frames tested = 287
+
+ number of outlier predicted configs = [3, 0, 0, 0]
+
+ ======== only 2 surveillance video dataset ===========
+
+1 4 0 1
+
+ ======== Feature 2. <contrast, colorfulness, brightness> features used ==========
+
+
+ # of frames the classifier is trained = 504
+
+ ======== Classifier 5. XGBoost used ==========
+
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.578525
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.440059
+
+ Video 6 ==> top_5 = 2, top_10 = 3, top_20 = 10
+
+ Video 7 ==> top_5 = 0, top_10 = 3, top_20 = 21
+
+ final mean accuracy difference = 0.502852
+
+ total number of frames tested = 258
+
+ number of outlier predicted configs = [0, 0]
+
+ ====== 4 drone + 2 surveillance video dataset ==========
+
+1 4 1 1
+
+ ======== Feature 2. <contrast, colorfulness, brightness> features used ==========
+
+
+ # of frames the classifier is trained = 1072
+
+ ======== Classifier 5. XGBoost used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.462864
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.290319
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.137988
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.322839
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.574058
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.399646
+
+ Video 2 ==> top_5 = 17, top_10 = 31, top_20 = 40
+
+ Video 3 ==> top_5 = 1, top_10 = 4, top_20 = 8
+
+ Video 4 ==> top_5 = 8, top_10 = 11, top_20 = 17
+
+ Video 5 ==> top_5 = 2, top_10 = 4, top_20 = 7
+
+ Video 6 ==> top_5 = 0, top_10 = 1, top_20 = 11
+
+ Video 7 ==> top_5 = 8, top_10 = 15, top_20 = 33
+
+ final mean accuracy difference = 0.387799
+
+ total number of frames tested = 547
+
+ number of outlier predicted configs = [1, 0, 0, 0, 0, 0]
+
+ ====== only 4 drone dataset ===========
+
+2 0 1 0
+
+ ======== Feature 3. <orb, sift, # of matched points> features used ==========
+
+
+ # of frames the classifier is trained = 568
+
+ ======== Classifier 1. Logistic used ==========
+
+C:\Users\paul90\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\linear_model\logistic.py:947: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.567976
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.121333
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.045608
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.040050
+
+ Video 2 ==> top_5 = 9, top_10 = 15, top_20 = 23
+
+ Video 3 ==> top_5 = 16, top_10 = 21, top_20 = 45
+
+ Video 4 ==> top_5 = 20, top_10 = 30, top_20 = 41
+
+ Video 5 ==> top_5 = 18, top_10 = 19, top_20 = 27
+
+ final mean accuracy difference = 0.188184
+
+ total number of frames tested = 247
+
+ number of outlier predicted configs = [28, 0, 0, 15]
+
+ ======== only 2 surveillance video dataset ===========
+
+2 0 0 1
+
+ ======== Feature 3. <orb, sift, # of matched points> features used ==========
+
+
+ # of frames the classifier is trained = 504
+
+ ======== Classifier 1. Logistic used ==========
+
+C:\Users\paul90\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\linear_model\logistic.py:947: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.314126
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.232007
+
+ Video 6 ==> top_5 = 46, top_10 = 65, top_20 = 93
+
+ Video 7 ==> top_5 = 45, top_10 = 79, top_20 = 120
+
+ final mean accuracy difference = 0.269247
+
+ total number of frames tested = 258
+
+ number of outlier predicted configs = [0, 0]
+
+ ====== 4 drone + 2 surveillance video dataset ==========
+
+2 0 1 1
+
+ ======== Feature 3. <orb, sift, # of matched points> features used ==========
+
+
+ # of frames the classifier is trained = 1072
+
+ ======== Classifier 1. Logistic used ==========
+
+C:\Users\paul90\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\linear_model\logistic.py:947: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.529063
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.130230
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.051365
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.048870
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.342836
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.226577
+
+ Video 2 ==> top_5 = 12, top_10 = 18, top_20 = 34
+
+ Video 3 ==> top_5 = 13, top_10 = 17, top_20 = 42
+
+ Video 4 ==> top_5 = 18, top_10 = 22, top_20 = 35
+
+ Video 5 ==> top_5 = 3, top_10 = 5, top_20 = 6
+
+ Video 6 ==> top_5 = 35, top_10 = 50, top_20 = 77
+
+ Video 7 ==> top_5 = 47, top_10 = 83, top_20 = 123
+
+ final mean accuracy difference = 0.254937
+
+ total number of frames tested = 489
+
+ number of outlier predicted configs = [0, 0, 0, 39, 20, 0]
+
+ ====== only 4 drone dataset ===========
+
+2 1 1 0
+
+ ======== Feature 3. <orb, sift, # of matched points> features used ==========
+
+
+ # of frames the classifier is trained = 568
+
+ ======== Classifier 2. Decision Tree used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.403364
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.207013
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.101108
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.090640
+
+ Video 2 ==> top_5 = 9, top_10 = 15, top_20 = 32
+
+ Video 3 ==> top_5 = 18, top_10 = 30, top_20 = 45
+
+ Video 4 ==> top_5 = 11, top_10 = 19, top_20 = 32
+
+ Video 5 ==> top_5 = 11, top_10 = 13, top_20 = 27
+
+ final mean accuracy difference = 0.207355
+
+ total number of frames tested = 263
+
+ number of outlier predicted configs = [20, 0, 0, 7]
+
+ ======== only 2 surveillance video dataset ===========
+
+2 1 0 1
+
+ ======== Feature 3. <orb, sift, # of matched points> features used ==========
+
+
+ # of frames the classifier is trained = 504
+
+ ======== Classifier 2. Decision Tree used ==========
+
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.425355
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.320128
+
+ Video 6 ==> top_5 = 30, top_10 = 45, top_20 = 67
+
+ Video 7 ==> top_5 = 30, top_10 = 51, top_20 = 71
+
+ final mean accuracy difference = 0.367847
+
+ total number of frames tested = 258
+
+ number of outlier predicted configs = [0, 0]
+
+ ====== 4 drone + 2 surveillance video dataset ==========
+
+2 1 1 1
+
+ ======== Feature 3. <orb, sift, # of matched points> features used ==========
+
+
+ # of frames the classifier is trained = 1072
+
+ ======== Classifier 2. Decision Tree used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.316808
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.189799
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.125882
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.088270
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.395159
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.332145
+
+ Video 2 ==> top_5 = 13, top_10 = 21, top_20 = 33
+
+ Video 3 ==> top_5 = 20, top_10 = 36, top_20 = 51
+
+ Video 4 ==> top_5 = 9, top_10 = 18, top_20 = 26
+
+ Video 5 ==> top_5 = 6, top_10 = 12, top_20 = 22
+
+ Video 6 ==> top_5 = 26, top_10 = 45, top_20 = 66
+
+ Video 7 ==> top_5 = 24, top_10 = 50, top_20 = 69
+
+ final mean accuracy difference = 0.270569
+
+ total number of frames tested = 502
+
+ number of outlier predicted configs = [29, 0, 0, 8, 9, 0]
+
+ ====== only 4 drone dataset ===========
+
+2 2 1 0
+
+ ======== Feature 3. <orb, sift, # of matched points> features used ==========
+
+
+ # of frames the classifier is trained = 568
+
+ ======== Classifier 3. Bayesian used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.184278
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.094602
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.064663
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.105556
+
+ Video 2 ==> top_5 = 18, top_10 = 31, top_20 = 50
+
+ Video 3 ==> top_5 = 23, top_10 = 36, top_20 = 58
+
+ Video 4 ==> top_5 = 18, top_10 = 21, top_20 = 36
+
+ Video 5 ==> top_5 = 1, top_10 = 4, top_20 = 13
+
+ final mean accuracy difference = 0.109340
+
+ total number of frames tested = 257
+
+ number of outlier predicted configs = [21, 0, 0, 12]
+
+ ======== only 2 surveillance video dataset ===========
+
+2 2 0 1
+
+ ======== Feature 3. <orb, sift, # of matched points> features used ==========
+
+
+ # of frames the classifier is trained = 504
+
+ ======== Classifier 3. Bayesian used ==========
+
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.284736
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.309220
+
+ Video 6 ==> top_5 = 55, top_10 = 72, top_20 = 90
+
+ Video 7 ==> top_5 = 31, top_10 = 55, top_20 = 76
+
+ final mean accuracy difference = 0.298117
+
+ total number of frames tested = 258
+
+ number of outlier predicted configs = [0, 0]
+
+ ====== 4 drone + 2 surveillance video dataset ==========
+
+2 2 1 1
+
+ ======== Feature 3. <orb, sift, # of matched points> features used ==========
+
+
+ # of frames the classifier is trained = 1072
+
+ ======== Classifier 3. Bayesian used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.170095
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.110099
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.063092
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.094873
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.488722
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.229292
+
+ Video 2 ==> top_5 = 5, top_10 = 6, top_20 = 8
+
+ Video 3 ==> top_5 = 47, top_10 = 57, top_20 = 69
+
+ Video 4 ==> top_5 = 5, top_10 = 11, top_20 = 28
+
+ Video 5 ==> top_5 = 0, top_10 = 2, top_20 = 9
+
+ Video 6 ==> top_5 = 14, top_10 = 19, top_20 = 32
+
+ Video 7 ==> top_5 = 46, top_10 = 81, top_20 = 122
+
+ final mean accuracy difference = 0.221605
+
+ total number of frames tested = 424
+
+ number of outlier predicted configs = [74, 0, 0, 22, 28, 0]
+
+ ====== only 4 drone dataset ===========
+
+2 3 1 0
+
+ ======== Feature 3. <orb, sift, # of matched points> features used ==========
+
+
+ # of frames the classifier is trained = 568
+
+ ======== Classifier 4. SVM used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.340165
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.113113
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.047022
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.074533
+
+ Video 2 ==> top_5 = 19, top_10 = 25, top_20 = 39
+
+ Video 3 ==> top_5 = 23, top_10 = 37, top_20 = 53
+
+ Video 4 ==> top_5 = 21, top_10 = 25, top_20 = 41
+
+ Video 5 ==> top_5 = 3, top_10 = 7, top_20 = 14
+
+ final mean accuracy difference = 0.146186
+
+ total number of frames tested = 257
+
+ number of outlier predicted configs = [19, 0, 0, 14]
+
+ ======== only 2 surveillance video dataset ===========
+
+2 3 0 1
+
+ ======== Feature 3. <orb, sift, # of matched points> features used ==========
+
+
+ # of frames the classifier is trained = 504
+
+ ======== Classifier 4. SVM used ==========
+
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.306170
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.262004
+
+ Video 6 ==> top_5 = 50, top_10 = 67, top_20 = 95
+
+ Video 7 ==> top_5 = 39, top_10 = 68, top_20 = 100
+
+ final mean accuracy difference = 0.282033
+
+ total number of frames tested = 258
+
+ number of outlier predicted configs = [0, 0]
+
+ ====== 4 drone + 2 surveillance video dataset ==========
+
+2 3 1 1
+
+ ======== Feature 3. <orb, sift, # of matched points> features used ==========
+
+
+ # of frames the classifier is trained = 1072
+
+ ======== Classifier 4. SVM used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.280835
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.113776
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.049329
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.064250
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.336448
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.274773
+
+ Video 2 ==> top_5 = 23, top_10 = 34, top_20 = 50
+
+ Video 3 ==> top_5 = 18, top_10 = 35, top_20 = 53
+
+ Video 4 ==> top_5 = 16, top_10 = 20, top_20 = 37
+
+ Video 5 ==> top_5 = 8, top_10 = 11, top_20 = 20
+
+ Video 6 ==> top_5 = 36, top_10 = 52, top_20 = 79
+
+ Video 7 ==> top_5 = 38, top_10 = 61, top_20 = 93
+
+ final mean accuracy difference = 0.215099
+
+ total number of frames tested = 515
+
+ number of outlier predicted configs = [11, 0, 0, 12, 10, 0]
+
+ ====== only 4 drone dataset ===========
+
+2 4 1 0
+
+ ======== Feature 3. <orb, sift, # of matched points> features used ==========
+
+
+ # of frames the classifier is trained = 568
+
+ ======== Classifier 5. XGBoost used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.443728
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.251922
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.081619
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.082614
+
+ Video 2 ==> top_5 = 5, top_10 = 8, top_20 = 21
+
+ Video 3 ==> top_5 = 1, top_10 = 1, top_20 = 8
+
+ Video 4 ==> top_5 = 9, top_10 = 14, top_20 = 26
+
+ Video 5 ==> top_5 = 1, top_10 = 4, top_20 = 16
+
+ final mean accuracy difference = 0.237631
+
+ total number of frames tested = 289
+
+ number of outlier predicted configs = [0, 0, 0, 1]
+
+ ======== only 2 surveillance video dataset ===========
+
+2 4 0 1
+
+ ======== Feature 3. <orb, sift, # of matched points> features used ==========
+
+
+ # of frames the classifier is trained = 504
+
+ ======== Classifier 5. XGBoost used ==========
+
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.612147
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.420633
+
+ Video 6 ==> top_5 = 1, top_10 = 3, top_20 = 9
+
+ Video 7 ==> top_5 = 7, top_10 = 12, top_20 = 24
+
+ final mean accuracy difference = 0.516390
+
+ total number of frames tested = 214
+
+ number of outlier predicted configs = [10, 34]
+
+ ====== 4 drone + 2 surveillance video dataset ==========
+
+2 4 1 1
+
+ ======== Feature 3. <orb, sift, # of matched points> features used ==========
+
+
+ # of frames the classifier is trained = 1072
+
+ ======== Classifier 5. XGBoost used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.532437
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.284399
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.103091
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.112871
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.583217
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.406572
+
+ Video 2 ==> top_5 = 3, top_10 = 6, top_20 = 20
+
+ Video 3 ==> top_5 = 1, top_10 = 1, top_20 = 3
+
+ Video 4 ==> top_5 = 10, top_10 = 16, top_20 = 21
+
+ Video 5 ==> top_5 = 1, top_10 = 1, top_20 = 7
+
+ Video 6 ==> top_5 = 2, top_10 = 2, top_20 = 8
+
+ Video 7 ==> top_5 = 13, top_10 = 19, top_20 = 29
+
+ final mean accuracy difference = 0.379122
+
+ total number of frames tested = 510
+
+ number of outlier predicted configs = [0, 0, 0, 5, 1, 32]
+
+
+
+ 
+
+ ====== only 4 drone dataset ===========
+
+0 0 1 0
+
+ ======== Feature 1. <edge, temporal, spatial> features used ==========
+
+
+ # of frames the classifier is trained = 560
+
+ ======== Classifier 1. Logistic used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.564541
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.130230
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.052163
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.054653
+
+ Video 2 ==> top_5 = 11, top_10 = 17, top_20 = 34
+
+ Video 3 ==> top_5 = 13, top_10 = 17, top_20 = 42
+
+ Video 4 ==> top_5 = 17, top_10 = 21, top_20 = 33
+
+ Video 5 ==> top_5 = 15, top_10 = 22, top_20 = 32
+
+ final mean accuracy difference = 0.222902
+
+ total number of frames tested = 290
+
+ number of outlier predicted configs = [0, 0, 0, 0]
+
+ ======== only 2 surveillance video dataset ===========
+
+0 0 0 1
+
+ ======== Feature 1. <edge, temporal, spatial> features used ==========
+
+
+ # of frames the classifier is trained = 504
+
+ ======== Classifier 1. Logistic used ==========
+
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.269465
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.228499
+
+ Video 6 ==> top_5 = 0, top_10 = 0, top_20 = 1
+
+ Video 7 ==> top_5 = 46, top_10 = 81, top_20 = 123
+
+ final mean accuracy difference = 0.228788
+
+ total number of frames tested = 142
+
+ number of outlier predicted configs = [116, 0]
+
+ ====== 4 drone + 2 surveillance video dataset ==========
+
+0 0 1 1
+
+ ======== Feature 1. <edge, temporal, spatial> features used ==========
+
+
+ # of frames the classifier is trained = 1064
+
+ ======== Classifier 1. Logistic used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.247995
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.099758
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.052393
+
+ ======= video dataset index = 5
+
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.446859
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.231795
+
+ Video 2 ==> top_5 = 30, top_10 = 38, top_20 = 58
+
+ Video 3 ==> top_5 = 25, top_10 = 46, top_20 = 66
+
+ Video 4 ==> top_5 = 10, top_10 = 21, top_20 = 39
+
+ Video 5 ==> top_5 = 0, top_10 = 0, top_20 = 0
+
+ Video 6 ==> top_5 = 1, top_10 = 1, top_20 = 2
+
+ Video 7 ==> top_5 = 46, top_10 = 81, top_20 = 122
+
+ final mean accuracy difference = 0.174240
+
+ total number of frames tested = 388
+
+ number of outlier predicted configs = [0, 0, 0, 47, 113, 0]
+
+ ====== only 4 drone dataset ===========
+
+0 1 1 0
+
+ ======== Feature 1. <edge, temporal, spatial> features used ==========
+
+
+ # of frames the classifier is trained = 560
+
+ ======== Classifier 2. Decision Tree used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.342731
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.187583
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.048818
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.120400
+
+ Video 2 ==> top_5 = 8, top_10 = 17, top_20 = 41
+
+ Video 3 ==> top_5 = 23, top_10 = 40, top_20 = 57
+
+ Video 4 ==> top_5 = 11, top_10 = 24, top_20 = 40
+
+ Video 5 ==> top_5 = 5, top_10 = 6, top_20 = 12
+
+ final mean accuracy difference = 0.186644
+
+ total number of frames tested = 289
+
+ number of outlier predicted configs = [0, 1, 0, 0]
+
+ ======== only 2 surveillance video dataset ===========
+
+0 1 0 1
+
+ ======== Feature 1. <edge, temporal, spatial> features used ==========
+
+
+ # of frames the classifier is trained = 504
+
+ ======== Classifier 2. Decision Tree used ==========
+
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.418695
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.271876
+
+ Video 6 ==> top_5 = 20, top_10 = 33, top_20 = 69
+
+ Video 7 ==> top_5 = 43, top_10 = 65, top_20 = 80
+
+ final mean accuracy difference = 0.338456
+
+ total number of frames tested = 258
+
+ number of outlier predicted configs = [0, 0]
+
+ ====== 4 drone + 2 surveillance video dataset ==========
+
+0 1 1 1
+
+ ======== Feature 1. <edge, temporal, spatial> features used ==========
+
+
+ # of frames the classifier is trained = 1064
+
+ ======== Classifier 2. Decision Tree used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.348531
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.183483
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.061143
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.110606
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.406575
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.285245
+
+ Video 2 ==> top_5 = 11, top_10 = 21, top_20 = 39
+
+ Video 3 ==> top_5 = 21, top_10 = 36, top_20 = 55
+
+ Video 4 ==> top_5 = 11, top_10 = 24, top_20 = 39
+
+ Video 5 ==> top_5 = 6, top_10 = 12, top_20 = 17
+
+ Video 6 ==> top_5 = 21, top_10 = 39, top_20 = 74
+
+ Video 7 ==> top_5 = 41, top_10 = 62, top_20 = 77
+
+ final mean accuracy difference = 0.260111
+
+ total number of frames tested = 547
+
+ number of outlier predicted configs = [0, 1, 0, 0, 0, 0]
+
+ ====== only 4 drone dataset ===========
+
+0 2 1 0
+
+ ======== Feature 1. <edge, temporal, spatial> features used ==========
+
+
+ # of frames the classifier is trained = 560
+
+ ======== Classifier 3. Bayesian used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.348402
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.273792
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.042148
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.035753
+
+ Video 2 ==> top_5 = 12, top_10 = 20, top_20 = 42
+
+ Video 3 ==> top_5 = 21, top_10 = 33, top_20 = 50
+
+ Video 4 ==> top_5 = 22, top_10 = 32, top_20 = 47
+
+ Video 5 ==> top_5 = 21, top_10 = 28, top_20 = 42
+
+ final mean accuracy difference = 0.199055
+
+ total number of frames tested = 290
+
+ number of outlier predicted configs = [0, 0, 0, 0]
+
+ ======== only 2 surveillance video dataset ===========
+
+0 2 0 1
+
+ ======== Feature 1. <edge, temporal, spatial> features used ==========
+
+
+ # of frames the classifier is trained = 504
+
+ ======== Classifier 3. Bayesian used ==========
+
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.392475
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.310561
+
+ Video 6 ==> top_5 = 33, top_10 = 40, top_20 = 61
+
+ Video 7 ==> top_5 = 31, top_10 = 52, top_20 = 83
+
+ final mean accuracy difference = 0.347708
+
+ total number of frames tested = 258
+
+ number of outlier predicted configs = [0, 0]
+
+ ====== 4 drone + 2 surveillance video dataset ==========
+
+0 2 1 1
+
+ ======== Feature 1. <edge, temporal, spatial> features used ==========
+
+
+ # of frames the classifier is trained = 1064
+
+ ======== Classifier 3. Bayesian used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.883247
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.102348
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.042148
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.102857
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.562317
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.348926
+
+ Video 2 ==> top_5 = 0, top_10 = 0, top_20 = 0
+
+ Video 3 ==> top_5 = 50, top_10 = 61, top_20 = 72
+
+ Video 4 ==> top_5 = 22, top_10 = 32, top_20 = 47
+
+ Video 5 ==> top_5 = 1, top_10 = 6, top_20 = 17
+
+ Video 6 ==> top_5 = 11, top_10 = 13, top_20 = 17
+
+ Video 7 ==> top_5 = 40, top_10 = 58, top_20 = 74
+
+ final mean accuracy difference = 0.374406
+
+ total number of frames tested = 548
+
+ number of outlier predicted configs = [0, 0, 0, 0, 0, 0]
+
+ ====== only 4 drone dataset ===========
+
+0 3 1 0
+
+ ======== Feature 1. <edge, temporal, spatial> features used ==========
+
+
+ # of frames the classifier is trained = 560
+
+ ======== Classifier 4. SVM used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.564541
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.130230
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.052163
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.054653
+
+ Video 2 ==> top_5 = 11, top_10 = 17, top_20 = 34
+
+ Video 3 ==> top_5 = 13, top_10 = 17, top_20 = 42
+
+ Video 4 ==> top_5 = 17, top_10 = 21, top_20 = 33
+
+ Video 5 ==> top_5 = 15, top_10 = 22, top_20 = 32
+
+ final mean accuracy difference = 0.222902
+
+ total number of frames tested = 290
+
+ number of outlier predicted configs = [0, 0, 0, 0]
+
+ ======== only 2 surveillance video dataset ===========
+
+0 3 0 1
+
+ ======== Feature 1. <edge, temporal, spatial> features used ==========
+
+
+ # of frames the classifier is trained = 504
+
+ ======== Classifier 4. SVM used ==========
+
+
+ ======= video dataset index = 6
+
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.225618
+
+ Video 6 ==> top_5 = 0, top_10 = 0, top_20 = 0
+
+ Video 7 ==> top_5 = 47, top_10 = 83, top_20 = 124
+
+ final mean accuracy difference = 0.225618
+
+ total number of frames tested = 141
+
+ number of outlier predicted configs = [117, 0]
+
+ ====== 4 drone + 2 surveillance video dataset ==========
+
+0 3 1 1
+
+ ======== Feature 1. <edge, temporal, spatial> features used ==========
+
+
+ # of frames the classifier is trained = 1064
+
+ ======== Classifier 4. SVM used ==========
+
+
+ ======= video dataset index = 2
+
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.079058
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.052393
+
+ ======= video dataset index = 5
+
+
+ ======= video dataset index = 6
+
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.225618
+
+ Video 2 ==> top_5 = 0, top_10 = 0, top_20 = 0
+
+ Video 3 ==> top_5 = 25, top_10 = 51, top_20 = 75
+
+ Video 4 ==> top_5 = 10, top_10 = 21, top_20 = 39
+
+ Video 5 ==> top_5 = 0, top_10 = 0, top_20 = 0
+
+ Video 6 ==> top_5 = 0, top_10 = 0, top_20 = 0
+
+ Video 7 ==> top_5 = 47, top_10 = 83, top_20 = 124
+
+ final mean accuracy difference = 0.141334
+
+ total number of frames tested = 301
+
+ number of outlier predicted configs = [83, 0, 0, 47, 117, 0]
+
+ ====== only 4 drone dataset ===========
+
+0 4 1 0
+
+ ======== Feature 1. <edge, temporal, spatial> features used ==========
+
+
+ # of frames the classifier is trained = 560
+
+ ======== Classifier 5. XGBoost used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.475957
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.314979
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.099075
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.097910
+
+ Video 2 ==> top_5 = 2, top_10 = 3, top_20 = 17
+
+ Video 3 ==> top_5 = 0, top_10 = 2, top_20 = 5
+
+ Video 4 ==> top_5 = 9, top_10 = 14, top_20 = 21
+
+ Video 5 ==> top_5 = 1, top_10 = 4, top_20 = 12
+
+ final mean accuracy difference = 0.272268
+
+ total number of frames tested = 290
+
+ number of outlier predicted configs = [0, 0, 0, 0]
+
+ ======== only 2 surveillance video dataset ===========
+
+0 4 0 1
+
+ ======== Feature 1. <edge, temporal, spatial> features used ==========
+
+
+ # of frames the classifier is trained = 504
+
+ ======== Classifier 5. XGBoost used ==========
+
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.587312
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.394793
+
+ Video 6 ==> top_5 = 3, top_10 = 3, top_20 = 7
+
+ Video 7 ==> top_5 = 8, top_10 = 16, top_20 = 34
+
+ final mean accuracy difference = 0.488793
+
+ total number of frames tested = 213
+
+ number of outlier predicted configs = [13, 32]
+
+ ====== 4 drone + 2 surveillance video dataset ==========
+
+0 4 1 1
+
+ ======== Feature 1. <edge, temporal, spatial> features used ==========
+
+
+ # of frames the classifier is trained = 1064
+
+ ======== Classifier 5. XGBoost used ==========
+
+
+ ======= video dataset index = 2
+
+
+ mean accuracy difference = 0.495807
+
+ ======= video dataset index = 3
+
+
+ mean accuracy difference = 0.278012
+
+ ======= video dataset index = 4
+
+
+ mean accuracy difference = 0.141016
+
+ ======= video dataset index = 5
+
+
+ mean accuracy difference = 0.100516
+
+ ======= video dataset index = 6
+
+
+ mean accuracy difference = 0.583263
+
+ ======= video dataset index = 7
+
+
+ mean accuracy difference = 0.383450
+
+ Video 2 ==> top_5 = 3, top_10 = 7, top_20 = 19
+
+ Video 3 ==> top_5 = 1, top_10 = 4, top_20 = 6
+
+ Video 4 ==> top_5 = 8, top_10 = 13, top_20 = 20
+
+ Video 5 ==> top_5 = 1, top_10 = 2, top_20 = 13
+
+ Video 6 ==> top_5 = 2, top_10 = 6, top_20 = 12
+
+ Video 7 ==> top_5 = 10, top_10 = 19, top_20 = 36
+
+ final mean accuracy difference = 0.365052
+
+ total number of frames tested = 513
+
+ number of outlier predicted configs = [1, 0, 0, 0, 10, 24]

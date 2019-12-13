@@ -1,0 +1,45 @@
+Total pics = 401 
+
+================
+ statistics for downsample 384
+ =================
+
+
+ mean = 0.938061
+
+ std deviation 0.113287
+
+ total prediction in orginal = 303, total prediction in actual = 302, total avaerage mismatch prediction  = 0.029925
+
+ ================
+ statistics for downsample 544
+ =================
+
+
+ mean = 0.945276
+
+ std deviation 0.104342
+
+ total prediction in orginal = 303, total prediction in actual = 303, total avaerage mismatch prediction  = 0.022444
+
+ ================
+ statistics for downsample 672
+ =================
+
+
+ mean = 0.952212
+
+ std deviation 0.080732
+
+ total prediction in orginal = 303, total prediction in actual = 302, total avaerage mismatch prediction  = 0.012469
+
+ ================
+ statistics for downsample 768
+ =================
+
+
+ mean = 0.955875
+
+ std deviation 0.065643
+
+ total prediction in orginal = 303, total prediction in actual = 303, total avaerage mismatch prediction  = 0.009975

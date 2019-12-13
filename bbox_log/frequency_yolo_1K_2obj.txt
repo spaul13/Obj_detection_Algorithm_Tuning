@@ -1,0 +1,218 @@
+
+***************** with threshold = 0.5 *************************
+
+ ================
+ statistics for downsample 2
+ =================
+
+
+ TP: 997, FN: 53, FP: 55
+
+
+ Recall: 0.949524, Precision: 0.947719, F1 : 0.948620
+
+
+ mAP1: 0.886222, mAP2: 0.902262
+
+
+ mean = 0.842450
+
+ std deviation 0.240978
+
+ total prediction in orginal = 1125, total prediction in actual = 1105, total mismatch prediction  = 75.000000
+
+ ================
+ statistics for downsample 3
+ =================
+
+
+ TP: 982, FN: 73, FP: 82
+
+
+ Recall: 0.930806, Precision: 0.922932, F1 : 0.926852
+
+
+ mAP1: 0.872889, mAP2: 0.863676
+
+
+ mean = 0.790027
+
+ std deviation 0.256868
+
+ total prediction in orginal = 1125, total prediction in actual = 1137, total mismatch prediction  = 70.000000
+
+ ================
+ statistics for downsample 4
+ =================
+
+
+ TP: 913, FN: 87, FP: 111
+
+
+ Recall: 0.913000, Precision: 0.891602, F1 : 0.902174
+
+
+ mAP1: 0.811556, mAP2: 0.821782
+
+
+ mean = 0.734621
+
+ std deviation 0.271471
+
+ total prediction in orginal = 1125, total prediction in actual = 1111, total mismatch prediction  = 125.000000
+
+ ================
+ statistics for downsample 6
+ =================
+
+
+ TP: 885, FN: 102, FP: 114
+
+
+ Recall: 0.896657, Precision: 0.885886, F1 : 0.891239
+
+
+ mAP1: 0.786667, mAP2: 0.803815
+
+
+ mean = 0.702383
+
+ std deviation 0.271521
+
+ total prediction in orginal = 1125, total prediction in actual = 1101, total mismatch prediction  = 138.000000
+
+ ================
+ statistics for downsample 8
+ =================
+
+
+ TP: 861, FN: 128, FP: 150
+
+
+ Recall: 0.870576, Precision: 0.851632, F1 : 0.861000
+
+
+ mAP1: 0.765333, mAP2: 0.755926
+
+
+ mean = 0.650585
+
+ std deviation 0.271540
+
+ total prediction in orginal = 1125, total prediction in actual = 1139, total mismatch prediction  = 136.000000 
+
+
+
+
+******************** with threshold = 0.4 *******************************
+
+2. current bad count = 26, and correct detection = 1050
+
+ 3. current bad count = 41, and correct detection = 1055
+
+ 4. current bad count = 45, and correct detection = 1000
+
+ 6. current bad count = 65, and correct detection = 987
+
+ 8. current bad count = 69, and correct detection = 989
+[0.84245016 0.7900275  0.73462126 0.70238338 0.6505849 ]
+
+ ================
+ statistics for downsample 2
+ =================
+
+
+ TP: 1024, FN: 26, FP: 55
+
+
+ Recall: 0.975238, Precision: 0.949027, F1 : 0.961954
+
+
+ mAP1: 0.910222, mAP2: 0.926697
+
+
+ mean = 0.842450
+
+ std deviation 0.240978
+
+ total prediction in orginal = 1125, total prediction in actual = 1105, total mismatch prediction  = 75.000000
+
+ ================
+ statistics for downsample 3
+ =================
+
+
+ TP: 1014, FN: 41, FP: 82
+
+
+ Recall: 0.961137, Precision: 0.925182, F1 : 0.942817
+
+
+ mAP1: 0.901333, mAP2: 0.891821
+
+
+ mean = 0.790027
+
+ std deviation 0.256868
+
+ total prediction in orginal = 1125, total prediction in actual = 1137, total mismatch prediction  = 70.000000
+
+ ================
+ statistics for downsample 4
+ =================
+
+
+ TP: 955, FN: 45, FP: 111
+
+
+ Recall: 0.955000, Precision: 0.895872, F1 : 0.924492
+
+
+ mAP1: 0.848889, mAP2: 0.859586
+
+
+ mean = 0.734621
+
+ std deviation 0.271471
+
+ total prediction in orginal = 1125, total prediction in actual = 1111, total mismatch prediction  = 125.000000
+
+ ================
+ statistics for downsample 6
+ =================
+
+
+ TP: 922, FN: 65, FP: 114
+
+
+ Recall: 0.934144, Precision: 0.889961, F1 : 0.911518
+
+
+ mAP1: 0.819556, mAP2: 0.837421
+
+
+ mean = 0.702383
+
+ std deviation 0.271521
+
+ total prediction in orginal = 1125, total prediction in actual = 1101, total mismatch prediction  = 138.000000
+
+ ================
+ statistics for downsample 8
+ =================
+
+
+ TP: 920, FN: 69, FP: 150
+
+
+ Recall: 0.930233, Precision: 0.859813, F1 : 0.893638
+
+
+ mAP1: 0.817778, mAP2: 0.807726
+
+
+ mean = 0.650585
+
+ std deviation 0.271540
+
+ total prediction in orginal = 1125, total prediction in actual = 1139, total mismatch prediction  = 136.000000
