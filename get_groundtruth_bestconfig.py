@@ -18,11 +18,11 @@ jpeg_enabled = True
 org_res = 3840
 
 #all configurations until bw = 5
-#bw_list = [1,2,5,10,20,30,40,60]#,80]
-#bw = 5
+bw_list = [1,2,5,10,20,30,40,60]#,80]
+bw = 5
 #configurations allowable between specified and previous here 1-2 Mbps
-bw_list = [2,5,10,20,30,40,60]
-bw = 2 # to reduce number of configs
+#bw_list = [2,5,10,20,30,40,60]
+#bw = 2 # to reduce number of configs
 
 prefix = "bw_" #bw_tiny_, bw_tiny_416
 
@@ -43,6 +43,9 @@ def main():
     else:
         temp_fol = sys.argv[1]
         MAX_NUM = int(sys.argv[2])
+        #just for logging used a different file
+        dir = int(sys.argv[3])
+        wfile = open("best_config\\best_config_" + str(dir)+ ".txt", "w+")
         print(str(len(sys.argv)) + "," + str(temp_fol))
     for i in range(len(bw_list)):
         if(bw_list[i]>bw):
@@ -83,7 +86,7 @@ def main():
     count_good = 0
     acc_diff = []
     best_config_list, best_acc_list = [], []
-    for i in range(1,MAX_NUM+1-period):
+    for i in range(1,MAX_NUM+2-period):
         iou_list = []
         iou2 = []
         print("\n ======= \n Frame %d \n =========== \n" %i)
@@ -118,6 +121,7 @@ def main():
         #top_k_index = out.index(list_map_label[i-201])
         #print("\n predict config is in top %d and config name = %s and accuracy = %f" %(top_k_index, out[top_k_index], out1[top_k_index]))
         print("\n best config id %d and config name = %s and accuracy = %f" %(index, out[0], out1[0]))
+        wfile.write("%s\n"%out[0])
         best_config_list.append(out[0])
         best_acc_list.append(out1[0])
     print("\n ======= \n best possible accuracy list \n =========== \n")

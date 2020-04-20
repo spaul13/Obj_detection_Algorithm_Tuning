@@ -4,12 +4,15 @@ import statistics, os, sys
 import calculate_iou_2obj as cal_mul
 from matplotlib.cm import get_cmap
 #reso_list = [3200, 2560, 2048, 1440, 960, 768, 640, 480, 320, 160]
-reso_list = [2048, 1440, 960, 768, 640, 480, 320, 160]
+reso_list = [960]#[2048, 1440, 960, 768, 640, 480, 320, 160]
+#reso_list = [160]
 #qp_list = np.linspace(0,40,11)
 qp_list = np.linspace(12,40,8)
-#qp_list = [36, 40]
-#qp_list = np.linspace(24,40,5)
-MAX_NUM = 420 #350 #144 #264 #144 #216 #264 #250
+#qp_list = [28,32,36, 40]
+#qp_list = np.linspace(16,40,7)
+MAX_NUM = 264 #180#145#384#325#300#170#184#121#288#199#420#261#263#360#390#330#300#144#420#300#230#441#300#230#441 #420 #350 #144 216 #264 #250
+MIN_NUM = 1
+dir_name = "bbox_drone_2\\"
 jpeg_enabled = True
 org_res = 3840
 
@@ -24,8 +27,12 @@ count_acc = []
 
 
 
+
+
+
+
 def Downsize(infol, outfol, reso):
-    for i in range(1, MAX_NUM+1):
+    for i in range(MIN_NUM, MAX_NUM+1):
         infile = infol + "\pic_" + str(i) + "_org.png"
         outfile = outfol + "\pic_" + str(i) + "_temp.png"
         #Downscaling (at client side)
@@ -41,7 +48,7 @@ def Downsize(infol, outfol, reso):
 		
 
 def convert_jpeg(infol, outfol, order):
-    for i in range(1, MAX_NUM+1):
+    for i in range(MIN_NUM, MAX_NUM+1):
         if(order==1):
             infile = infol + "\pic_" + str(i) + "_temp.png"
         else:
@@ -56,7 +63,7 @@ def convert_jpeg(infol, outfol, order):
         os.system(cmd_str)
 
 def encode(infol, outfol, qp, jp):
-    for i in range(1, MAX_NUM+1):
+    for i in range(MIN_NUM, MAX_NUM+1):
         outfile = outfol + "\pic_" + str(i) + "_org.mp4"
         if(jp==0):
             infile = infol + "\pic_" + str(i) + "_org.png"
@@ -67,7 +74,7 @@ def encode(infol, outfol, qp, jp):
         
 def size(infol, type): #type = 0 
     sum = 0
-    for i in range(1, MAX_NUM+1):
+    for i in range(MIN_NUM, MAX_NUM+1):
         if(type==0):
             outfile = infol + "\pic_" + str(i) + "_temp.png"
         elif(type==1):
@@ -84,7 +91,7 @@ def size(infol, type): #type = 0
     return size_kb
         
 def down_encode(infol, outfol, qp, jp):
-    for i in range(1, MAX_NUM+1):
+    for i in range(MIN_NUM, MAX_NUM+1):
         outfile = outfol + "\pic_" + str(i) + "_temp.mp4"
         if(jp==0):
             infile = infol + "\pic_" + str(i) + "_temp.png"
@@ -129,6 +136,7 @@ def count(list1, lb, ub, fol, bw_str):
     print(lb)
     print(ub)
     """
+    #wfile = open("total_config\\config_2.txt")
     for x in range(len(list1)): 
         # condition check 
         if list1[x]>= lb and list1[x]< ub: 
@@ -145,12 +153,15 @@ def count(list1, lb, ub, fol, bw_str):
             temp_1 = fol_in.split("\\")[-1]
             #print(temp)
             #print(temp_1)
-            
+            #in order to write all the configurations into a txt file
+            #wfile.write("%s\n"%temp)
+            #print(temp)
+            """
             if(c>=0):
                 if((temp == "jpeg_encode") or (temp =="encode")):
                     for i in range(1, MAX_NUM+1):
                         infile = fol_in + "\\pic_" + str(i) + "_org.mp4"
-                        outfile = bw_str + "\\" + temp_1 + "_" + str(i)
+                        outfile = dir_name+bw_str + "\\" + temp_1 + "_" + str(i)
                         cmd_str = "python video_demo.py --video " + infile +" --reso 1024 --file_name " + outfile
                         #cmd_str = "python detect.py --images " + infile + " --file_name " + outfile #for tiny-yolo only
                         print(cmd_str)
@@ -161,7 +172,7 @@ def count(list1, lb, ub, fol, bw_str):
                     temp_1 = fol_in.split("\\")[-1]
                     for i in range(1,MAX_NUM+1):
                         infile = fol_in + "\\pic_" + str(i) + "_org.jpg"
-                        outfile = bw_str + "\\" + temp_1 + "_" + str(i)
+                        outfile = dir_name+bw_str + "\\" + temp_1 + "_" + str(i)
                         cmd_str = "python detect.py --images " + infile + " --reso 1024 --file_name " + outfile
                         #cmd_str = "python detect.py --images " + infile + " --file_name " + outfile #for tiny-yolo only
                         print(cmd_str)
@@ -171,7 +182,7 @@ def count(list1, lb, ub, fol, bw_str):
                     temp_1 = fol_in.split("\\")[-1]
                     for i in range(1,MAX_NUM+1):
                         infile = fol_in + "\\pic_" + str(i) + "_org.png"
-                        outfile = bw_str + "\\" + temp_1 + "_" + str(i)
+                        outfile = dir_name+bw_str + "\\" + temp_1 + "_" + str(i)
                         cmd_str = "python detect.py --images " + infile + " --reso 1024 --file_name " + outfile
                         #cmd_str = "python detect.py --images " + infile + " --file_name " + outfile #for tiny-yolo only
                         print(cmd_str)
@@ -179,9 +190,11 @@ def count(list1, lb, ub, fol, bw_str):
             
                     
             #end of detection    
-                    
-             
-               
+            """ 
+            """
+            if(temp_1 == 'reso_320_jpeg_encode_16'):
+                print("\n the current config number = %d" %c)
+            """   
                     
             c+= 1
     
@@ -201,10 +214,16 @@ def main():
         list2 = []
         #for raw original frames
         """
+        directory = sys.argv[2]
+        MAX_NUM = int(sys.argv[3])
+        os.system("mkdir " + directory +"\\bbox_training")
         for i in range(1, MAX_NUM+1):
             infile = temp_fol + "\\pic_" + str(i) + "_org.png"
-            outfile = "bbox_org\\log_bbox_org_" + str(i)
+            #outfile = directory + "bbox_org\\log_bbox_org_" + str(i)
+            #outfile = directory + "bbox_tiny\\log_bbox_tiny_" + str(i)
             cmd_str = "python detect.py --images " + infile + " --reso 1024 --file_name " + outfile
+            #detection on mobile device
+            #cmd_str = "python detect.py --images " + infile + " --reso 416 --file_name " + outfile
             print(cmd_str)
             os.system(cmd_str)
         """
@@ -216,7 +235,7 @@ def main():
             out_fol =  str(sys.argv[1]) + "\\downsize\\reso_" + str(reso_list[i])
             os.system("mkdir " + out_fol)
             Downsize(temp_fol, out_fol, reso_list[i])
-            
+        
         #JPEG conversion
         out_fol = str(sys.argv[1]) + "\\jpeg"    
         os.system("mkdir " + out_fol)
@@ -242,7 +261,7 @@ def main():
             os.system("mkdir " + out_fol)
             encode(in_fol, out_fol, qp_list[i], 1)
         
-        
+        """
         #Downscale+Encode
         for i in range(len(reso_list)):
             for j in range(len(qp_list)):
@@ -250,8 +269,8 @@ def main():
                 in_fol = str(sys.argv[1]) + "\\downsize\\reso_" + str(reso_list[i])
                 os.system("mkdir " + out_fol)
                 down_encode(in_fol, out_fol, qp_list[j], 0)
-                
-        
+         
+        """
         #Downscale+JPEG+Encode
         for i in range(len(reso_list)):
             for j in range(len(qp_list)):
@@ -262,7 +281,7 @@ def main():
         
         """
         
-        #"""
+        """
         #this part in order to check the generated filesize
         for i in range(3):
             if(i==0):
@@ -311,9 +330,9 @@ def main():
             print("\n ===========\n JPEG + Encode (QP) %d (in KB) \n ============ \n" %(qp_list[j]))
             mech_list.append("\\jpeg_encode\\jpeg_encode_" + str(int(qp_list[j])))
             sz_list.append(size(temp_file,3))
-        #"""
+        """
         
-        #"""
+        """
         #used for parallel execution only
         ub = int(sys.argv[2])
         lb = int(sys.argv[3])
@@ -323,11 +342,11 @@ def main():
         #print(len(list2))
         print("\n =================== \n configurations possible under %d Mbps BW \n ======================== \n" %ub)
         bw_str = "bw_" + str(ub)
-        os.system("mkdir bbox_drone\\" + bw_str)
+        os.system("mkdir " + dir_name + bw_str)
         temp = count(sz_list, lb*scale, ub*scale, temp_fol, bw_str)
         print(temp)
         print(len(temp))
-        #"""
+        """
         """
         bw_list = [1,2,5,10,20,30,40,60]#,80]
         #scale = 8.75

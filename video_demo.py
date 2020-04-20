@@ -14,7 +14,7 @@ import pickle as pkl
 import argparse
 
 #f = open("bbox_23.txt","w+")
-FILE_DIR = "bbox_drone/"
+FILE_DIR = ""
 
 def get_test_input(input_dim, CUDA):
     img = cv2.imread("dog-cycle-car.png")

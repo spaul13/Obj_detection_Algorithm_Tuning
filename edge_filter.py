@@ -12,7 +12,23 @@ percept_list = []
 
 log_list = []
 canny_list = []
-img_dir = "H:\\drone_video_cp_7\\pic_"
+img_dir = "H:\\drone_video_cp_"
+
+total_frame_number = [249, 263, 419, 440, 299, 419, 143, 239, 329, 359, 360, 360, 261, 420, 288, 121, 170, 325]
+total_frame_number.extend([215, 143, 349, 229, 419, 143, 299, 390, 263, 199, 184, 300])
+dir  = [2,3,7,9,11,12,15,16,20,21,22, 24,26,27,29,30,32,34]
+dir.extend([4, 5, 6, 10, 13, 17, 19, 23, 25, 28, 31, 33])
+dir_sort = sorted(dir)
+total_sort = []
+
+for i in range(len(dir_sort)):
+    total_sort.append(total_frame_number[dir.index(dir_sort[i])])
+total_frame_number = total_sort
+dir = dir_sort
+
+#extended partition
+dir.extend([35, 36, 37, 38])
+total_frame_number.extend([384,145,180,210])
 
 def plot(data, title):
     plot.i += 1
@@ -55,33 +71,35 @@ def main():
     output_path = "F:\decoded_jockey\pic_1_edges_canny.png"
     temp = canny_edgedetector(image_path, output_path)
     """
-    for i in range(1, 421): #for 3 need to do (251,265)
-        print(i)
-        image_path = img_dir + str(i) + "_org.png"
-        output_path = img_dir + str(i) + "_org_log.png"
-        temp = LoG(image_path, 3, output_path)
-        stat_info = os.stat(image_path)
-        stat_info_out = os.stat(output_path)
-        norm_size = stat_info_out.st_size / (stat_info.st_size)
-        print(norm_size)
-        log_list.append(norm_size)
-        #os.system("rm " + output_path)
-        output_path = img_dir + str(i) + "_org_canny.png"
-        temp = canny_edgedetector(image_path,output_path)
-        #stat_info = os.stat(image_path)
-        stat_info_out = os.stat(output_path)
-        norm_size = stat_info_out.st_size / (stat_info.st_size)
-        canny_list.append(norm_size)
-        print(norm_size)
-        #os.system("rm " + output_path)
-    print("\n ========= \n " + img_dir + "\n ====== \n")    
-    print("\n === After canny edge detector, normalized size === \n")
-    print(canny_list)
-    print(str(max(canny_list)) + "," + str(min(canny_list)))
-    
-    print("\n === After LoG edge detector, normalized size === \n")
-    print(log_list)
-    print(str(max(log_list)) + "," + str(min(log_list)))
+    for j in range(len(dir)):
+        log_list, canny_list = [], []
+        for i in range(1, total_frame_number[j]+1): #for 3 need to do (251,265)
+            #print(i)
+            image_path = img_dir + str(dir[j]) +"\\pic_" + str(i) + "_org.png"
+            output_path = img_dir + str(dir[j]) +"\\pic_" + str(i) + "_org_log.png"
+            temp = LoG(image_path, 3, output_path)
+            stat_info = os.stat(image_path)
+            stat_info_out = os.stat(output_path)
+            norm_size = stat_info_out.st_size / (stat_info.st_size)
+            #print(norm_size)
+            log_list.append(norm_size)
+            os.system("rm " + output_path)
+            output_path = img_dir + str(dir[j]) +"\\pic_" + str(i) + "_org_canny.png"
+            temp = canny_edgedetector(image_path,output_path)
+            #stat_info = os.stat(image_path)
+            stat_info_out = os.stat(output_path)
+            norm_size = stat_info_out.st_size / (stat_info.st_size)
+            canny_list.append(norm_size)
+            #print(norm_size)
+            os.system("rm " + output_path)
+        print("\n ========= \n " + img_dir + str(j) + "\n ====== \n")    
+        print("\n === After canny edge detector, normalized size === \n")
+        print(canny_list)
+        print(str(max(canny_list)) + "," + str(min(canny_list)))
+        
+        print("\n === After LoG edge detector, normalized size === \n")
+        print(log_list)
+        print(str(max(log_list)) + "," + str(min(log_list)))
     
         
     """

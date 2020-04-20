@@ -7,8 +7,8 @@ delim = ".png"
 #encode_temporal_pair = "x264 --crf 17 --tune fastdecode --fps 60 --keyint 2 --min-keyint 2 --no-scenecut --input-res 4096*2048 --log-level debug --bframes 0  -o temp_video.mp4 "
 #encode_spatial_new = "x264 --crf 17 --tune fastdecode --fps 60 --keyint 2 --min-keyint 2 --no-scenecut --input-res 4096*2048 --log-level debug --bframes 0  -o temp_video_1.mp4 temporal_4K/pic_1.png 2>log_0917.txt"
 #--crf 23 --qp 23
-encode_temporal_pair = ffmpeg -i pic_%d.png -c:v libx264 -g 2 -keyint_min 2 -bf 0 -tune fastdecode -crf 17 temp_video.mp4 2> log_1209.txt
-encode_spatial_new = ffmpeg -i pic_1.png -c:v libx264 -g 2 -keyint_min 2 -bf 0 -tune fastdecode -crf 17 temp_video_1.mp4 2> log_1209.txt
+encode_temporal_pair = "ffmpeg -i pic_%d.png -c:v libx264 -g 2 -keyint_min 2 -bf 0 -tune fastdecode -crf 17 temp_video.mp4 2> log_1209.txt"
+encode_spatial_new = "ffmpeg -i pic_1.png -c:v libx264 -g 2 -keyint_min 2 -bf 0 -tune fastdecode -crf 17 temp_video_1.mp4 2> log_1209.txt"
 def size(folder_str):
     p = os.listdir(folder_str)
     total_size = 0.0
@@ -59,16 +59,16 @@ def cal_temporal(dir_name):
 def find_size():
     size = 0
     with open("log_temp.txt") as fp:
-	for line in fp:
-	    print line
+        for line in fp:
+            print(line)
             p = line.split("size=")
             size = float((p[len(p)-1].split("bytes"))[0])
             print("\n the current size = " + str(size))
     return size
 
-def cal_temporal_pairwise(i):
+def cal_temporal_pairwise(i, parent_dir):
     temporal_dir = "temporal_4K"
-	parent_dir = "drone_video_cp_6"
+	#parent_dir = "drone_video_cp_6"
     if(True):
         os.system("scp " +parent_dir + "\\pic_" + str(i) + "_org.png pic_0.png")
         os.system("scp " +parent_dir + "\\pic_" + str(i+1) + "_org.png pic_1.png")
@@ -89,9 +89,9 @@ def cal_temporal_pairwise(i):
         spatial = I_frame_size_only/filesize_1
         temporal_3 = P_frame_size / I_frame_size_only
         os.system("rm pic_0.png")
-		os.system("rm pic_1.png")
-		os.system("rm temp_video_1.mp4")
-		os.system("rm temp_video.mp4")
+        os.system("rm pic_1.png")
+        os.system("rm temp_video_1.mp4")
+        os.system("rm temp_video.mp4")
 		
         #return [temporal_1, temporal_2, spatial]
         return [temporal_1, temporal_2, temporal_3, I_frame_size_only/1024, spatial]

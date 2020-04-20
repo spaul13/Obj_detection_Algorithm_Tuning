@@ -5,12 +5,27 @@ import cv2
 #import imutils
 
 #pic_prefix = "E://drone_video_cp_"
-pic_prefix = "H://drone_video_cp_"
+pic_prefix = "H:\\drone_video_cp_"
 MAX_NUM = 4
 fol_list = [7] #[2, 3, 4, 5, 6, 7]
 #max_list = [1, 1, 1, 1]#, 1]
 max_list = [420] #[250, 264, 216, 144, 350, 420]
 
+total_frame_number = [249, 263, 419, 440, 299, 419, 143, 239, 329, 359, 360, 360, 261, 420, 288, 121, 170, 325]
+total_frame_number.extend([215, 143, 349, 229, 419, 143, 299, 390, 263, 199, 184, 300])
+dir  = [2,3,7,9,11,12,15,16,20,21,22, 24,26,27,29,30,32,34]
+dir.extend([4, 5, 6, 10, 13, 17, 19, 23, 25, 28, 31, 33])
+dir_sort = sorted(dir)
+total_sort = []
+
+for i in range(len(dir_sort)):
+    total_sort.append(total_frame_number[dir.index(dir_sort[i])])
+total_frame_number = total_sort
+dir = dir_sort
+
+#extended partition
+dir.extend([35, 36, 37, 38])
+total_frame_number.extend([384,145,180,210])
 
 
 
@@ -62,18 +77,22 @@ def cal_contrast(im_file):
     #"""
    
 def main():
-    for i in range(len(fol_list)):
-        pic_new_prefix = pic_prefix + str(fol_list[i])+"//"
-        bright_list = []
-        for j in range(1, max_list[i]+1):
+    for i in range(17, len(dir)):
+        pic_new_prefix = pic_prefix + str(dir[i])+"\\"
+        bright_list, color_list, contrast_list = [], [], []
+        for j in range(1, total_frame_number[i]+1):
             pic_name = pic_new_prefix +  "pic_" + str(j) +"_org.png"
             #print(pic_name)
             bright_list.append(brightness(pic_name))
-            #bright_list.append(colorfulness(pic_name))
-            #bright_list.append(cal_contrast(pic_name))
+            color_list.append(colorfulness(pic_name))
+            contrast_list.append(cal_contrast(pic_name))
         
-        print("\n ====== Brightness for Drone Video %d ======= \n" %fol_list[i])
+        print("\n ====== Brightness for Drone Video %d ======= \n" %dir[i])
         print(bright_list)
+        print("\n ====== colorfulness for Drone Video %d ======= \n" %dir[i])
+        print(color_list)
+        print("\n ====== contrast for Drone Video %d ======= \n" %dir[i])
+        print(contrast_list)
             
 		
 

@@ -15,7 +15,7 @@ else:
 #pre = [[0.0]*5]*max_file
 
 def cal_iou(infile1, infile2):
-    max_file = 20 #this signifies the maximum number of detections can be made from an image
+    max_file = 90 #this signifies the maximum number of detections can be made from an image
     gt = np.zeros((max_file, 5))
     pre = np.zeros((max_file,5))
     
@@ -33,11 +33,16 @@ def cal_iou(infile1, infile2):
             # print(line)
             try:
                 top, left, bottom, right, class_index, pic_index = eval(line[0]), eval(line[1]), eval(line[2]), eval(line[3]), eval(line[4]), eval(line[5])
+                #top, left, bottom, right, class_index, pic_index = eval(line[0]), eval(line[1]), eval(line[2]), eval(line[3]), eval(line[4]), eval(line[5])
                 gt[temp][0], gt[temp][1], gt[temp][2], gt[temp][3], gt[temp][4] = top, left, bottom, right, class_index
+                #print("success\n")
+                #print(line)                
                 temp+=1
                 #print(gt[0][:])
             except:
-                print("exception\n")
+                #print("exception\n")
+                print("file1: exception occuring here = %s\n"%infile1)
+                #print(line)
                 #gt.append(())
 
     #pre = []
@@ -47,13 +52,15 @@ def cal_iou(infile1, infile2):
             line = line.split()
             try:
                 top, left, bottom, right, class_index, pic_index = eval(line[0]), eval(line[1]), eval(line[2]), eval(line[3]), eval(line[4]), eval(line[5])
-                #print(pic_index)
+                #top, left, bottom, right, class_index, pic_index = eval(line[0]), eval(line[1]), eval(line[2]), eval(line[3]), eval(line[4]), eval(line[5])
                 pre[temp][0], pre[temp][1], pre[temp][2], pre[temp][3], pre[temp][4] = top, left, bottom, right, class_index
                 temp+=1
                 #print("%f, %f, %f, %f, %d" %(pre[0][0], pre[0][1], pre[0][2], pre[0][3], pre[0][4]))
                 #pre.append((top, left, bottom, right))
             except:
-                print("exception\n")
+                print("file2: exception occuring here = %s\n"%infile2)
+                #print(line)
+                #sys.exit()
                 continue
 
     #print(gt[100][0:4])
@@ -92,6 +99,11 @@ def cal_iou(infile1, infile2):
     
     mismatch_org = (total_org - correct_detection)
     #print(mismatch_org)
+    """
+    #to provide negative impact to false detections
+    for x in range(mismatch_org):
+        bbox_accuracy.append(0.0)
+    """
     if(len(bbox_accuracy) > 0):
         return statistics.mean(bbox_accuracy), mismatch_org, total_org, total, correct_detection
     else:

@@ -17,7 +17,7 @@ import pickle as pkl
 import itertools
 counter = 0
 #f = open("bbox_image_jpg.txt","w+") #352, 480, 608, 704
-FILE_DIR = "bbox_drone/"
+FILE_DIR = ""
 predict_dominant_class = False #True
 picnumber = []
 piclist = []
@@ -330,19 +330,22 @@ if __name__ ==  '__main__':
         c2 = tuple(x[3:5].int())
         if((predict_dominant_class) and (cls == dominant_cls_list[0])):
             #print(piclist)
-            print(dominant_cls_list.pop(0))
+            #print(dominant_cls_list.pop(0))
             #print("\n image index = %d, dominant class index = %d"  %(index_pic, dominant_cls_list[0]))
-            im_sp = piclist.pop(0)
-            index_pic = (int((im_sp.split("\\")[-1]).split("_")[1]))
+            #im_sp = piclist.pop(0)
+            #this commented out trying the new training
+            #index_pic = (int((im_sp.split("\\")[-1]).split("_")[1]))#uncomment
             print ('x1,y1: ', x[1].item(),x[2].item())
             print ('x2,y2: ', x[3].item(),x[4].item())
-            #print(picnumber)
-            f.write("%f %f %f %f %d %d\n" %(x[1].item(),x[2].item(), x[3].item(),x[4].item(), cls, index_pic))
+            print(picnumber)
+            f.write("%f %f %f %f %d %d\n" %(x[1].item(),x[2].item(), x[3].item(),x[4].item(), cls, index_pic))#uncomment
             #print(cls)
             #print(label)
         else:
+            #start comment
             #im_sp = piclist.pop(0)
             index_pic = (int((str(args.images).split("\\")[-1]).split("_")[1]))
+            #end comment
             f.write("%f %f %f %f %d %d\n" %(x[1].item(),x[2].item(), x[3].item(),x[4].item(), cls, index_pic))
         img = results[int(x[0])]
         color = random.choice(colors)
@@ -375,6 +378,8 @@ if __name__ ==  '__main__':
     print("{:25s}: {:2.3f}".format("Drawing Boxes", end - draw))
     print("{:25s}: {:2.3f}".format("Average time_per_img", (end - load_batch)/len(imlist)))
     print("----------------------------------------------------------")
+    
+    f.close()
 
     
     torch.cuda.empty_cache()
